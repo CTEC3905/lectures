@@ -1,7 +1,7 @@
 # CTEC3905
 <!-- .slide class="smallimg centered" -->
 
-![HTML, CSS, JavaScript logos](images/html-css-js-500.png)
+![HTML, CSS, JavaScript logos](html-css-js-500.png)
 ## **Front-End Web Development**
 ### Lecture 01
 
@@ -42,7 +42,7 @@ General queries and admin issues:
 
 **BEWARE:** you're probably **better** or **worse** than you think you are:
 
-![](images/dunning-kruger-effect.jpg)
+![](dunning-kruger-effect.jpg)
 
 [The Dunning-Kruger effect on RationalWiki](http://rationalwiki.org/wiki/Dunning-Kruger_effect)
 
@@ -51,7 +51,7 @@ General queries and admin issues:
 # HTML, CSS, JAVASCRIPT
 <!-- .slide class="smallimg" -->
 
-![HTML, CSS, JavaScript logos](images/html-css-js-500.png)
+![HTML, CSS, JavaScript logos](html-css-js-500.png)
 
 - **HTML** defines _**Content**_
 - **CSS** specifies _**Appearance**_
@@ -239,7 +239,7 @@ The **official learning outcomes** are:
 
 The first visual web browser
 
-![The NCSA browser](images/NCSA-Mosaic.png)
+![The NCSA browser](NCSA-Mosaic.png)
 
 ---
 
@@ -247,7 +247,7 @@ The first visual web browser
 
 The first visual web browser (on a Mac)
 
-![The NCSA browser](images/NCSAMosaic1-Mac.png)
+![The NCSA browser](NCSAMosaic1-Mac.png)
 
 ---
 
@@ -332,7 +332,7 @@ Visible content is between **matching pairs** of HTML tags:
 Some tags **don't need 'closing'** e.g. the `img` tag:
 
 ```html
-<img src="my-images/my-duck-face.png">
+<img src="my-my-duck-face.png">
 ```
 The only other **'self-closing' tags** you might use are:
 
@@ -425,7 +425,7 @@ Text between `<!--` and `-->` won't show on screen.
 
 ===
 
-<img src="images/guardian-source-code-recruitment.png" alt="Guardian source code job offer">
+<img src="guardian-source-code-recruitment.png" alt="Guardian source code job offer">
 
 ===
 
