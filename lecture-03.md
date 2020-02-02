@@ -134,6 +134,7 @@ Reference: [benmccormick.org](https://benmccormick.org/2015/09/14/es5-es6-es2016
 ---
 
 # JAVASCRIPT **HISTORY**: 04
+<!-- .slide: class="crammed smalltext" -->
 
 ## ES6: JavaScript in **transition**
 
@@ -156,6 +157,7 @@ See [ES6 browser support (TL;DR warning: BIG table!)](http://kangax.github.io/co
 ===
 
 # JS **HOW IT WORKS**: 1
+<!-- .slide: class="crammed smalltext" -->
 
 - translated into **machine instructions** by the **syntax parser**
 - creates a **global execution context** in the browser window…
@@ -171,6 +173,7 @@ Even with an empty browser tab (or blank .js file) e.g. type `this.innerWidth;` 
 ---
 
 # JS **HOW IT WORKS**: 2
+<!-- .slide: class="crammed smalltext" -->
 
 1. builds an **execution stack** to handle your code
 2. executes your code **synchronously** (one thing at a time)
@@ -187,7 +190,7 @@ The browser does things *asynchronously* (**rendering the page**, making **HTTP 
 ---
 
 # JS **HOW IT WORKS**: 3
-<!-- .slide: class="crammed smalltext" -->
+<!-- .slide: class="crammed smalltext smallcode" -->
 
 - you use it to access the **Document Object Model** (DOM)
 - you **make changes** and **get information** from the DOM
@@ -216,6 +219,10 @@ See [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/D
 <!-- .slide: class="float-l-img" -->
 
 ![](dom/dom-model.svg)
+<object data="https://raw.githubusercontent.com/front-end-materials/images/master/dom/dom-model.svg"></object>
+<object data="dom/dom-model.svg" type="image/svg+xml">
+  <img src="dom/dom-model.svg" />
+</object>
 
 The first few branches on a **Document Object Model** (DOM) tree
 
