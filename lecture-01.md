@@ -42,7 +42,7 @@ General queries and admin issues:
 
 **BEWARE:** you're probably **better** or **worse** than you think you are:
 
-![](dunning-kruger-effect.jpg)
+![](general/dunning-kruger-effect.jpg)
 
 [The Dunning-Kruger effect on RationalWiki](http://rationalwiki.org/wiki/Dunning-Kruger_effect)
 
@@ -239,7 +239,7 @@ The **official learning outcomes** are:
 
 The first visual web browser
 
-![The NCSA browser](NCSA-Mosaic.png)
+![The NCSA browser](history/NCSA-Mosaic.png)
 
 ---
 
@@ -247,7 +247,7 @@ The first visual web browser
 
 The first visual web browser (on a Mac)
 
-![The NCSA browser](NCSAMosaic1-Mac.png)
+![The NCSA browser](history/NCSAMosaic1-Mac.png)
 
 ---
 
@@ -425,7 +425,7 @@ Text between `<!--` and `-->` won't show on screen.
 
 ===
 
-<img src="guardian-source-code-recruitment.png" alt="Guardian source code job offer">
+<img src="general/guardian-source-code-recruitment.png" alt="Guardian source code job offer">
 
 ===
 
