@@ -1,7 +1,7 @@
 # CTEC3905
-<!-- .slide class="smallimg centered" -->
+<!-- .slide: class="centered" -->
 
-![HTML, CSS, JavaScript logos](html-css-js-500.png)
+![HTML, CSS, JavaScript logos](html-css-js-500.png)<!-- .element: class="imgBackground" -->
 ## **Front-End Web Development**
 ### Lecture 01
 
@@ -15,9 +15,9 @@ General queries and admin issues:
 
 **Graeme Stuart**: gstuart@dmu.ac.uk
 
----
+<hr>
 
-## **Tutors:**
+**Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
@@ -37,8 +37,8 @@ General queries and admin issues:
 
 ===
 
-# The **Dunning-Kruger** effect
-<!-- .slide class="smalltext smallhead" -->
+# **Dunning-Kruger** effect
+<!-- .slide: class="smalltext smallhead" -->
 
 **BEWARE:** you're probably **better** or **worse** than you think you are:
 
@@ -49,7 +49,7 @@ General queries and admin issues:
 ===
 
 # HTML, CSS, JAVASCRIPT
-<!-- .slide class="smallimg" -->
+<!-- .slide: class="smallimg" -->
 
 ![HTML, CSS, JavaScript logos](html-css-js-500.png)
 
@@ -187,6 +187,7 @@ and ignore the fact that [there's a **C**](https://www.quora.com/What-are-the-al
 ---
 
 ## WHY THESE AREN'T COVERED
+<!-- .slide: class="smalltext" -->
 
 - **Learn the core languages** to be competent
 - Being a **JavaScript developer is future-proof**. Being a *specific framework* developer is *not* (no matter what companies or managers ask for)
@@ -200,6 +201,7 @@ and ignore the fact that [there's a **C**](https://www.quora.com/What-are-the-al
 ===
 
 # LEARNING **OUTCOMES**
+<!-- .slide: class="crammed" -->
 
 The **official learning outcomes** are:
 
@@ -221,6 +223,7 @@ The **official learning outcomes** are:
 ===
 
 # A BRIEF **HTML HISTORY**
+<!-- .slide: class="crammed smalltext" -->
 
 - **SGML** is the basis (`title`, `h1-6`, `p`, `ol`, `ul`...)
 - **1965** Ted Nelson, hyperlink
@@ -262,16 +265,18 @@ For a great infographic see
 ===
 
 # HOW WEBSITES WORK: **1**
+<!-- .slide: class="crammed" -->
 
 **BACK END: ‘server’**  
-(you may be familiar with this): handles **requests for resources**, does any necessary **processing or retrieval** (say from a database) finds images and other files, and sends it all to your browser.
+  (you may be familiar with this): handles **requests for resources**, does any necessary **processing or retrieval** (say from a database) finds images and other files, and sends it all to your browser.
 
 **FRONT END: ‘client’**  
-(the subject of this module) typically a web browser—**receives content** from the server, **renders and displays** the pages you view, creates the **HTML DOM**, applies **CSS** styles and handles **JavaScript** interactions, including communication with online data.
+  (the subject of this module) typically a web browser—**receives content** from the server, **renders and displays** the pages you view, creates the **HTML DOM**, applies **CSS** styles and handles **JavaScript** interactions, including communication with online data.
 
 ---
 
 # HOW WEBSITES WORK: **2**
+<!-- .slide: class="crammed" -->
 
 HTML5 documents begins with this **document type**:
 
@@ -294,6 +299,7 @@ Then what actually **appears** in the browser:
 ---
 
 # HOW WEBSITES WORK: **3**
+<!-- .slide: class="crammed" -->
 
 **All websites** have the following **fundamental HTML tags**
 
@@ -314,6 +320,7 @@ Then what actually **appears** in the browser:
 ---
 
 # HOW WEBSITES WORK: **4**
+<!-- .slide: class="crammed" -->
 
 Visible content is between **matching pairs** of HTML tags:
 
@@ -328,11 +335,12 @@ Visible content is between **matching pairs** of HTML tags:
 ---
 
 # HOW WEBSITES WORK: **5**
+<!-- .slide: class="crammed" -->
 
 Some tags **don't need 'closing'** e.g. the `img` tag:
 
 ```html
-<img src="my-my-duck-face.png">
+<img src="my-images/my-duck-face.png">
 ```
 The only other **'self-closing' tags** you might use are:
 
@@ -345,6 +353,7 @@ The only other **'self-closing' tags** you might use are:
 ---
 
 # HOW WEBSITES WORK: **6**
+<!-- .slide: class="crammed" -->
 
 A **hyperlink** goes to **another page**, **website**.  
 It can also link to a **specific section on the same page**, identified by an HTML `id` attribute:
@@ -364,6 +373,7 @@ It can also link to a **specific section on the same page**, identified by an HT
 ---
 
 # HOW WEBSITES WORK: **7**
+<!-- .slide: class="crammed" -->
 
 most HTML tags are **nested inside** other HTML tags:
 
@@ -415,6 +425,8 @@ Text between `<!--` and `-->` won't show on screen.
 
 ===
 
+<!-- .slide: class="crammed smalltext" -->
+
 > Since its inception, the web has been primarily about information but this data-driven trend can just drown people with a flood of disconnected, random info factoids that few can grasp and even fewer be interested in.
 >
 > **The goal of a front end developer** is to create clear, easy, fast pages and interfaces that will make people understand and care about the information, by putting it in context… and revealing implicit or explicit interconnections.
@@ -425,7 +437,8 @@ Text between `<!--` and `-->` won't show on screen.
 
 ===
 
-<img src="general/guardian-source-code-recruitment.png" alt="Guardian source code job offer">
+<!-- .slide: class="centered" -->
+![Guardian source code job offer](general/guardian-source-code-recruitment.png)
 
 ===
 
@@ -441,6 +454,7 @@ Text between `<!--` and `-->` won't show on screen.
 ===
 
 # Questions?
+<!-- .slide: class="centered" -->
 
 **Ask now**  
 no crowding around  
