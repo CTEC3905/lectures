@@ -319,7 +319,7 @@ There are many ways to create contrast. For example:
 ---
 
 <!-- .slide: class="big-pic small-head crammed" -->
-From simple **hand-drawn sletches**…
+From simple **hand-drawn sketches**…
 
 ![sketches of mobile wireframes](wireframes/sketched-wireframes-01.png)
 
