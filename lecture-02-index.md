@@ -1,6 +1,6 @@
 # CTEC3905
 
-## Lecture 02 [see slides](https://ctec3905.github.io/presents?lecture-04)
+## Lecture 02 [see slides](https://ctec3905.github.io/presents?lecture-02)
 
 Main sections. Use the "down" arrow (bottom right of the slides) to view sub-sections (slides with an ellipsis "…")
 
