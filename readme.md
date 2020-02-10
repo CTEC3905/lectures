@@ -8,3 +8,4 @@ See the online presentations:
 - [ctec3905.github.io/presents?lecture-02](https://ctec3905.github.io/presents?lecture-02)
 - [ctec3905.github.io/presents?lecture-03](https://ctec3905.github.io/presents?lecture-03)
 - [ctec3905.github.io/presents?lecture-04](https://ctec3905.github.io/presents?lecture-04)
+- [ctec3905.github.io/presents?lecture-05](https://ctec3905.github.io/presents?lecture-05)
