@@ -35,11 +35,11 @@ General queries and admin issues:
 
 Reminders
 
-- make **separate** GitHub repos for **lab code**
+- make separate GitHub repos for **re-usable lab code**
 - make **one thing** work and test it
-- decide **how to use JavaScript** in your project
+- Decide **how to use JavaScript** in your project
 - check the **browser console** (f12/cmd-alt-i) for errors
-- always **[validate your HTML](https://validator.w3.org/** as you develop!
+- always **[validate your HTML](https://validator.w3.org/)** as you develop!
 
 ===
 
@@ -48,15 +48,15 @@ Reminders
 
 There is a predefined `document` object in JavaScript, which can be used to **access all elements** in the **DOM**.
 
-This `document` object is the owner (or **root**) of **all objects in your webpage**.
+This `document` object is the  **root** of **all objects** in your **webpage**.
 
-So to access objects in an HTML page, you always start with the `document` object, e.g.:
+To access HTML elements, start with the `document` object, e.g.:
 
 ```javascript
 document.body.innerHTML = "Some text";
 ```
 
-`body` is an element of the DOM so you access it using the `document` object, then you can change the content of its `innerHTML` property.
+(`body` is an element of the DOM, so you access it with the `document` object, then you can **change the content** of its `innerHTML` property)
 
 ---
 
@@ -82,11 +82,11 @@ function addTextNode() {
 You can get a reference to elements by `tag`, `id`, `class`:
 
 ```javascript
-document.getElementsByTagName("HTML_tag");
+document.getElementsByTagName("section");  // returns a list
 
-document.getElementById("my_id"); // no '#' needed
+document.getElementById("my_id"); // no '#' needed & returns a list
 
-document.getElementsByClassName("my_class"); // no '.' needed
+document.getElementsByClassName("my_class"); // no '.' needed & returns a list
 ```
 
 <small>W3Schools: <a href="https://www.w3schools.com/js/js_htmldom_elements.asp">JavaScript HTML DOM Elements</a></small>
@@ -99,9 +99,13 @@ document.getElementsByClassName("my_class"); // no '.' needed
 `document.querySelectorAll` uses CSS-style selectors:
 
 ```javascript
-document.querySelectorAll("p.intro");
-document.querySelectorAll("main section:first-child");
-document.querySelectorAll('.mydata [data-period="current"]');
+document.querySelector("p#id");  // returns one item
+
+document.querySelectorAll("p.intro");  // returns a list
+
+document.querySelectorAll("main section:first-child");  // returns a list
+
+document.querySelectorAll('.mydata [data-period="current"]');  // returns a list
 
 ```
 
@@ -136,53 +140,13 @@ const do_stuff = () => { alert("You clicked me!"); }
 // "listen" for the click:
 clickThing.addEventListener("click", do_stuff);
 ```
----
-
-<!-- <section> -->
-
-<h1>JAVASCRIPT DEMOS: <strong>02</strong></h1>
-
-<p id="my-id" style="cursor: pointer;">Click me!</p>
-
-<script>
-	const clickThing = document.getElementById("my-id");
-  const do_stuff = () => { alert("You clicked me!"); }
-  // const do_stuff = () => { console.log("You clicked me!"); }
-  clickThing.addEventListener("click", do_stuff);      
-</script>
-
-<!-- </section> -->
-
----
- 
-<h1>JAVASCRIPT DEMOS: <strong>03</strong></h1>
-
-<button id="myBtn" style="cursor: pointer; border-radius: 4px; background: #aaa;">What's the date?</button>
-
-<p id="demo">I've no idea. Click the button.</p>
-
-<script>
-document.getElementById("myBtn").addEventListener("click", showDate);
-const dateDemo = document.getElementById("demo");
-
-function showDate() {
-	let d = new Date();
-	dateDemo.innerHTML = `Oh, it’s: ${d.toDateString()}!`;
-}
-</script>
-
-<h4 style="margin-top: 4em">REFERENCES:</h4>
-<p><small>
-	<a href="http://www.w3schools.com/js/js_htmldom_eventlistener.asp">W3Schools: JavaScript HTML DOM EventListener</a><br>
-  <a href="http://www.w3schools.com/jsref/jsref_todatestring.asp">W3Schools: JavaScript toDateString() Method</a>
-</small></p>
 
 ---
 
-# JAVASCRIPT DEMOS: **04**
+# JAVASCRIPT DEMOS: **02**
 <!-- .slide: class="smalltext smallcode" -->
 
-Here’s the **code** that **showed the date** (HTML/JS):
+**Get the date** and **display it** (HTML/JS):
 
 ```html
 <button id="myBtn">What's the date?</button>
@@ -200,38 +164,16 @@ function showDate() {
 }
 ```
 
----
-
-<h1>JAVASCRIPT DEMOS: <strong>05</strong></h1>
-
-<form id="getName" action="#" method="post">
-	<label for="userName">Enter name:</label>
-	<input id="userName" type="text" placeholder="name here please :-)" style="font-size: 1em">
-	<input type="submit" style="background: #ccc; color: #666; border-radius: 10%; font-size: 1em;">
-</form>
-
-<p style="margin-top: 1em;">Hello, <span id="myName">anonymous user! Your name?</span></p>
-
-<script>
-	function PerformGreeting() {
-    if(userName.value){
-      myName.innerHTML = `<strong>${userName.value}</strong>!`;
-    } else {
-      myName.innerHTML = `<strong>person with no name</strong>!`;
-    }
-    event.preventDefault(); // disables default form submission
-    // return false; // prevents further "bubbling" up of event
-	}
-
-	getName.addEventListener("submit", PerformGreeting);
-</script>
+- DEMO: [Show date](https://front-end-materials.github.io/js-simple-examples/js-show-date/)
+-	W3Schools: [JavaScript HTML DOM EventListener](http://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+- W3Schools: [JavaScript toDateString() Method](http://www.w3schools.com/jsref/jsref_todatestring.asp)
 
 ---
 
-# JAVASCRIPT DEMOS: **06**
+# JAVASCRIPT DEMOS: **03**
 <!-- .slide: class="crammed smalltext smallcode" -->
 
-code that grabbed the name and displayed it (HTML/JS):
+get a name from a form and display it (HTML/JS):
 
 ```html
 <form id="getName" action="#" method="post">
@@ -239,7 +181,6 @@ code that grabbed the name and displayed it (HTML/JS):
   <input id="userName" type="text" placeholder="name here please :-)">
   <input type="submit">
 </form>
-
 <p>Hello, <span id="myName">anonymous user! Your name?</span></p>
 ```
 
@@ -256,83 +197,61 @@ function PerformGreeting() {
 getName.addEventListener("submit", PerformGreeting);
 ```
 
----
-
-<style>
-  #question, #photo1, #photo2 {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  #question:hover, #photo1:hover, #photo2:hover {
-    text-decoration: none;
-    color: #ccc;
-  }
-  #picture {
-    font-size: 75%;
-    text-align: center;
-    line-height: 178px;
-    height: 178px;
-    width: 300px;
-    background-repeat: no-repeat;
-    border: solid silver 4px;
-    transition: all 1s;
-  }
-  #picture.car {
-    border-color: green;
-    background-image: url("images/tesla-model-s.jpg");
-  }
-  #picture.cat {
-    border-color: pink;
-    background-image: url("images/kitten.jpg");
-  }
-</style>
-
-<h1>JAVASCRIPT DEMOS: <strong>07</strong></h1>
-
-<p>You can also <strong>manipulate CSS</strong> with JavaScript…<br>
-e.g. to change a <strong>background image</strong>:</p>
-
-<p>See a: <span id="photo1">Tesla</span> / <span id="photo2">kitten</span>!</p>
-
-<p id="picture" class="text">picture will appear</p>
-  
-<script>
-  function showImage(whichPic) {
-    picture.innerHTML = "";
-    if (whichPic === "photo1") {
-      picture.classList.remove("cat");
-      picture.classList.add("car");
-    } else {
-      picture.classList.remove("car");
-      picture.classList.add("cat");
-    }
-  }
-  photo1.addEventListener("click", function(){ showImage(this.id) });
-  photo2.addEventListener("click", showImage);
-</script>
+[DEMO: get input](https://front-end-materials.github.io/js-simple-examples/js-get-input/)
 
 ---
 
-# JAVASCRIPT DEMOS: **08**
+# JAVASCRIPT DEMOS: **04**
 <!-- .slide: class="smalltext smallcode" -->
 
-Here’s the **HTML** and the **JavaScript:**
+You can also **manipulate CSS** with JavaScript…
 
 ```html
-<p>See a: <span id="photo1">Tesla</span>  /  <span id="photo2">kitten</span>!</p>
+<p>A link <a class="thelinks" href="#">link 1 text</a>.</p>
+<p>Another link <a class="thelinks" href="#">link 2 text</a>.</p>
 
-<p id="picture" class="text">picture will appear</p>
+<button id="changeLinks">Change link colours</button>
+```
+
+```css
+.changeMe {
+  background: #336; color: #fcc; transition: all 1s;
+}
+```
+
+```javascript
+const thelinks = document.getElementsByClassName('thelinks');
+
+const addClass = () => {
+  for(i in thelinks){
+    thelinks[i].classList.toggle("changeMe");
+  }
+}
+changeLinks.addEventListener("click", addClass);
+```
+
+[DEMO: change elements](https://front-end-materials.github.io/js-simple-examples/js-change-element/)
+
+---
+
+# JAVASCRIPT DEMOS: **05**
+<!-- .slide: class="smalltext smallcode" -->
+
+You can also **change CSS** with JavaScript… e.g. a **background image**:
+
+```html
+<p>See a: <span id="photo1">Tesla</span> / <span id="photo2">kitten</span>!</p>
+
+<p id="picture">your choice of picture here</p>
 ```
 
 ```javascript
 function showImage(whichPic) {
   picture.innerHTML = "";
   if (whichPic === "photo1") {
-    picture.classList.remove("cat");
-    picture.classList.add("car");
+    picture.classList.remove("cat"); picture.classList.add("car");
   } else {
-    picture.classList.remove("car");
-    picture.classList.add("cat");
+    picture.classList.remove("car"); picture.classList.add("cat");
   }
 }
 
@@ -340,9 +259,11 @@ photo1.addEventListener("click", function(){ showImage(this.id) });
 photo2.addEventListener("click", showImage);
 ```
 
+DEMO: [swap CSS class](https://front-end-materials.github.io/js-simple-examples/js-swap-class/)
+
 ---
 
-# JAVASCRIPT DEMOS: **09**
+# JAVASCRIPT DEMOS: **05a**
 <!-- .slide: class="smalltext smallcode" -->
 
 …and the **CSS** for styling, and the fade transition:
@@ -355,15 +276,13 @@ photo2.addEventListener("click", showImage);
   height: 178px;
   width: 300px;
   background-repeat: no-repeat;
-  border: solid green 4px;
+  border: solid #999 2px;
   transition: all 1s;
 }
-#picture.car {
-  border-color: silver;
+.car {
   background-image: url("images/tesla-model-s.jpg");
 }
-#picture.cat {
-  border-color: pink;
+.cat {
   background-image: url("images/kitten.jpg");
 }
 ```
@@ -376,24 +295,10 @@ photo2.addEventListener("click", showImage);
 <!-- .slide: class="crammed smalltext smallcode" -->
 
 A [JavaScript object](http://www.w3schools.com/js/js_objects.asp) contains `name:value` pairs inside curly braces `{}`  
-It can contain nested objects (**no comma** after the last items!):
 
-```javascript
-const animals = {
-  cat: {
-    horns: "none",
-    fluff: "loads",
-    eyes: "super-advanced, read up on this"
-  },
-  goat: {
-    horns: "yes",
-    fluff: "not really",
-    eyes: "really weird, you should check"
-  }
-};
-```
+It can contain **nested objects**
 
-An **array of objects** - `[{},{}]` - is a common **JSON data format** used for exchanging data on the web e.g. from **APIs**
+IMPORTANT: **no comma** after the last items!
 
 ---
 
@@ -406,52 +311,24 @@ Here, the `range` object is a child of the `car` object:
 const car = {
   manufacturer: "Tesla",
   model: "Model S",
-  range: {
-    normal: "360",
-    ludicrous: "200"
-  },
+  range: { normal: "360", ludicrous: "200" },
   colour: "red",
-  start: function() { function_code_here } // only in JS, NOT JSON
+  query: function(){
+    answer.innerHTML = 
+      `The <strong>${car.manufacturer} ${car.model}</strong> has a \ 
+           <strong>${car.range.normal} mile</strong> normal range.`;
+  }
 };
+
+question.addEventListener("click", car.query);
 
 car.range.ludicrous; // returns: 200
 ```
 
-An **array of objects** is a common **JSON data format** used for exchanging data on the web e.g. from **APIs**
-
 ---
 
-<h1>JAVASCRIPT OBJECTS: <strong>03</strong></h1>
-
-<p>Now we have made a <code>car</code> object we can <strong>use it’s data</strong>:</p>
-
-<p id="question">How far will the Tesla travel if you don’t drive like a maniac?</p>
-
-<p id="answer"></p>
-
-<script>
-  const car = {
-    manufacturer: "Tesla",
-    model: "Model S",
-    range: {
-      normal: "360",
-      ludicrous: "200"
-    },
-    colour: "red",
-    start: function() { function_code_here }
-  };
-
-  let info = function() {
-    answer.innerHTML = `The <strong>${car.manufacturer} ${car.model}</strong> has a <strong>${car.range.normal} mile</strong> normal range.`;
-  }
-  
-  question.addEventListener("click", info);
-</script>
-
----
-
-# JAVASCRIPT OBJECTS: **04**
-<!-- .slide: class="crammed smalltext smallcode" -->
+# JAVASCRIPT OBJECTS: **02a**
+<!-- .slide: class="smalltext smallcode" -->
 
 Here’s the **HTML**:
 
@@ -459,32 +336,39 @@ Here’s the **HTML**:
 <p id="question">How far will the Tesla travel if you don’t drive like a maniac?</p>
 
 <p id="answer"></p>
-
 ```
 
-Here’s the **JavaScript**:
+- DEMO: [Accessing object properties](https://front-end-materials.github.io/js-objects/js-object-properties/)
+- DEMO: [Traversing items in a nested object](https://front-end-materials.github.io/js-objects/js-nested-object/)
+- MDN: [Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+---
+
+# JAVASCRIPT OBJECTS: **03**
+<!-- .slide: class="smalltext smallcode" -->
+
+An **array of objects** is a common **JSON data format** used for exchanging data on the web e.g. from **APIs**
 
 ```javascript
-// this gets details from the object
-let info = function() {
-  answer.innerHTML = `The <strong>${car.manufacturer} ${car.model}</strong> has a <strong>${car.range} mile</strong> normal range.`;
-}
+const animals = [
+  { cat: {
+      horns: "none",
+      fluff: "loads",
+      eyes: "super-advanced, research this"
+    }
+  },
+  { goat: {
+      horns: "yes",
+      fluff: "not really",
+      eyes: "really weird, you should check"
+    }
+  }
+];
 
-// this captures the click
-question.addEventListener("click", info);
+animals[0].cat.horns // "none"
 ```
+
 <!-- END SHARED WITH CTEC3905 -->
-
-===
-
-# DEMO
-
-- [Store a name with local storage from an input form](https://front-end-materials.github.io/local-storage/js-local-storage-form/)
-- [code](https://github.com/front-end-materials/local-storage/js-local-storage-form)
-
-OR
-
-DEMO: store multiple names in localStorage??
 
 ===
 
