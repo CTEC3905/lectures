@@ -35,11 +35,11 @@ General queries and admin issues:
 
 Reminders
 
-- make separate GitHub repos for **re-usable lab code**
+- make **separate** GitHub repos for **lab code**
 - make **one thing** work and test it
-- Decide **how to use JavaScript** in your project
+- decide **how to use JavaScript** in your project
 - check the **browser console** (f12/cmd-alt-i) for errors
-- always **validate your HTML** as you develop!
+- always **[validate your HTML](https://validator.w3.org/** as you develop!
 
 ===
 
@@ -61,6 +61,22 @@ document.body.innerHTML = "Some text";
 ---
 
 # JAVASCRIPT: THE DOM **02**
+<!-- .slide: class="smalltext smallcode" -->
+
+A more scalable example:
+
+```javascript
+function addTextNode() {
+  const myheading = document.createElement("h1");
+  let mytext = document.createTextNode("Hello Big Heading!");
+  myheading.appendChild(mytext);
+  document.body.appendChild(myheading);
+}
+```
+
+---
+
+# JAVASCRIPT: THE DOM **03**
 <!-- .slide: class="smalltext smallcode" -->
 
 You can get a reference to elements by `tag`, `id`, `class`:
@@ -440,9 +456,9 @@ An **array of objects** is a common **JSON data format** used for exchanging dat
 Here’s the **HTML**:
 
 ```html
-&lt;p id="question">How far will the Tesla travel if you don’t drive like a maniac?&lt;/p>
+<p id="question">How far will the Tesla travel if you don’t drive like a maniac?</p>
 
-&lt;p id="answer">&lt;/p>
+<p id="answer"></p>
 
 ```
 
@@ -451,7 +467,7 @@ Here’s the **JavaScript**:
 ```javascript
 // this gets details from the object
 let info = function() {
-  answer.innerHTML = `The &lt;strong>${car.manufacturer} ${car.model}&lt;/strong> has a &lt;strong>${car.range} mile&lt;/strong> normal range.`;
+  answer.innerHTML = `The <strong>${car.manufacturer} ${car.model}</strong> has a <strong>${car.range} mile</strong> normal range.`;
 }
 
 // this captures the click
