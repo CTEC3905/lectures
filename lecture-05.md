@@ -68,7 +68,7 @@ A more scalable example:
 ```javascript
 function addTextNode() {
   const myheading = document.createElement("h1");
-  let mytext = document.createTextNode("Hello Big Heading!");
+  const mytext = document.createTextNode("Hello Big Heading!");
   myheading.appendChild(mytext);
   document.body.appendChild(myheading);
 }
@@ -84,7 +84,7 @@ You can get a reference to elements by `tag`, `id`, `class`:
 ```javascript
 document.getElementsByTagName("section");  // returns a list
 
-document.getElementById("my_id"); // no '#' needed & returns a list
+document.getElementById("my_id"); // no '#' needed && returns single item
 
 document.getElementsByClassName("my_class"); // no '.' needed & returns a list
 ```
@@ -126,7 +126,7 @@ The simplest possible example (in HTML/JS files):
 
 <!-- In the **JavaScript** (.js) file: -->
 
-``` javascript
+```javascript
 // store a reference to the element to be clicked:
 const clickThing = document.getElementById("my-id");
 
