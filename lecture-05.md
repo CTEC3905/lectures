@@ -240,7 +240,7 @@ changeLinks.addEventListener("click", addClass);
 You can also **change CSS** with JavaScript… e.g. a **background image**:
 
 ```html
-<p>See a: <span id="photo1">Tesla</span> / <span id="photo2">kitten</span>!</p>
+<p>See a: <span id="car">Tesla</span> / <span id="cat">kitten</span>!</p>
 
 <p id="picture">your choice of picture here</p>
 ```
