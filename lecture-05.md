@@ -246,15 +246,14 @@ You can also **change CSS** with JavaScript… e.g. a **background image**:
 ```
 
 ```javascript
-function showImage(whichPic) {
+function showImage() {
   picture.innerHTML = "";
-  console.log(whichPic);
+  console.log(event.target.id);
   picture.classList = [];
-  picture.classList.add(whichPic)
+  picture.classList.add(event.target.id)
 }
 
-photo1.addEventListener("click", function(){ showImage("car") });
-photo2.addEventListener("click", function(){ showImage("cat") });
+[car,cat].forEach(c => c.addEventListener( "click", showImage ));
 ```
 
 DEMO: [swap CSS class](https://front-end-materials.github.io/js-simple-examples/js-swap-class/)
