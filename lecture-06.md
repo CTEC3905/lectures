@@ -201,7 +201,7 @@ body {
 
 # RESPONSIVE DESIGN: **6**
 
-## **NATURAL** BREAKPOINTS
+Use **[NATURAL BREAKPOINTS](https://stackoverflow.com/a/20350990/123033)**!
 
 Design **mobile-first**, then **increase the screen width** by resizing the browser window.
 
