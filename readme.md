@@ -9,7 +9,7 @@ This repository contains the markdown files for the lecture slides.
 - [Lecture-03: JavaScript history and introduction](https://ctec3905.github.io/presents?lecture-03)
 - [Lecture-04: GIT introduction, Accessibility, design principles (PARC), Information Architecture](https://ctec3905.github.io/presents?lecture-04)
 - [Lecture-05: JavaScript and the DOM, JavaScript objects (with demos)](https://ctec3905.github.io/presents?lecture-05)
-- [06 lecture: GitHUb, CSS breakpoints/Responsive Web Design](https://ctec3905.github.io/presents?lecture-06) (see TECH3015_lecture-02, 10)
+- [Lecture-05: GitHUb, CSS breakpoints/Responsive Web Design](https://ctec3905.github.io/presents?lecture-06)
 <!-- - [07 lecture: (+CSS vars) (-cssgrid) localstorage DEMO (TECH3015_lecture-15) ](https://ctec3905.github.io/presents?lecture-07) -->
 <!-- FIT IN: 08 lecture: web-animation -->
 <!-- - [08 lecture: json-api, (static site generators))[https://ctec3905.github.io/presents?lecture-08] -->
