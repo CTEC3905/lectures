@@ -1,223 +1,72 @@
-# GIT/GITHUB: **1**
-<!-- left-align crammed -->
+===
 
-- **GitHub classroom** is for your **assignment code**
-- **accepting** the assignment **creates a repo**:
-  - it’s in the **CTEC3905 account** not yours
-  - **sign in** to see it on your **GitHub home page**
-  - `git push` to it regularly
-  - **do not** “upload” via GitHub, use `git push`
-  - **edit/delete** files locally, **not on GitHub**
-  - **clone** the repo to work on multiple machines
-- use the `command-line`
+## Planning your site 01
 
----
+gather all the **content** for your site:
 
-# GIT/GITHUB: **2**
-
-- use your **own account** for **lab exercises**
-- **clone** lab exercise code into your **local work folder**
-- `cd` into the **repo folder after cloning**:
-  - **cloned?** `git remote set-url origin your_repo_here`
-- **make repos** for **your own lab code** on GitHub first:
-  - **new?** `git remote add origin your_repo_here`
-- check `git remote -v` **before pushing**
+- images
+- movies
+- text (see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html))
+- audio
+- choosing data from APIs
 
 ---
 
-# GIT/GITHUB: **3**
+## Planning your site 02
 
-- **[validate your HTML](https://validator.w3.org/)** before committing
-- build an **archive** of **usable code** this way
-- use `git init` carefully, be sure you're **in the right folder**
-- **do not** put git repos **inside other git repos**!
+arrange your content into *logical groups*
 
----
+**THINK:** will a group be **limited** or get **more content**?
 
-# GIT/GITHUB: **4**
-<!-- "crammed smalltext" -->
-  
-How to **clone a repo** to a **new repo of your own**:
+this is the basis for your site structure, **navigation** and **menu**
 
-- on your machine, **open a location** where you want the clone’s folder to go
-- in the folder window, **shift+right click -> open in command window here**
--	**clone** the **GitHub repo** you want to copy (e.g.):  
-	`git clone https://github.com/CTEC3905/REPO_NAME_HERE.git`
--	`cd RE`… (tab to complete) into the **folder containing the cloned files**
-- `dir` (Win) or `ls -al` (\*nix/OS X) to **see the cloned files**
-- make a **new repo on GitHub**, then **reset the remote link** to your **new repo**:  
-	`git remote set-url origin YOUR_NEW_REPO_URL_HERE.git`
-- **push** the **cloned files** to your **new repo**:  
-	first time: `git push -u origin master`  
-  then just: `git push`
+Resources from [usability.gov](https://www.usability.gov/):
+
+- [Content Strategy Basics](https://www.usability.gov/what-and-why/content-strategy.html)
+- [Content Inventory](https://www.usability.gov/how-to-and-tools/methods/content-inventory.html)
+- [Information Architecture](https://www.usability.gov/what-and-why/information-architecture.html)
 
 ---
 
-# GIT/GITHUB: **5**
+## Planning your site 03
 
-How to **upload your changes** to **your GitHub repository**
+get input from others with an online tool:
 
-- have an **open command prompt** in the **directory with the changed files**
-- **check where** you’re **pushing to** with `git remote -v`
--	`git status` will **show the files** you have **changed** (in *red*)
--	`git add .` (the “`.`” means “all”) to **add your changes** to the git repository
--	`git status` will show **your added files** (in *green*)
--	**commit** the change with a **brief message**:  
-  `git commit -m "changed title"`
-- `git push` will **push** the **changed files** to **your GitHub repo**
+[Online card sorting software](https://www.optimalworkshop.com/optimalsort): [free plan](https://www.optimalworkshop.com/register)
+
+- [Card Sorting (usability.gov)](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html)
+
+---
+
+## Planning your site 04
+
+at the next stage, you will use **HTML5 tags** to **mark up** the basic areas for:
+
+- each **kind** of page you have or...
+- for one long **scrolling** page
+
+---
+
+## Planning your site 05
+
+inside the `body` tag, use **HTML5 semantic tags** ([read more at W3Schools](https://www.w3schools.com/html/html5_semantic_elements.asp)) for **overall structure**
+
+- `header` (optional but advised)
+- `nav`
+- `main`
+- `footer` (optional)
+
+*avoid div tags* and don't make up tags!
+
+HTML5 semantic tags for **content** come later
 
 ===
 
-<!-- RESPONSIVE DESIGN -->
-
-# RESPONSIVE DESIGN: **1**
-
-`@media` queries in CSS **apply styles conditionally**
-
-For example, when **printing** you can add styles that **remove** navigation, dark backgrounds, ads…
-
-```css
-@media print {
-  body {
-    background: #fff; /* white */
-  }
-  nav,
-  footer,
-  .promo {
-    display: none;
-  }
-}
-```
-
----
-
-# RESPONSIVE DESIGN: **2**
-
-Apart from the default `all` (which you can ignore) there are **three kinds** of CSS `@media` queries:
-
-| `@media` | for: |
-|:--|:--|
-| `print` |	printers |
-| `screen` | computer screens, tablets, phones… |
-| `speech` | screenreaders that speak the page content |
-
----
-
-# RESPONSIVE DESIGN: **3**
-
-```css
-@media only screen and (orientation: landscape) {
-  nav {
-    display-flex;
-  }
-}
-
-@media speech {
-  .adverts,
-  .banner {
-    display: none;
-  }
-}
-
-@media (hover: hover) {
-  a:hover {
-    background: yellow;
-  }
-}
-```
-
-but **WAIT!!** …
-
----
-
-# RESPONSIVE DESIGN: **4**
-
-## **HOWEVER**…
-
-to get started, here’s **all you need**…
-
-- **mobile first** design using CSS (**top** of the .css file)
-- [**natural** breakpoints](http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile/20350990#20350990 "Follow the links and go down the rabbit-hole in this StackOverflow answer") (**not** device-specific)
-- `min-width` up (**not** max-width) for **increasing widths**
-- `&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">` in the HTML `head`
-
-See the [responsive starter code](https://github.com/CTEC3905/starter-code)!
-
----
-
-# RESPONSIVE DESIGN: **5**
-
-… which shows a **mobile-first CSS example**:
-
-```css
-body {
-  margin: 0;
-  /* more mobile/global body styles */
-}
-/* more mobile/global styles here &lt; 499px */
-
-@media screen and (min-width: 500px) {
-/* override mobile styles screens > 499px */
-}
-
-@media screen and (min-width: 1000px) {
-/* override previous styles for screens > 999px */
-}
-```
-
----
-
-# RESPONSIVE DESIGN: **6**
-
-## **NATURAL** BREAKPOINTS
-
-Design **mobile-first**, then **increase the screen width** by resizing the browser window.
-
-Add `min-width` **breakpoints** wherever the **design becomes “broken”** or fails when the viewport width increases—  
-all content should **look good in any viewport** width/height
-
-**Avoid** large **fixed width** elements.
-
-The [Chrome inspector mobile icon](https://developers.google.com/web/tools/chrome-devtools/device-mode/) is good for certain tests.
-
----
-
-# RESPONSIVE DESIGN: **7**
-
-- **Percentages** work well for setting basic element widths, but use `display: border-box` to ensure padding and borders **remain *inside* the element’s width**
-- For **individual container elements** (e.g. a `main` tag) you can use `max-width` to keep them from **getting too wide**
-
-> **45** to **80** characters (per line) is the ideal **line length** for text on websites  
-—[The Readability Formula: Making Your Website Easy-to-Read](https://kickpoint.ca/the-readability-formula-making-your-website-easy-to-read/)
-
----
-
-# RESPONSIVE DESIGN: **8**
-
-**References**
-
-- [Responsive Web Design](http://alistapart.com/article/responsive-web-design) (The first, Ethan Marcotte, 2010)
-- [Responsive animations](http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly) (less reading more looking)
-- [HTML Responsive Web Design](http://www.w3schools.com/html/html_responsive.asp) (W3 Schools)
-- [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fswitchoff.nus.org.uk#) (with example site)
-- [This Is Responsive](http://bradfrost.github.io/this-is-responsive/) (overload: patterns and resources)
-
-**Books**
-
-[Luke Wroblewski, 'Mobile First’](http://abookapart.com/products/mobile-first)  
-[Ethan Marcotte, 'Responsive Web Design’](http://abookapart.com/products/responsive-web-design)
-
-===
-
-<!-- "small-head crammed" style="text-align: center" -->
-  ![NOT LIKE THIS!! How Responsive Web Design used to be](images/testing-devices.jpg)
-
-===
 
 <!-- CSS VARIABLES -->
 
 # CSS VARIABLES **01**
-<!-- "crammed" -->
+<!-- .slide: class="smalltext crammed" -->
   
 Being a style language based on key-value pairs, for a long time CSS had no variables. [LESS](http://lesscss.org/) and [Sass](https://sass-lang.com/) filled the gap and added other functionality, some of which is being **added to the CSS standard**
 
@@ -268,7 +117,7 @@ body {
 ---
 
 # CSS VARIABLES **04**
-<!-- "crammed" -->
+<!-- .slide: class="crammed" -->
 
 Elements **outside** the variable **selector** which contains the variables **cannot access them**:
 
@@ -291,7 +140,7 @@ footer {
 ---
 
 # CSS VARIABLES **05**
-<!-- "crammed smallcode" -->
+<!-- .slide: class="crammed smallcode" -->
 
 **store** an **attribute value** once, then **use elsewhere**:
 
@@ -318,7 +167,7 @@ code {
 ---
 
 # CSS VARIABLES **06**
-<!-- "crammed smallcode" -->
+<!-- .slide: class="crammed smallcode" -->
 
 For responsive design, you can **reset custom properties inside `@media` queries**. For example, you could **expand the margin** around major layout elements for **wider screen widths**:
 
@@ -342,7 +191,7 @@ section {
 ---
 
 # CSS VARIABLES **07**
-<!-- "crammed" -->
+<!-- .slide: class="crammed" -->
   
 Resources:
 
@@ -352,32 +201,14 @@ Resources:
 
 ===
 
-<!-- GENERAL GUIDES -->
+<!-- END CSS VARIABLES -->
 
-# ADVICE **1**
-
-You may still feel that **this is *still* all a bit complicated** so…
-
-I took the time to **answer two general questions** on Quora…
-
-> I want to be a **web developer** but I know **absolutely nothing** about it. **What** should I learn and how and **where** can I learn it?
-
-[See answer](https://qr.ae/TUhnLf)
-
----
-
-# ADVICE **2**
-
-These answers might **help you get an overview** of front-end web development code
-
-> How much time does it takes to **learn & master HTML** + **CSS** + **JavaScript**?
-
-[See answer](https://qr.ae/TUhnL4)
-
-===
 
 <!-- CODE COMEDY -->
 
 <section data-markdown class="big-pic small-head crammed">
 ![Do I know it or do I say I know it???](images/two-types-cv.jpg)
 </section>
+
+===
+

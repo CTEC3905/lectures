@@ -30,69 +30,89 @@ General queries and admin issues:
 
 ===
 
+# DO IT!
+
+- **[validate your HTML](https://validator.w3.org/)** before committing
+- add [`"use strict";`](https://javascript.info/strict-mode) at the top of your .js
+
+Just **DO IT**. You should know why by now.
+
+===
+
 # GIT/GITHUB: **1**
-<!-- left-align crammed -->
+<!-- .slide: class="crammed" -->
 
 - **GitHub classroom** is for your **assignment code**
 - **accepting** the assignment **creates a repo**:
-  - it’s in the **CTEC3905 account** not yours
+  - it’s in the **CTEC3905 account** (*not* your account)
   - **sign in** to see it on your **GitHub home page**
   - `git push` to it regularly
-  - **do not** “upload” via GitHub, use `git push`
-  - **edit/delete** files locally, **not on GitHub**
-  - **clone** the repo to work on multiple machines
-- use the `command-line`
+  - **do not “upload” via GitHub**—use `git push`
+  - **edit/delete** files **locally** (*not* on GitHub), `commit`, `push`
+  - to work on another machine, first **clone the repo**
+- use the `command-line` and **get used to it**!
 
 ---
 
 # GIT/GITHUB: **2**
+<!-- .slide: class="crammed" -->
 
 - use your **own account** for **lab exercises**
 - **clone** lab exercise code into your **local work folder**
-- `cd` into the **repo folder after cloning**:
-  - **cloned?** `git remote set-url origin your_repo_here`
-- **make repos** for **your own lab code** on GitHub first:
+- `cd` into the **repo folder after cloning** and:
+  - `git remote set-url origin your_repo_here.git`
+  - check `git remote -v` **before pushing**
+- **make repos** for **your own code** on GitHub first:
   - **new?** `git remote add origin your_repo_here`
-- check `git remote -v` **before pushing**
 
 ---
 
 # GIT/GITHUB: **3**
 
-- use `git` carefully, be sure you're **in the right folder**!!
+use `git` carefully:
+
+- **check first** you're **in the right folder**!
 - **do not** put git repos **inside other git repos**!
-- **[validate your HTML](https://validator.w3.org/)** before committing
-- build an **archive** of **re-usable code** this way
+- build a **library** of **re-usable code** this way
 
 ---
 
 # GIT/GITHUB: **4**
-<!-- .slide: class="crammed smalltext" -->
+<!-- .slide: class="crammed smalltext smallcode" -->
   
-How to **clone a repo** to a **new repo of your own**:
+How to **clone a repo** into a **new repo of your own**: 1:
 
-- on your machine, **open a location** where you want the clone’s folder to go
-- in the folder window, **shift+right click -> open in command window here**
+- open a **location for** the cloned folder
+- in the folder window, **shift+right click: open in command window here**
 -	**clone** the **GitHub repo** you want to copy (e.g.):  
-	`git clone https://github.com/CTEC3905/REPO_NAME_HERE.git`
--	`cd RE`… (tab to complete) into the **folder containing the cloned files**
+	`git clone https://github.com/MODULE/REPO_NAME.git`
+-	`cd REPO_`… (**tab** complete) into the **cloned repo folder**
 - `dir` (Win) or `ls -al` (\*nix/OS X) to **see the cloned files**
-- make a **new repo on GitHub**, then **reset the remote link** to your **new repo**:  
-	`git remote set-url origin YOUR_NEW_REPO_URL_HERE.git`
-- **push** the **cloned files** to your **new repo**:  
-	first time: `git push -u origin master`  
-  then just: `git push`
 
 ---
 
 # GIT/GITHUB: **5**
+<!-- .slide: class="crammed smalltext smallcode" -->
+  
+How to **clone a repo** into a **new repo of your own**: 2:
+
+- **on GitHub**, make a new repo, then **reset the remote** to the **new repo**:  
+	`git remote set-url origin NEW_REPO.git`
+- **push** the **cloned files** to your **new repo**:  
+	first time: `git push -u origin master`  
+  then (after more changes) just: `git push`
+
+---
+
+# GIT/GITHUB: **6**
+<!-- .slide: class="crammed smalltext smallcode" -->
 
 How to **upload your changes** to **your GitHub repository**
 
 - have an **open command prompt** in the **directory with the changed files**
 - **check where** you’re **pushing to** with `git remote -v`
 -	`git status` will **show the files** you have **changed** (in *red*)
--	`git add .` (the “`.`” means “all”) to **add your changes** to the git repository
+-	`git add .` (the “`.`” means “all”) to **add your changes** to GIT
 -	`git status` will show **your added files** (in *green*)
 -	**commit** the change with a **brief message**:  
   `git commit -m "changed title"`
@@ -103,6 +123,24 @@ How to **upload your changes** to **your GitHub repository**
 <!-- RESPONSIVE DESIGN -->
 
 # RESPONSIVE DESIGN: **1**
+<!-- .slide: class="crammed smalltext" -->
+
+CSS **media queries** can respond to many factors. The main three are:
+
+| `@media` | for: |
+|:--|:--|
+| `print` |	printers |
+| `screen` | computer screens, tablets, phones… |
+| `speech` | text-to-speech screen readers |
+
+but there's also…
+
+`width`/`height`, `orientation`, `hover`, `light-level`… and more... see [Using media queries (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+---
+
+# RESPONSIVE DESIGN: **2**
+<!-- .slide: class="crammed smalltext smallcode" -->
 
 `@media` queries in CSS **apply styles conditionally**
 
@@ -123,19 +161,10 @@ For example, when **printing** you can add styles that **remove** navigation, da
 
 ---
 
-# RESPONSIVE DESIGN: **2**
-
-Apart from the default `all` (which you can ignore) there are **three kinds** of CSS `@media` queries:
-
-| `@media` | for: |
-|:--|:--|
-| `print` |	printers |
-| `screen` | computer screens, tablets, phones… |
-| `speech` | screenreaders that speak the page content |
-
----
-
 # RESPONSIVE DESIGN: **3**
+<!-- .slide: class="crammed smalltext smallcode" -->
+
+or more specific filtering
 
 ```css
 @media only screen and (orientation: landscape) {
@@ -158,63 +187,69 @@ Apart from the default `all` (which you can ignore) there are **three kinds** of
 }
 ```
 
-but **WAIT!!** …
-
 ---
 
 # RESPONSIVE DESIGN: **4**
 
-## **HOWEVER**…
+**However** get started with just  
+`screen` and `min-width` e.g.
 
-to get started, here’s **all you need**…
+```css
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
 
-- **mobile first** design using CSS (**top** of the .css file)
-- [**natural** breakpoints](http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile/20350990#20350990 "Follow the links and go down the rabbit-hole in this StackOverflow answer") (**not** device-specific)
-- `min-width` up (**not** max-width) for **increasing widths**
-- `&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">` in the HTML `head`
-
-See the [responsive starter code](https://github.com/CTEC3905/starter-code)!
+Some [examples of RWD (mediaqueri.es)](https://mediaqueri.es/)
 
 ---
 
 # RESPONSIVE DESIGN: **5**
+<!-- .slide: class="smalltext smallcode" -->
 
-… which shows a **mobile-first CSS example**:
+Use **[NATURAL BREAKPOINTS](https://stackoverflow.com/a/20350990/123033)**!
+
+- Design **mobile-first**, then **increase the screen width** by resizing the browser window and/or using the [Chrome inspector mobile icon](https://developers.google.com/web/tools/chrome-devtools/device-mode/).
+- Add `min-width` **breakpoints** wherever the **design becomes “broken”** or fails when the viewport width increases—
+- all content should **look good at any viewport** width/height
+
+**Avoid** large **fixed width** elements.
+
+See the [responsive starter code](https://github.com/CTEC3905/starter-code)…
+
+---
+
+# RESPONSIVE DESIGN: **6**
+<!-- .slide: class="smalltext smallcode" -->
+
+…the [responsive starter code](https://github.com/CTEC3905/starter-code) has a **mobile-first CSS structure** e.g.
 
 ```css
-body {
-  margin: 0;
-  /* more mobile/global body styles */
-}
-/* more mobile/global styles here &lt; 499px */
+/* all general/mobile styles first: */
 
-@media screen and (min-width: 500px) {
-/* override mobile styles screens > 499px */
+body { background: rgb(220,230,210); }
+a:link, a:visited { color: #003; }
+/* etc... */
+
+/* next, the first breakpoint above mobile: */
+
+@media screen and (min-width: 600px) {
+  a:hover { color: #225; }
+  /* override mobile styles here...
+  and set styles for larger widths */
 }
 
 @media screen and (min-width: 1000px) {
-/* override previous styles for screens > 999px */
+/* then override previous styles for screens > 999px */
 }
 ```
 
 ---
 
-# RESPONSIVE DESIGN: **6**
-
-Use **[NATURAL BREAKPOINTS](https://stackoverflow.com/a/20350990/123033)**!
-
-Design **mobile-first**, then **increase the screen width** by resizing the browser window.
-
-Add `min-width` **breakpoints** wherever the **design becomes “broken”** or fails when the viewport width increases—  
-all content should **look good in any viewport** width/height
-
-**Avoid** large **fixed width** elements.
-
-The [Chrome inspector mobile icon](https://developers.google.com/web/tools/chrome-devtools/device-mode/) is good for certain tests.
-
----
-
 # RESPONSIVE DESIGN: **7**
+<!-- .slide: class="smalltext" -->
 
 - **Percentages** work well for setting basic element widths, but use `display: border-box` to ensure padding and borders **remain *inside* the element’s width**
 - For **individual container elements** (e.g. a `main` tag) you can use `max-width` to keep them from **getting too wide**
@@ -225,6 +260,7 @@ The [Chrome inspector mobile icon](https://developers.google.com/web/tools/chrom
 ---
 
 # RESPONSIVE DESIGN: **8**
+<!-- .slide: class="smalltext" -->
 
 **References**
 
@@ -242,153 +278,16 @@ The [Chrome inspector mobile icon](https://developers.google.com/web/tools/chrom
 ===
 
 <!-- .slide: class="small-head crammed" -->
-![NOT LIKE THIS!! How Responsive Web Design used to be](images/testing-devices.jpg)
-
-===
-
-<!-- CSS VARIABLES -->
-
-# CSS VARIABLES **01**
-<!-- .slide: class="smalltext crammed" -->
-  
-Being a style language based on key-value pairs, for a long time CSS had no variables. [LESS](http://lesscss.org/) and [Sass](https://sass-lang.com/) filled the gap and added other functionality, some of which is being **added to the CSS standard**
-
-CSS **custom properties** are one example and are **usable in all modern browsers**. They **differ from LESS/Sass variables** (`@` and `$`) by being prefixed with “`--`” e.g. `--myPink: #fce;`
-
-They are **scoped** to the **selector** in which they are defined, and inherited by the **descendants** of that selector
-
----
-
-# CSS VARIABLES **02**
-Because of this scope, the `:root` pseudo-element is often used in examples as a “global” selector…
-
-```CSS
-:root {
-  --darkGreen: #051;
-  --myPink: #fce;
-}
-
-main {
-  color: var(--darkGreen);
-  background: var(--myPink);
-}
-.my-class {
-  border-color: var(--myPink);
-}
-```
-
-SVG graphics need the variables at `:root` as they have their own DOM
-
----
-
-# CSS VARIABLES **03**
-
-…however, **any selector** (element, class, id) can be used to set **CSS Custom Properties** (not just `:root`) - you can then access them in **all child elements** of that selector
-
-So CSS variables in `html` or `body` also mean that **any element** in your CSS file has access to them…
-
-```CSS
-body {
-  --darkGreen: #051;
-}
-
-.my-class {
-  color: var(--darkGreen);
-}
-```
-
----
-
-# CSS VARIABLES **04**
-<!-- .slide: class="crammed" -->
-
-Elements **outside** the variable **selector** which contains the variables **cannot access them**:
-
-```html
-&lt;main>main content&lt;/main>
-&lt;footer>footer content&lt;/footer>
-```
-
-```CSS
-main {
-  --darkGreen: #051;
-}
-
-footer {
-  color: var(--darkGreen);
-  /* OOPS: cannot see the variable in “main” */
-}
-```
-
----
-
-# CSS VARIABLES **05**
-<!-- .slide: class="crammed smallcode" -->
-
-**store** an **attribute value** once, then **use elsewhere**:
-
-```css
-/* set the variables in a root element */
-html {
-  --myWidth: 360px;
-  --myBorder: 4px solid var(--myPink);
-  --codeFont: "Courier New", monospace;
-}
-
-/* use the variables anywhere */
-section {
-  border: var(myBorder);
-}
-figure {
-  width: var(--myWidth);
-}
-code {
-  font-family: var(--codeFont);
-}
-```
-
----
-
-# CSS VARIABLES **06**
-<!-- .slide: class="crammed smallcode" -->
-
-For responsive design, you can **reset custom properties inside `@media` queries**. For example, you could **expand the margin** around major layout elements for **wider screen widths**:
-
-```css
-:root {
-  --gutter: 4px;
-}
-
-section {
-  margin: var(--gutter);
-}
-
-@media (min-width: 600px) {
-  :root {
-    --gutter: 16px;
-  }
-  /* this change is only activated above 600px */
-}
-```
-
----
-
-# CSS VARIABLES **07**
-<!-- .slide: class="crammed" -->
-  
-Resources:
-
-- [CSS Variables: Why Should You Care?](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
-- [Using CSS custom properties (variables) (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
-- [Browser support for CSS variables (Can I Use)](https://caniuse.com/#feat=css-variables)
+![NOT LIKE THIS!! How Responsive Web Design used to be](rwd/testing-devices.jpg)
 
 ===
 
 <!-- GENERAL GUIDES -->
 
 # ADVICE **1**
+<!-- .slide: class="smalltext" -->
 
-You may still feel that **this is *still* all a bit complicated** so…
+If you still feel that **this is *still* quite complex**…
 
 I took the time to **answer two general questions** on Quora…
 
@@ -399,24 +298,13 @@ I took the time to **answer two general questions** on Quora…
 ---
 
 # ADVICE **2**
+<!-- .slide: class="smalltext" -->
 
 These answers might **help you get an overview** of front-end web development code
 
 > How much time does it takes to **learn & master HTML** + **CSS** + **JavaScript**?
 
 [See answer](https://qr.ae/TUhnL4)
-
-===
-
-<!-- CODE COMEDY -->
-
-<section data-markdown class="big-pic small-head crammed">
-![Do I know it or do I say I know it???](images/two-types-cv.jpg)
-</section>
-
-===
-
-(see TECH3015_lecture-02, 10)
 
 ===
 
@@ -427,4 +315,3 @@ These answers might **help you get an overview** of front-end web development co
 No crowding around the podium afterwards!
 
 Talk to Graeme for module-related issues
-
