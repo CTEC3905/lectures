@@ -224,6 +224,22 @@ See the [responsive starter code](https://github.com/CTEC3905/starter-code)…
 # RESPONSIVE DESIGN: **6**
 <!-- .slide: class="smalltext smallcode" -->
 
+So mobiles just don't reduce the website down to phone screen width, the HTML `head` section needs special `meta` tag `viewport` and `content` attributes:
+
+```html
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P-Number</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+```
+
+---
+
+# RESPONSIVE DESIGN: **7**
+<!-- .slide: class="smalltext smallcode" -->
+
 …the [responsive starter code](https://github.com/CTEC3905/starter-code) has a **mobile-first CSS structure** e.g.
 
 ```css
@@ -248,7 +264,7 @@ a:link, a:visited { color: #003; }
 
 ---
 
-# RESPONSIVE DESIGN: **7**
+# RESPONSIVE DESIGN: **8**
 <!-- .slide: class="smalltext" -->
 
 - **Percentages** work well for setting basic element widths, but use `display: border-box` to ensure padding and borders **remain *inside* the element’s width**
@@ -259,7 +275,7 @@ a:link, a:visited { color: #003; }
 
 ---
 
-# RESPONSIVE DESIGN: **8**
+# RESPONSIVE DESIGN: **9**
 <!-- .slide: class="smalltext" -->
 
 **References**
