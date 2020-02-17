@@ -10,13 +10,15 @@ This repository contains the markdown files for the lecture slides.
 - [Lecture-04: GIT introduction, Accessibility, design principles (PARC), Information Architecture](https://ctec3905.github.io/presents?lecture-04)
 - [Lecture-05: JavaScript and the DOM, JavaScript objects (with demos)](https://ctec3905.github.io/presents?lecture-05)
 - [Lecture-06: GitHUb, CSS breakpoints/Responsive Web Design](https://ctec3905.github.io/presents?lecture-06)
-<!-- - [07 lecture: (+CSS vars) (-cssgrid) localstorage, DEMO (TECH3015_lecture-15) ](https://ctec3905.github.io/presents?lecture-07) -->
+<!-- - [07 lecture: (+CSS vars) (-cssgrid) DOM mani[p (see G: below), localstorage, DEMO see (TECH3015_lecture-15)](https://ctec3905.github.io/presents?lecture-07) -->
 <!-- - [08 lecture: json-api, (-static site generators, +HTML5 template)](https://ctec3905.github.io/presents?lecture-08] -->
 <!-- - [09 lecture: PWA's etc.)[https://ctec3905.github.io/presents?lecture-09] -->
 <!-- - [10 lecture: hand-in etc.)[https://ctec3905.github.io/presents?lecture-10] -->
 
 <!--
 TO FIT IN:
+
+G: Most of the necessary stuff has already been mentioned in the lectures. They just need local storage, firstChild, appendChild, removeChild and maybe spread operator? Also Array.prototype.map. textContent. String.prototype.slice.
 
 - 08 lecture 2019: web-animation
 - DEMO: [HTML5 template, slot and shadow DOM](https://github.com/DaveEveritt/html5-template)
