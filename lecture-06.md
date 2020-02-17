@@ -167,7 +167,7 @@ For example, when **printing** you can add styles that **remove** navigation, da
 or more specific filtering
 
 ```css
-@media only screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   nav {
     display-flex;
   }
@@ -195,7 +195,7 @@ or more specific filtering
 `screen` and `min-width` e.g.
 
 ```css
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   body {
     background-color: lightblue;
   }
