@@ -122,7 +122,7 @@ W3C (2005) [Introduction to Web Accessibility](https://www.w3.org/WAI/intro/acce
 —adapted from [Disabled access to websites under UK law](http://www.out-law.com/page-330)
 
 The **Disability Equality Act (2010)** is law—you could be [sued for discrimination](http://www.seqlegal.com/blog/website-accessibility-and-equality-act-2010) if your website fails to meet [accessibility standards](https://www.abilitynet.org.uk/expert-resources/web-accessibility-resources)  
-See [accessibility requirements for public sector bodies (2018)](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#who-has-to-meet-the-2018-accessibility-regulations)
+See [public sector international accessibility requirements (2018)](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#who-has-to-meet-the-2018-accessibility-regulations)
 
 ---
 
