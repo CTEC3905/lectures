@@ -145,7 +145,7 @@ See [accessibility requirements for public sector bodies (2018)](https://www.gov
 Resources and research
 
 - [WebAim](http://webaim.org/intro/)—**see this site first!**
-- [Understanding new accessibility requirements for public sector bodies (2018)](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#who-has-to-meet-the-2018-accessibility-regulations)
+- [A11Y Accessibility project](https://a11yproject.com/#Quick-tests)
 - [Aria use in HTML5](http://html5doctor.com/on-html-belts-and-aria-braces/)
 - [Accessible Rich Internet Applications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 - [Notes on Using ARIA in HTML](https://www.w3.org/TR/aria-in-html/)—see the [1st to 5th](https://www.w3.org/TR/using-aria/#rule1) rules!

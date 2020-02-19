@@ -1,5 +1,11 @@
 ===
 
+## JS MEMORY LEAKS
+
+Addy Osmani https://nolanlawson.com/2020/02/19/fixing-memory-leaks-in-web-applications/amp/
+
+===
+
 ## Planning your site 01
 
 gather all the **content** for your site:

@@ -5,7 +5,7 @@
 
 ## **Front-End Web Development**
 
-## Lecture 00
+### Lecture 00
 
 ===
 
@@ -30,19 +30,14 @@ General queries and admin issues:
 
 ===
 
-# REMINDERS
-<!-- .slide: class="smalltext" -->
-
-- **indent** your **code** properly: **2 spaces**!
-- **align** opening and closing:
-  - **HTML** &lt;tags&gt;&lt;/tags&gt;
-  - **CSS** and **JavaScript** `{` braces `}`
-- **lower-case** folder and filenames
-- be sure to **complete** the **lab exercises**
-- **read through** the **lecture** and **lab** notes
-- `let no = [!templates, !JQuery, !Bootstrap];`
+## LECTURE_CONTENT_HERE
 
 ===
 
-<!-- MAIN CONTENT -->
+# QUESTIONS?
 
+**please ask now…**
+
+No crowding around the podium afterwards!
+
+Talk to Graeme for module-related issues
