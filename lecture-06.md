@@ -169,7 +169,7 @@ or more specific filtering
 ```css
 @media screen and (orientation: landscape) {
   nav {
-    display-flex;
+    display: flex;
   }
 }
 
@@ -267,7 +267,7 @@ a:link, a:visited { color: #003; }
 # RESPONSIVE DESIGN: **8**
 <!-- .slide: class="smalltext" -->
 
-- **Percentages** work well for setting basic element widths, but use `display: border-box` to ensure padding and borders **remain *inside* the element’s width**
+- **Percentages** work well for setting basic element widths, but use `box-sizing: border-box` to ensure padding and borders **remain *inside* the element’s width**
 - For **individual container elements** (e.g. a `main` tag) you can use `max-width` to keep them from **getting too wide**
 
 > **45** to **80** characters (per line) is the ideal **line length** for text on websites  
