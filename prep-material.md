@@ -1,3 +1,106 @@
+
+===
+
+# JSON and APIs
+
+## DESTRUCTURING OBJECT/ARRAYS
+
+```js
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 }
+};
+
+const { today: { low: lowToday, high: highToday }} = LOCAL_FORECAST;
+ 
+console.log(lowToday); // 64
+console.log(highToday); // 77
+```
+
+```js
+let a = 8, b = 6;
+
+[b, a] = [a, b]; // b = 8, a = 6
+```
+
+```js
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  "use strict";
+  const [, , ...arr] = list;
+  return arr;
+}
+const arr = removeFirstTwo(source);
+console.log(arr); // should be [3,4,5,6,7,8,9,10]
+console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
+```
+
+```js
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+const half = ({ max, min }) => (max + min) / 2.0;
+console.log(stats); // object
+console.log(half(stats)); // 28.015
+```
+
+---
+
+## CREATING OBJECTS
+
+```js
+const createPerson = (name, age, gender) => {
+  "use strict";
+  return { name, age, gender };
+};
+console.log(createPerson("Zodiac Hasbro", 56, "male")); // creates new object
+```
+
+---
+
+## FOR…OF and FOR…IN
+
+```js
+// `for...in` iterates over properties of an object in arbitrary order
+// use `forEach()` or `for...of` to preserve order
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["id-blacklist", "no-dup-keys"]
+};
+function makeList(arr) {
+  const newArr = [];
+  for (const n in arr) { newArr[n] = `${arr[n]}` };
+  return newArr;
+}
+makeList(result.failure); // ["no-var", "var-on-top", "linebreak"]
+
+for (const n of result.skipped) { console.log(n) }
+// id-blacklist
+// no-dup-keys
+
+for (const n in result.skipped) { console.log(`${n} is ${result.skipped[n]}`) };
+// 0 is id-blacklist
+// 1 is no-dup-keys
+```
+
+---
+
+## REDUCE
+
+```js
+let sum = [ 1, 2, 3 ].reduce(
+  (accumulator, currentValue) => accumulator + currentValue, 0)
+console.log(sum) // 6
+```
+
 ===
 
 ## JS MEMORY LEAKS
