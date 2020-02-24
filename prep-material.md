@@ -1,3 +1,9 @@
+===
+
+## JS is a top skill
+
+https://www.freecodecamp.org/news/top-2020-it-skills/
+img: dev-skills-2020.png
 
 ===
 
