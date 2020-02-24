@@ -19,7 +19,7 @@ const LOCAL_FORECAST = {
 };
 
 const { today: { low: lowToday, high: highToday }} = LOCAL_FORECAST;
- 
+
 console.log(lowToday); // 64
 console.log(highToday); // 77
 ```
