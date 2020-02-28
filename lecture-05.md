@@ -249,7 +249,7 @@ You can also **change CSS** with JavaScript… e.g. a **background image**:
 function showImage() {
   picture.innerHTML = "";
   console.log(event.target.id);
-  picture.classList = [event.target.id];
+  picture.classList = event.target.id;
 }
 
 [car,cat].forEach(c => c.addEventListener( "click", showImage ));

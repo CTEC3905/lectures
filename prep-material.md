@@ -1,5 +1,17 @@
 ===
 
+## Marking criteria
+
+"if you can get all the required functionality into a single page, that is acceptable. Otherwise, try to keep the number of separate sections or HTML pages or to 4 or less. More pages does not equate to better marks."
+
+## libraries
+
+there are limited marks to gain or lose for using libraries - it mostly carries a risk unless done right. The code needs to be integrated properly, meaning: adjust code tutorials or examples to use the arrow function style and let/const, to be consistent with the standard expecvted from the rest of the JS - inconsistent code style is bad. Or sometimes people copy code in or use a library from the web and make it look like it’s doing something, but halfway through marking it's obvious that it doesn’t do anything.
+
+You can bring in a JSON-like object locally and populate a section in the DOM if done well i.e not just code copied from the labs.
+
+===
+
 ## JS is a top skill
 
 https://www.freecodecamp.org/news/top-2020-it-skills/
@@ -8,6 +20,46 @@ img: dev-skills-2020.png
 ===
 
 # JSON and APIs
+
+## DEMOS
+
+- [Get and display live solar data from an API](https://front-end-materials.github.io/json-api/api-solar-data/)
+- [Show Star Wars film info from an API](https://front-end-materials.github.io/json-api/api-starwars/)
+
+[JSPERF: Document fragment vs innerHTML vs looped appendChild](https://jsperf.com/document-fragment-vs-innerhtml-vs-looped-appendchild/2)
+
+===
+
+## ASYNC
+
+try https://api.github.com/users/fania (dave, graeme)
+
+```js
+async function getUserAsync(name) {
+  let response = await fetch(`https://api.github.com/users/${name}`);
+  let data = await response.json()
+  return data;
+}
+
+getUserAsync('fania')
+  .then(data => console.log(data))
+```
+
+[JavaScript Fetch API and using Async/Await](https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp)
+
+write both `.catch` and `.then` methods for all the promises.  
+If something needs to be done in both the cases use `.finally`
+
+[7 Reasons Why JavaScript Async/Await Is Better Than Plain Promises](https://dev.to/gafi/7-reasons-to-always-use-async-await-over-plain-promises-tutorial-4ej9)
+
+===
+
+## API
+
+existing:  
+https://github.com/CTEC3905/07-lab-json-ajax/blob/master/javascript/xmlhttp.js
+
+===
 
 ## DESTRUCTURING OBJECT/ARRAYS
 
