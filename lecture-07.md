@@ -41,38 +41,85 @@ General queries and admin issues:
 
 ===
 
-# REFACTORING
+# ISSUES
+<!-- .slide: class="smallcode crammed" -->
 
-new tesla/kitten code
+questions we have been asked:
+
+- assignment instructions and **GitHub pages**
+- maximum **number of pages**
+- assingment deadline: BlackBoard or in Module Handbook
 
 ===
 
-# STORING DATA *01*
+# REFACTORING! **01**
+<!-- .slide: class="smallcode crammed" -->
+
+The new [tesla/kitten code](https://front-end-materials.github.io/js-simple-examples/js-swap-class/) ([code](https://github.com/front-end-materials/js-simple-examples/tree/master/js-swap-class)) - [Lecture 05 slide updated](https://ctec3905.github.io/presents/?lecture-05#/4/4)
+
+```js
+function showImage() {
+  picture.innerHTML = "";
+  picture.classList = event.target.id;
+}
+
+[car,cat].forEach(c => c.addEventListener( "click", showImage ));
+```
+
+Changed `photo1`, `photo2` classes to `cat`, `car` to match IDs
+
+---
+
+# REFACTORING! **02**
+<!-- .slide: class="smallcode crammed" -->
+
+previous *horrible* code: lots of repetition,  
+not DRY (**Do not Repeat Yourself!**)
+ 
+```js
+function showImage(whichPic) {
+  picture.innerHTML = "";
+  if (whichPic === "photo1") {
+    picture.classList.remove("cat");
+    picture.classList.add("car");
+  } else {
+    picture.classList.remove("car");
+    picture.classList.add("cat");
+  }
+}
+photo1.addEventListener("click", function(){ showImage(this.id) });
+photo2.addEventListener("click", showImage);
+```
+
+===
+
+# STORING DATA **01**
+<!-- .slide: class="smalltext crammed" -->
 
 There a few ways to store data for browsing sessions:
 
-- cookies (server)
-- databases (server)
+- **cookies** and **databases** (server)
 - **browser storage** (client):
   - `sessionStorage`
   - `localStorage`
   - `IndexedDB`
 
-All **client-side storage** can hold **far more data** (varies but around 5mb) than cookies
+**client-side storage** holds **more data** ([devices/browsers vary](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria#Storage_limits)) than cookies (4Kb) ([Safari is preventing cookies3rd party tracking cookies](https://medium.com/@bluepnume/safaris-new-tracking-rules-and-enabling-cross-domain-data-storage-85241eea7483))
 
 (If you see mention of *WebSQL*, it's old and dying)
 
 ---
 
-# STORING DATA *02*
+# STORING DATA **02**
+<!-- .slide: class="smalltext crammed" -->
 
 the front-end (client) methods are:
 
-- `sessionStorage`: per-page/tab, deleted on close
-- `localStorage`: per-site, stored permanently as a string
-- `IndexedDB`: structured data, including files/blobs
+- `sessionStorage`: per-page/tab, **deleted on close**
+- `localStorage`: per-site, **stored permanently** as a string
+- `IndexedDB`: structured data, **stored permanently** including **files/blobs**
 
-In all these, data are stored as ‘NoSQL’ key-value pairs
+In all these, data are stored as ‘NoSQL’ **key-value pairs**
 
 Resources:
 
@@ -81,22 +128,48 @@ Resources:
 
 ---
 
-# STORING DATA *03*
+# STORING DATA **03**
+<!-- .slide: class="smalltext crammed" -->
 
-This is an evloving technology with varying browser support and [storage limits](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria#Storage_limits)
+[CORS](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) [same-origin policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) is *domain-specific* so websites *can’t access* databases *on other sites*
 
-- `localStorage`: 
-- `IndexedDB`: domain-specific [same-origin policy](https://www.w3.org/Security/wiki/Same_Origin_Policy): websites *can’t access* databases *on other sites*
+- the **protocol/host/port** (if specified) must be the same
+- storage can be **cleared** by the **user**, or **browser** (if limits are reached)
 
-Storage can be cleared by the user, or (if limits are reached) by the browser.
-
-In production, some browser storage requires a site to run under `https` with an SSL certificate )[LetsEncrypt](https://letsencrypt.org/) is free and can be set up on a server to auto-renew)
+In production, some browser storage requires a site to run under `https` with an **SSL certificate**  
+([LetsEncrypt](https://letsencrypt.org/) is free and can be set up on a server to auto-renew)
 
 ---
 
-# STORING DATA *04*
+# STORING DATA **04**
+<!-- .slide: class="smalltext crammed" -->
 
-checking limits (rough estimate):
+is **per-domain**
+
+> Data is available to **all scripts** loaded from pages **from the same origin** that **previously stored the data**.
+>
+> It persists **after the browser is closed** and does not suffer cookie Weak Integrity/Weak Confidentiality issues. **Session storage** is per-origin and per-instance (window/tab) until the window/tab is closed; it allows **separate instances** of the **same web app** to run in different windows without interference, a use case not well supported by cookies.
+
+[Web Storage (Wikipedia)](https://en.wikipedia.org/wiki/Web_storage)
+
+---
+
+# STORING DATA **05**
+<!-- .slide: class="smalltext crammed" -->
+
+- `localStorage` clashes: **check for a key** before writing
+- `localStorage` and `indexedDB` **write to disc** (using browser internals)
+
+## **Never trust user input!**
+
+---
+
+# STORING DATA **06**
+<!-- .slide: class="smalltext smallcode crammed" -->
+
+The StorageManager API is still experimental—[check browser support](https://caniuse.com/#search=StorageManager) before using in production.
+
+check storage limits (rough estimate):
 
 ```html
 <p>
@@ -114,9 +187,10 @@ navigator.storage.estimate().then(function(estimate) {
 
 ---
 
-# STORING DATA *05*
+# STORING DATA **07**
+<!-- .slide: class="smalltext smallcode crammed" -->
 
-checking limits (complete readout):
+check storage (complete readout):
 
 ```js
 async function showEstimatedQuota(est) {
@@ -127,45 +201,67 @@ async function showEstimatedQuota(est) {
 console.log(showEstimatedQuota());
 ```
 
-DEMO: js-storage-check
+DEMO: [js-storage-check](https://front-end-materials.github.io/local-storage/browser-storage-check/)
 
 ---
 
-# STORING DATA *06*
+# STORING DATA **08**
+<!-- .slide: class="smalltext crammed" -->
 
-> IndexedDB is a “best-effort” database that can be erased in situations of low disk space on a device. The browser may delete your database without notifying the user … to free up space for other website’s data … used more recently than yours.
+> `IndexedDB` can be erased because of low disk space on a device—a database may be deleted without notifying the user to free up space for other website’s data used more recently.
 >
-> Actually, this is a good thing … as the end-users may not want everything … stored forever on each site they visit. But if IndexedDB is critical for your application…
-
-…this browser-behavior needs managing, although `StorageManager` is still experimental:
+> …a good thing, as end-users may not want everything stored forever for every site. So if `IndexedDB` is critical for your application, this browser behavior needs managing.
 
 - [How To Use the StorageManager API](https://dexie.org/docs/StorageManager)
 - [StorageManager (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/StorageManager) 
-
----
-
-# STORING DATA *06*
-
-localStorage clashes
+- [StorageManager.estimate() (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate) 
 
 ===
 
-# LOCAL STORAGE: **1**
+# LOCAL STORAGE: **01**
 <!-- .slide: class="crammed" -->
 
-Browsers have **their own storage**, similar to cookies.
+Browsers have **their own storage**
 
-In this module, we're using one of the storage functions: `localStorage`
+We're using one of the storage functions: `localStorage`
 
-- it’s for **small amounts** of data (5Mb)
+- it’s for **small amounts** of data (between 2Mb-10Mb)
 - it stores data in **key value** pairs
 
-`localStorage` is **insecure** (so not good for ~~sensitive data~~ - see [Please Stop Using Local Storage](https://dev.to/rdegges/please-stop-using-local-storage-1i04)).  
-However, it’s still **good for non-critical data**.
+`localStorage` is **insecure** (no good for ~~sensitive data~~ - see [Please Stop Using Local Storage](https://dev.to/rdegges/please-stop-using-local-storage-1i04)).  
+However, it’s **good for non-critical data**.
 
 ---
 
-# LOCAL STORAGE: **2**
+# LOCAL STORAGE: **02**
+<!-- .slide: class="crammed" -->
+
+Instead of *cookies*, many websites now use **local storage** to keep small amounts of **data between visits**. It can:
+
+- **store user preferences** 
+- **personalise each visit**
+
+You can **see what a website stores** in your own browser:
+
+- open the **web inspector**
+- select the **"Application" tab**…
+
+---
+
+![local storage in the browser Application tab](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage/local-storage-application-tab.png)
+
+---
+
+**Facebook** uses `localStorage` for several settings:
+
+![Facebook local storage](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage/local-storage-facebook.png)
+
+You can see stored **objects** (`{…}`) and **arrays** (`[…]`)  
+We don’t know what most of those are!
+
+---
+
+# LOCAL STORAGE: **03**
 <!-- .slide: class="crammed" -->
 
 **Setting** and **getting** data:
@@ -184,35 +280,7 @@ console.log(localStorage["name"]); // Fania
 
 ---
 
-# LOCAL STORAGE: **3**
-<!-- .slide: class="crammed" -->
-
-Instead of *cookies*, many websites now use **local storage** to keep small amounts of **data between visits**. It can:
-
-- **store user preferences** 
-- **personalise each visit**
-
-You can **see what a website stores** in your own browser:
-
-- open the **web inspector**
-- select the **"Application" tab**…
-
----
-
-![local storage in the browser Application tab](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage//local-storage-application-tab.png)
-
----
-
-**Facebook** uses `localStorage` for several settings:
-
-![Facebook local storage](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage/local-storage-facebook.png)
-
-You can see stored **objects** (`{…}`) and **arrays** (`[…]`)  
-We don’t know what most of those are!
-
----
-
-# LOCAL STORAGE: **4**
+# LOCAL STORAGE: **04**
 <!-- .slide: class="crammed" -->
 
 Example: set a localStorage item from a **field value**:
@@ -227,10 +295,10 @@ myElement.innerText = localStorage.getItem("name");
 
 ---
 
-# LOCAL STORAGE: **5**
+# LOCAL STORAGE: **05**
 <!-- .slide: class="crammed" -->
 
-You can **remove** an item from `localStorage` or **clear all**:
+**remove** an item from `localStorage` or **clear all**:
 
 ```javascript
 localStorage.removeItem("name");
@@ -251,10 +319,40 @@ localStorage.addEventListener("change", myFunction);
 
 # DEMOS
 
-- [Store a name with local storage from an input form](https://front-end-materials.github.io/local-storage/js-local-storage-form/)  
-[view code](https://github.com/front-end-materials/local-storage/tree/master/js-local-storage-form)
+- [Store a name with local storage from an input form](https://front-end-materials.github.io/local-storage/local-storage-form/)  
+[view code](https://github.com/front-end-materials/local-storage/tree/master/local-storage-form)
 - [store multiple names in localStorage](https://front-end-materials.github.io/local-storage/local-storage-object/)  
 [view code](https://github.com/front-end-materials/local-storage/tree/master/local-storage-object)
+
+===
+
+## CSS VARIABLES?
+
+===
+
+# QUESTIONNAIRE: **DO YOU…**
+<!-- .slide: class="crammed smallcode smalltext" -->
+
+one:
+
+```js
+if(condition){
+  do stuff;
+} else {
+  do other stuff;
+}
+```
+
+two:
+
+```js
+if(condition){
+  do stuff;
+}
+else {
+  do other stuff;
+}
+```
 
 ===
 

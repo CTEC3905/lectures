@@ -19,6 +19,90 @@ img: dev-skills-2020.png
 
 ===
 
+# JAVASCRIPT BEST PRACTICE **01**
+
+here's an excellent guide to [JavaScript Best Practices (W3.org)](https://www.w3.org/wiki/JavaScript_best_practices)
+
+one example of [using shortcut notation](https://www.w3.org/wiki/JavaScript_best_practices#use-shortcut-notation-when-it-makes-sense):
+
+```js
+if(v){
+  var x = v;
+} else {
+  var x = 10;
+}
+
+// The shortcut notation uses the double pipe character:
+var x = v || 10;
+// x equals v, if v is empty x equals 10
+```
+
+"It is amazing how many times you will build a massively convoluted JavaScript solution for a problem that can be solved easily without it."
+
+---
+
+# JAVASCRIPT BEST PRACTICE **02**
+
+[Optimize loops](https://www.w3.org/wiki/JavaScript_best_practices#Optimize_loops) for speed. A common mistake is to make JavaScript read the array length **every time**:
+
+```js
+// given an array:
+const names = ['Eazy-E', 'Dr. Dre', 'Ice Cube' ];
+
+// we can time how long it takes
+console.time();
+for(let i=0;i<names.length;i++){
+  console.log(names[i]);
+}
+console.timeEnd();
+```
+
+0.26123046875ms
+
+instead, **store the length** in a variable:
+
+```js
+console.time();
+const all = names.length;
+for(let i=0;i<all;i++){
+  console.log(names[i]);
+}
+console.timeEnd();
+```
+
+Faster: 0.197021484375ms
+
+---
+
+# JAVASCRIPT BEST PRACTICE **04**
+
+[Keep DOM access to a minimum](https://www.w3.org/wiki/JavaScript_best_practices#Keep_DOM_access_to_a_minimum)
+
+> keep computation-heavy code—including **regular expressions** and **DOM manipulation**—outside loops
+---
+
+# JAVASCRIPT BEST PRACTICE **05**
+
+[Keep DOM access to a minimum](https://www.w3.org/wiki/JavaScript_best_practices#Keep_DOM_access_to_a_minimum)
+
+> keep computation-heavy code—including **regular expressions** and **DOM manipulation**—outside loops
+>
+> …create DOM nodes in the loop but insert them into the document *outside the loop*.
+>
+> Instead of constantly creating and applying elements, create a **tool function** that **turns a string into DOM elements** to call at the end of your content generation process—disturb browser rendering once rather than frequently.
+
+---
+
+# JAVASCRIPT BEST PRACTICE **06**
+
+> …avoid taking the easy path. JavaScript is a wonderfully versatile language and … the environment it is executed in is very forgiving and it is easy to *write sloppy code* that seemingly does the job. This same code however will **come back to bite you** a few months down the line.
+>
+> JavaScript development has mutated from a fringe knowledge area to an **absolute necessity** if you want to **have a job as a web developer**.
+
+[From JavaScript Best Practices (W3.org, Christian Heilmann)](https://www.w3.org/wiki/JavaScript_best_practices#Summary)
+
+===
+
 # JSON and APIs
 
 ## DEMOS
@@ -114,7 +198,6 @@ console.log(half(stats)); // 28.015
 
 ```js
 const createPerson = (name, age, gender) => {
-  "use strict";
   return { name, age, gender };
 };
 console.log(createPerson("Zodiac Hasbro", 56, "male")); // creates new object
@@ -366,10 +449,34 @@ Resources:
 - [Using CSS custom properties (variables) (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 - [Browser support for CSS variables (Can I Use)](https://caniuse.com/#feat=css-variables)
 
-===
-
 <!-- END CSS VARIABLES -->
 
+===
+
+# QUESTIONNAIRE
+
+one:
+
+```js
+if(condition){
+  do stuff;
+} else {
+  do other stuff;
+}
+```
+
+two:
+
+```js
+if(condition){
+  do stuff;
+}
+else {
+  do other stuff;
+}
+```
+
+===
 
 <!-- CODE COMEDY -->
 
