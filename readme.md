@@ -10,11 +10,11 @@ This repository contains the markdown files for the lecture slides.
 - [Lecture-04: GIT introduction, Accessibility, design principles (PARC), Information Architecture](https://ctec3905.github.io/presents?lecture-04)
 - [Lecture-05: JavaScript and the DOM, JavaScript objects (with demos)](https://ctec3905.github.io/presents?lecture-05)
 - [Lecture-06: GitHUb, CSS breakpoints/Responsive Web Design](https://ctec3905.github.io/presents?lecture-06)
-- [07 lecture: assignment questions, refactoring, browser storage (+DEMOS), CSS vars](https://ctec3905.github.io/presents?lecture-07)
-<!-- - [08 lecture: JSON and APIs](https://ctec3905.github.io/presents?lecture-08] -->
+- [Lecture-07: assignment questions, refactoring, browser storage (+DEMOS), CSS vars](https://ctec3905.github.io/presents?lecture-07)
+<!-- - [Lecture-08: JSON and APIs](https://ctec3905.github.io/presents?lecture-08] -->
 
-<!-- - [09 lecture: PWA's etc.)[https://ctec3905.github.io/presents?lecture-09] -->
-<!-- - [10 lecture: hand-in etc.)[https://ctec3905.github.io/presents?lecture-10] -->
+<!-- - [Lecture-09: PWA's etc.)[https://ctec3905.github.io/presents?lecture-09] -->
+<!-- - [Lecture-10: hand-in etc.)[https://ctec3905.github.io/presents?lecture-10] -->
 
 <!--
 TO FIT IN:
