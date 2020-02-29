@@ -41,14 +41,53 @@ General queries and admin issues:
 
 ===
 
-# ISSUES
+# ISSUES **01**
 <!-- .slide: class="smallcode crammed" -->
 
 questions we have been asked:
 
 - assignment instructions and **GitHub pages**
 - maximum **number of pages**
-- assingment deadline: BlackBoard or in Module Handbook
+- using JS **libraries**
+- assignment deadline: [BlackBoard/Assessment](https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_551514_1&content_id=_4247904_1&mode=reset) or in [Module Handbook](https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_551514_1&content_id=_4247907_1&mode=reset)
+
+---
+
+# ISSUES **02**
+
+**number of pages**:
+
+"if you can get all the required functionality into a single page, that is acceptable. Otherwise, try to keep the number of separate sections or HTML pages or to 4 or less. More pages does not equate to better marks."
+
+---
+
+# ISSUES **03**
+<!-- .slide: class="smalltext" -->
+
+**libraries**
+
+do NOT use JQuery. For others, there are limited marks to **gain or lose** for using libraries - it carries a risk unless done right. The code needs to be integrated properly, example: **adjust code tutorials or examples to use arrow functions and let/const**, to be consistent with the standard expected from the rest of the JS - **inconsistent code style is bad**.
+
+Sometimes people **copy code in or use a library** from the web and make it look like it’s doing something, but halfway through marking it's obvious that it doesn’t do anything as its been used without understanding.
+
+---
+
+# ISSUES **03**
+
+**APIs**
+
+Try to use an online API, but if it's causing inconsistent issues, you can bring in a JSON-like object locally and **populate a section in the DOM** if **done well**…
+
+…**not just code copied** from the labs.
+
+===
+
+## JS is a [top skill](https://www.freecodecamp.org/news/top-2020-it-skills/)
+<!-- .slide: class="smalltext crammed" -->
+
+72% of companies want JS developers, and test for JS:
+
+![Development Skills for 2020](https://github.com/front-end-materials/images/raw/master/general/dev-skills-2020.png)
 
 ===
 
@@ -248,13 +287,13 @@ You can **see what a website stores** in your own browser:
 
 ---
 
-![local storage in the browser Application tab](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage/local-storage-application-tab.png)
+![local storage in the browser Application tab](https://github.com/front-end-materials/images/raw/master/local-storage/local-storage-application-tab.png)
 
 ---
 
 **Facebook** uses `localStorage` for several settings:
 
-![Facebook local storage](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage/local-storage-facebook.png)
+![Facebook local storage](https://github.com/front-end-materials/images/raw/master/local-storage/local-storage-facebook.png)
 
 You can see stored **objects** (`{…}`) and **arrays** (`[…]`)  
 Some of the keys describe their purpose…
@@ -420,7 +459,7 @@ html {
 
 /* use the variables anywhere */
 section {
-  border: var(myBorder);
+  border: var(--myBorder);
 }
 figure {
   width: var(--myWidth);
@@ -462,7 +501,7 @@ section {
 Resources:
 
 - [Browser support for CSS variables (Can I Use)](https://caniuse.com/#feat=css-variables)
-- [Using CSS custom properties (variables) (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
+- [Using CSS custom properties/variables (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 - [CSS Variables: Why Should You Care?](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
 
 ===
