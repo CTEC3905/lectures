@@ -12,20 +12,6 @@
 # STAFF CONTACTS
 <!-- .slide: class="crammed smalltext" -->
 
-**Module leader:**# CTEC3905
-<!-- .slide: class="centered" -->
-
-![HTML, CSS, JavaScript logos](html-css-js-500.png)<!-- .element: class="imgBackground" -->
-
-## **Front-End Web Development**
-
-### Lecture 08
-
-===
-
-# STAFF CONTACTS
-<!-- .slide: class="crammed smalltext" -->
-
 **Module leader:**
 
 General queries and admin issues:
@@ -91,7 +77,7 @@ For a more in-depth introduction to APIs in general, see [**"What Are APIs and H
 
 The [Discourse forum](https://www.discourse.org/) has a JSON API. See [discussions on this forum](https://discourse.threejs.org/c/discussion)…
 
-![Discourse Three.js forum](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/json-api/discourse-three-js-forum.png)
+![Discourse Three.js forum](https://raw.githubusercontent.com/front-end-materials/images/master/json-api/discourse-three-js-forum.png)
 
 ---
 
@@ -100,7 +86,7 @@ The [Discourse forum](https://www.discourse.org/) has a JSON API. See [discussio
 
 …and **add ".json"** [after a URL](https://discourse.threejs.org/c/discussion.json) for the **JSON data** (use a [JSON beautifier](https://beautifier.io/)):
 
-![Discourse Three.js forum JSON](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/json-api/discourse-raw-json.png)
+![Discourse Three.js forum JSON](https://raw.githubusercontent.com/front-end-materials/images/master/json-api/discourse-raw-json.png)
 
 ---
 
@@ -109,7 +95,8 @@ The [Discourse forum](https://www.discourse.org/) has a JSON API. See [discussio
 
 …or browser plug-in like the [Chrome extension JSONview](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)):
 
-![Discourse Three.js forum JSON](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/json-api/discourse-three-js-forum-json.png)
+![Discourse Three.js forum JSON](https://raw.githubusercontent.com/front-end-materials/images/master/json-api/discourse-three-js-forum-json.png)-->
+
 
 ---
 
@@ -235,7 +222,7 @@ however, **JSON** is **just data**! It *cannot* contain **comments** or **functi
 
 here’s the raw **JSON data** for the [current solar weather](https://services.swpc.noaa.gov/products/geospace/planetary-k-index-dst.json), often used to **predict aurora displays** in the Arctic Circle
 
-![Solar data raw JSON](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/json-api/solar-raw-json.png)
+![Solar data raw JSON](https://raw.githubusercontent.com/front-end-materials/images/master/json-api/solar-raw-json.png)
 
 ---
 
