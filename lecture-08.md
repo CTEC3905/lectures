@@ -319,7 +319,7 @@ and [Securing API Keys in a JavaScript Single Page App](http://billpatrianakos.m
 **Accessing APIs**
 
 - browsers usually only allow access to files from the **same domain**
-- you may need a **local server** to access remote JSON files on your computer
+- you may need a **local server** to access remote JSON on your computer
 - [CORS](https://www.telerik.com/blogs/using-cors-with-all-modern-browsers "Cross-Origin Resource Sharing") allows access from **other domains**
 
 Cross-origin resource sharing (CORS) is often set up by API providers, allowing restricted resources to be requested via **secure cross-domain requests** for data (via https) between browsers and web servers. Modern browsers can use CORS in API containers (`XMLHttpRequest`, `fetch`, `async`) to reduce cross-origin HTTP request risks.
