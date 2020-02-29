@@ -104,7 +104,7 @@ There a few ways to store data for browsing sessions:
   - `localStorage`
   - `IndexedDB`
 
-**client-side storage** holds **more data** ([devices/browsers vary](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria#Storage_limits)) than cookies (4Kb) ([Safari is preventing cookies3rd party tracking cookies](https://medium.com/@bluepnume/safaris-new-tracking-rules-and-enabling-cross-domain-data-storage-85241eea7483))
+**client-side storage** holds **more data** ([devices/browsers vary](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria#Storage_limits)) than cookies (4Kb) ([Safari is preventing cookies 3rd party tracking cookies](https://medium.com/@bluepnume/safaris-new-tracking-rules-and-enabling-cross-domain-data-storage-85241eea7483))
 
 (If you see mention of *WebSQL*, it's old and dying)
 
@@ -257,7 +257,7 @@ You can **see what a website stores** in your own browser:
 ![Facebook local storage](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/localstorage/local-storage-facebook.png)
 
 You can see stored **objects** (`{…}`) and **arrays** (`[…]`)  
-We don’t know what most of those are!
+Some of the keys describe their purpose…
 
 ---
 
@@ -296,7 +296,7 @@ myElement.innerText = localStorage.getItem("name");
 ---
 
 # LOCAL STORAGE: **05**
-<!-- .slide: class="crammed" -->
+<!-- .slide: class="crammed smallcode" -->
 
 **remove** an item from `localStorage` or **clear all**:
 
@@ -326,14 +326,151 @@ localStorage.addEventListener("change", myFunction);
 
 ===
 
-## CSS VARIABLES?
+# CSS VARIABLES **01**
+<!-- .slide: class="crammed smalltext" -->
+
+Being a **style language** based on **key-value pairs** CSS originally had no variables. [LESS](http://lesscss.org/) and [Sass](https://sass-lang.com/) filled the gap and added other functionality, but CSS **custom properties** are now **usable in all modern browsers**.
+
+Unlike **LESS/Sass** variables (`@` and `$`) they're prefixed with “`--`”:  
+
+```css
+--myYellow: #fd3;
+```
+
+They are **scoped** to the **selector** in which they are defined, and inherited by its **descendants**
+
+---
+
+# CSS VARIABLES **02**
+<!-- .slide: class="crammed smalltext smallcode" -->
+
+the `:root` pseudo-element is often used in examples as a “global” selector (**SVGs** need the variable in `:root` because the **SVG DOM is separate**)…
+
+```css
+:root {
+  --darkGreen: #051;
+  --myYellow: #fd3;
+}
+
+main {
+  color: var(--darkGreen);
+  background: var(--myYellow);
+}
+.my-class {
+  border-color: var(--myYellow);
+}
+```
+
+---
+
+# CSS VARIABLES **03**
+<!-- .slide: class="crammed smalltext smallcode" -->
+
+…however, **any selector** (element, class, id) can be used to set **CSS Custom Properties** (not just `:root`) - you can then access them in **all child elements** of that selector
+
+So CSS variables in `html` or `body` also mean that **any element** in your CSS file has access to them…
+
+```css
+body {
+  --darkGreen: #051;
+}
+
+.my-class {
+  color: var(--darkGreen);
+}
+```
+
+---
+
+# CSS VARIABLES **04**
+<!-- .slide: class="crammed smalltext smallcode" -->
+
+Elements **outside** the variable **selector** which contains the variables **cannot access them**:
+
+```html
+<main>main content</main>
+<footer>footer content</footer>
+```
+
+```css
+main {
+  --darkGreen: #051;
+}
+
+footer {
+  color: var(--darkGreen);
+  /* OOPS: cannot see the variable in “main” */
+}
+```
+
+---
+
+# CSS VARIABLES **05**
+<!-- .slide: class="crammed smalltext smallcode" -->
+
+**store** an **attribute value** once, then **use elsewhere**:
+
+```css
+/* set the variables in a root element */
+html {
+  --myWidth: 360px;
+  --myBorder: 4px solid var(--myYellow);
+  --codeFont: "Courier New", monospace;
+}
+
+/* use the variables anywhere */
+section {
+  border: var(myBorder);
+}
+figure {
+  width: var(--myWidth);
+}
+code {
+  font-family: var(--codeFont);
+}
+```
+
+---
+
+# CSS VARIABLES **06**
+<!-- .slide: class="crammed smalltext smallcode" -->
+
+For responsive design, you can **reset custom properties inside `@media` queries**. For example, you could **expand the margin** around major layout elements for **wider screen widths**:
+
+```css
+:root {
+  --gutter: 4px;
+}
+
+section {
+  margin: var(--gutter);
+}
+
+@media (min-width: 600px) {
+  :root {
+    --gutter: 16px;
+  }
+  /* this change is only activated above 600px */
+}
+```
+
+---
+
+# CSS VARIABLES **07**
+<!-- .slide: class="crammed" -->
+
+Resources:
+
+- [Browser support for CSS variables (Can I Use)](https://caniuse.com/#feat=css-variables)
+- [Using CSS custom properties (variables) (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
+- [CSS Variables: Why Should You Care?](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
 
 ===
 
 # QUESTIONNAIRE: **DO YOU…**
 <!-- .slide: class="crammed smallcode smalltext" -->
 
-one:
+**one:**
 
 ```js
 if(condition){
@@ -343,7 +480,7 @@ if(condition){
 }
 ```
 
-two:
+**two:**
 
 ```js
 if(condition){
