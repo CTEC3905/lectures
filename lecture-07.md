@@ -165,7 +165,7 @@ In all these, data are stored as ‘NoSQL’ **key-value pairs**
 Resources:
 
 - [HTML5 Web Storage (W3Schools)](https://www.w3schools.com/html/html5_webstorage.asp)
-- [IndexedDB (JavaSctip.info)](https://javascript.info/indexeddb)
+- [IndexedDB (JavaScript.info)](https://javascript.info/indexeddb)
 
 ---
 
