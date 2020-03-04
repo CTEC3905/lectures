@@ -66,9 +66,9 @@ questions we have been asked:
 
 **libraries**
 
-do NOT use JQuery. For others, there are limited marks to **gain or lose** for using libraries - it carries a risk unless done right. The code needs to be integrated properly, example: **adjust code tutorials or examples to use arrow functions and let/const**, to be consistent with the standard expected from the rest of the JS - **inconsistent code style is bad**.
+do NOT use JQuery. For others, there are limited marks to **gain or lose** for using libraries - it carries a risk unless done right. The code needs to be integrated properly, example: **adjust code tutorials or examples to use consistent functions, let/const…**, and to match the standard expected from the rest of the JS - **inconsistent code is bad**.
 
-Sometimes people **copy code in or use a library** from the web and make it look like it’s doing something, but halfway through marking it's obvious that it doesn’t do anything as its been used without understanding.
+Sometimes people **copy code in or use a library** from the web and make it look like it’s doing something, but halfway through marking it's obvious that it **doesn’t do anything** as its been used **without understanding**.
 
 ---
 
@@ -76,7 +76,7 @@ Sometimes people **copy code in or use a library** from the web and make it look
 
 **APIs**
 
-Try to use an online API, but if it's causing inconsistent issues, you can bring in a JSON-like object locally and **populate a section in the DOM** if **done well**…
+Try to use an online API, but if it's causing inconsistent issues, you can bring in a JSON-like **object** locally and **populate a section in the DOM** if **done well**…
 
 …**not just code copied** from the labs.
 
@@ -94,7 +94,9 @@ Try to use an online API, but if it's causing inconsistent issues, you can bring
 # REFACTORING! **01**
 <!-- .slide: class="smallcode crammed" -->
 
-The new [tesla/kitten code](https://front-end-materials.github.io/js-simple-examples/js-swap-class/) ([code](https://github.com/front-end-materials/js-simple-examples/tree/master/js-swap-class)) - [Lecture 05 slide updated](https://ctec3905.github.io/presents/?lecture-05#/4/4)
+it's important to clean up your code, for example…
+
+…the new [tesla/kitten code](https://front-end-materials.github.io/js-simple-examples/js-swap-class/) ([code](https://github.com/front-end-materials/js-simple-examples/tree/master/js-swap-class)) - [Lecture 05 slide updated](https://ctec3905.github.io/presents/?lecture-05#/4/4)
 
 ```js
 function showImage() {
@@ -187,7 +189,7 @@ is **per-domain**
 
 > Data is available to **all scripts** loaded from pages **from the same origin** that **previously stored the data**.
 >
-> It persists **after the browser is closed** and does not suffer cookie Weak Integrity/Weak Confidentiality issues. **Session storage** is per-origin and per-instance (window/tab) until the window/tab is closed; it allows **separate instances** of the **same web app** to run in different windows without interference, a use case not well supported by cookies.
+> It persists **after the browser is closed** and does not suffer cookie Weak Integrity/Weak Confidentiality issues. **Session storage** is per-origin and per-instance (window/tab) until the window/tab is closed; it allows **separate instances** of the **same web app** to run in **different windows** without interference, a use case not well supported by cookies.
 
 [Web Storage (Wikipedia)](https://en.wikipedia.org/wiki/Web_storage)
 
@@ -344,7 +346,7 @@ localStorage.removeItem("name");
 localStorage.clear();
 ```
 
-Attach an `eventListener` to use the data on **another page**:
+you can also attach an `eventListener` for various uses:
 
 ```javascript
 localStorage.addEventListener("change", myFunction);

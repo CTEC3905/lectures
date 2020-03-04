@@ -19,14 +19,14 @@ This repository contains the markdown files for the lecture slides.
 <!--
 TO FIT IN:
 
+- 08 lecture 2019: web-animation
+
 G: Most already been mentioned in lectures. They just need:
-- local storage, firstChild, appendChild, removeChild
+- firstChild, appendChild, removeChild
 - and maybe spread operator? 
 - also Array.prototype.map. textContent. String.prototype.slice.
-- CSS vars
 - static site gens?
 
-- 08 lecture 2019: web-animation
 - DEMO: [HTML5 template, slot and shadow DOM](https://github.com/DaveEveritt/html5-template)
 -->
 
