@@ -1,3 +1,14 @@
+
+<!-- CODE COMEDY -->
+
+# **THINK**, DON’T **COPY**
+
+![](images/comedy/google_problems.jpg)
+
+**read** it, **type** it out, **understand** it!
+
+===
+
 # JSON and APIs
 
 [JSPERF: Document fragment vs innerHTML vs looped appendChild](https://jsperf.com/document-fragment-vs-innerhtml-vs-looped-appendchild/2)
@@ -7,7 +18,7 @@
 write both `.catch` and `.then` methods for all the promises.  
 If something needs to be done in both the cases use `.finally`
 
----
+===
 
 ## API
 

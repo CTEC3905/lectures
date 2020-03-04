@@ -25,6 +25,7 @@ G: Most already been mentioned in lectures. They just need:
 - also Array.prototype.map. textContent. String.prototype.slice.
 - dark UI (see TECH3015 lecture)
 - static site gens?
+- code comedy (google_problems.jpg paste, no works)
 
 ## DEMOS:
 
