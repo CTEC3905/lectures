@@ -13,26 +13,22 @@ This repository contains the markdown files for the lecture slides.
 - [Lecture-07: assignment questions, refactoring, browser storage (+DEMOS), CSS vars](https://ctec3905.github.io/presents?lecture-07)
 <!-- - [Lecture-08: JSON and APIs](https://ctec3905.github.io/presents?lecture-08] -->
 
-<!-- - [Lecture-09: PWA's etc.)[https://ctec3905.github.io/presents?lecture-09] -->
-<!-- - [Lecture-10: hand-in etc.)[https://ctec3905.github.io/presents?lecture-10] -->
+<!-- - [Lecture-09: web-animation (2019 08 Lecture))[https://ctec3905.github.io/presents?lecture-09] -->
+<!-- - [Lecture-10: PWA's, hand-in etc.)[https://ctec3905.github.io/presents?lecture-10] -->
 
 <!--
 TO FIT IN:
-
-- 08 lecture 2019: web-animation
 
 G: Most already been mentioned in lectures. They just need:
 - firstChild, appendChild, removeChild
 - and maybe spread operator? 
 - also Array.prototype.map. textContent. String.prototype.slice.
+- dark UI (see TECH3015 lecture)
 - static site gens?
 
-- DEMO: [HTML5 template, slot and shadow DOM](https://github.com/DaveEveritt/html5-template)
--->
-
-<!--
 ## DEMOS:
 
+- DEMO: [HTML5 template, slot and shadow DOM](https://github.com/DaveEveritt/html5-template)
 - [RWD layout demo](responsive-page-outline](https://front-end-materials.github.io/page-layouts/responsive-page-outline/)
 - [Fania: gallery from JavaScript object](https://codepen.io/faniae/pen/dyPdpOo)
 - [Fania: gallery with modals](https://codepen.io/faniae/pen/GRgGVwK)
