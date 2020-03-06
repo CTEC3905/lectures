@@ -14,7 +14,7 @@ Main sections. Use the "down" arrow (bottom right of the slides) to view sub-sec
   - [JSON: asyc/await, try… catch (DEMO)](https://ctec3905.github.io/presents/?lecture-08#/3/7)
   - [JSON: is a raw data structure](https://ctec3905.github.io/presents/?lecture-08#/3/8)
   - [JSON: Solar weather data …](https://ctec3905.github.io/presents/?lecture-08#/3/10)
-  - [JSON: Solar weather data DEMO](https://ctec3905.github.io/presents/?lecture-08#/3/13)
+  - [JSON: Solar weather data (DEMO)](https://ctec3905.github.io/presents/?lecture-08#/3/13)
 - [APIs: in your project](https://ctec3905.github.io/presents/?lecture-08#/4)
   - [APIs: security](https://ctec3905.github.io/presents/?lecture-08#/4/1)
   - [APIs: access from the same domain](https://ctec3905.github.io/presents/?lecture-08#/4/1)
