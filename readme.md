@@ -11,7 +11,7 @@ This repository contains the markdown files for the lecture slides.
 - [Lecture-05: JavaScript and the DOM, JavaScript objects (with demos)](https://ctec3905.github.io/presents?lecture-05)
 - [Lecture-06: GitHUb, CSS breakpoints/Responsive Web Design](https://ctec3905.github.io/presents?lecture-06)
 - [Lecture-07: assignment questions, refactoring, browser storage (+DEMOS), CSS vars](https://ctec3905.github.io/presents?lecture-07)
-<!-- - [Lecture-08: JSON and APIs](https://ctec3905.github.io/presents?lecture-08] -->
+<!-- - [Lecture-08: JSON and APIs, JS console (see TECH3015 material)](https://ctec3905.github.io/presents?lecture-08] -->
 
 <!-- - [Lecture-09: web-animation (2019 08 Lecture))[https://ctec3905.github.io/presents?lecture-09] -->
 <!-- - [Lecture-10: PWA's, hand-in etc.)[https://ctec3905.github.io/presents?lecture-10] -->
