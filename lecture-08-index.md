@@ -17,6 +17,6 @@ Main sections. Use the "down" arrow (bottom right of the slides) to view sub-sec
   - [JSON: Solar weather data (DEMO)](https://ctec3905.github.io/presents/?lecture-08#/3/13)
 - [APIs: in your project](https://ctec3905.github.io/presents/?lecture-08#/4)
   - [APIs: security](https://ctec3905.github.io/presents/?lecture-08#/4/1)
-  - [APIs: access from the same domain](https://ctec3905.github.io/presents/?lecture-08#/4/1)
+  - [APIs: access from the same domain](https://ctec3905.github.io/presents/?lecture-08#/4/2)
 
 Slides created in Markdown (plus HTML5, JavaScript and CSS) using [reveal.js](https://revealjs.com/).

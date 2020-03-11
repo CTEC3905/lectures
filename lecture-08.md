@@ -132,14 +132,12 @@ test.users.map(u => u.username)
 # JSON **07**
 <!-- .slide: class="left-align crammed smalltext smallcode" -->
 
-Rather than the older AJAX method, `fetch`, has **promises** that **wait for a result** and only `.then` **do something**:
+Rather than the older AJAX method, `fetch`, has [promises](https://developers.google.com/web/fundamentals/primers/promises) that **wait for a result** and only `.then` **do something**:
 
 ```js
-let theData;
-
 fetch(data-to-fetch)
   .then( response => {
-    // checks the if the response was okay
+    // check the response was okay (200)
     console.log(`response: ${response.status}`);
     return response.json();
   })
@@ -152,9 +150,7 @@ fetch(data-to-fetch)
   })
 ```
 
-[JavaScript Promises: an Introduction (developers.google.com)](https://developers.google.com/web/fundamentals/primers/promises)
-
-DEMO: [Show Star Wars film info from an API](https://front-end-materials.github.io/json-api/api-starwars/)
+DEMO: [Star Wars film info from an API](https://front-end-materials.github.io/json-api/api-starwars/) ([code here](https://github.com/front-end-materials/json-api/tree/master/api-starwars))
 
 ---
 
@@ -180,7 +176,7 @@ const getUserAsync = async (name) => {
 - [Promises, async/await (javascript.info)](https://javascript.info/async)
 - [Why JavaScript Async/Await Is Better Than Plain Promises](https://dev.to/gafi/7-reasons-to-always-use-async-await-over-plain-promises-tutorial-4ej9)
 
-DEMO: [Get GitHub user details from the GitHub API with `async`](https://front-end-materials.github.io/json-api/api-github/)
+DEMO: [User details from the GitHub API](https://front-end-materials.github.io/json-api/api-github/) ([code here](https://github.com/front-end-materials/json-api/tree/master/api-github))
 
 ---
 
