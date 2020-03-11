@@ -150,16 +150,15 @@ fetch(data-to-fetch)
   })
 ```
 
-DEMO: [Star Wars film info from an API](https://front-end-materials.github.io/json-api/api-starwars/) ([code here](https://github.com/front-end-materials/json-api/tree/master/api-starwars))
+DEMO: `fetch` [Star Wars film info from an API](https://front-end-materials.github.io/json-api/api-starwars/) ([code here](https://github.com/front-end-materials/json-api/tree/master/api-starwars))
 
 ---
 
 # JSON: **08**
 <!-- .slide: class="left-align smalltext smallcode" -->
 
-`asyc/await` offers simpler syntax for (e.g.) a `fetch.then` promise:
-
-you can add `try`… `catch` blocks as a *fallback* in case the **API call fails**:
+`asyc/await` offers simpler syntax for (e.g.) a `fetch.then` promise.  
+You can use `try`… `catch` in case the **API call fails**:
 
 ```js
 const getUserAsync = async (name) => {
@@ -173,10 +172,10 @@ const getUserAsync = async (name) => {
 }
 ```
 
+DEMO: [User details from the GitHub API](https://front-end-materials.github.io/json-api/api-github/) ([code here](https://github.com/front-end-materials/json-api/tree/master/api-github))
+
 - [Promises, async/await (javascript.info)](https://javascript.info/async)
 - [Why JavaScript Async/Await Is Better Than Plain Promises](https://dev.to/gafi/7-reasons-to-always-use-async-await-over-plain-promises-tutorial-4ej9)
-
-DEMO: [User details from the GitHub API](https://front-end-materials.github.io/json-api/api-github/) ([code here](https://github.com/front-end-materials/json-api/tree/master/api-github))
 
 ---
 
