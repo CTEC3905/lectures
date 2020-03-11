@@ -1,12 +1,3 @@
-
-<!-- CODE COMEDY -->
-
-# **THINK**, DON’T **COPY**
-
-![](images/comedy/google_problems.jpg)
-
-**read** it, **type** it out, **understand** it!
-
 ===
 
 # JSON and APIs
@@ -18,7 +9,7 @@
 write both `.catch` and `.then` methods for all the promises.  
 If something needs to be done in both the cases use `.finally`
 
-===
+---
 
 ## API
 
