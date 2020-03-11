@@ -30,8 +30,6 @@ General queries and admin issues:
 
 ===
 
-===
-
 # WEB ANIMATION
 <!-- .slide: class="left-align" -->
 
@@ -716,6 +714,7 @@ Sarah Soueidan also has a nice article on [Making SVG Responsive using CSS](http
 # **THINK**, DON’T **COPY**
 <!-- .slide: class="crammed" -->
 
-![](https://raw.githubusercontent.com/front-end-materials/images/master/comedy/google-problems.jpg)
+<!-- ![](https://raw.githubusercontent.com/front-end-materials/images/master/comedy/google-problems.jpg) -->
+![](comedy/google-problems.jpg)
 
 **read** it, **type** it out, **understand** it!
