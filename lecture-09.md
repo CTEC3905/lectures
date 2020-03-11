@@ -278,9 +278,9 @@ See [Animation](https://css-tricks.com/almanac/properties/a/animation/) (Chris C
 ---
 
 # CSS **ANIMATION** **2**
-<!-- .slide: class="left-align smalltext" -->
+<!-- .slide: class="left-align crammed malltext" -->
 
-## THE **ELEMENT**
+THE **ELEMENT**
 
 ```css
 .heart {
@@ -303,7 +303,7 @@ animation: **name**, **duration**, **direction**, **count**, **timing function**
 # CSS **ANIMATION** **3**
 <!-- .slide: class="left-align" -->
 
-## THE NAMED **KEYFRAMES**
+THE NAMED **KEYFRAMES**
 
 ```css
 @keyframes pulsate {
@@ -376,7 +376,7 @@ Adapted from [This Pen](https://codepen.io/Zeaklous/pen/rmDdx)
 - **Tiny** file sizes, **massive** functionality, **programmable**
 - full **browser support** (see [caniuse SVG](https://caniuse.com/#search=svg))
 
-Instead of ~~pixels~~, SVGs are a **set of instructions** that **create a vector image** from **co-ordinates **and take far **less memory**
+Instead of ~~pixels~~, SVGs are **sets of instructions** that **create a vector image** from **co-ordinates** with **small file sizes**
 
 SVG is ideal for **complex graphics** that **load quickly** (e.g. [maps](https://simplemaps.com/resources/svg-maps))
 
@@ -397,7 +397,7 @@ Some of the drawing applications that can generate SVG:
 
 See: [SVG getting started (MDN)](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)  
 
-Applications produce bloated/messy code! [Cleaning up SVG files manually](https://commons.wikimedia.org/wiki/User:Quibik/Cleaning_up_SVG_files_manually) or online: [SVGito online cleaner](https://sketchmaster.com/svg-optimizer)
+Applications produce bloated/messy SVG code! [Cleaning up SVG files manually](https://commons.wikimedia.org/wiki/User:Quibik/Cleaning_up_SVG_files_manually) or online: [SVGito online cleaner](https://sketchmaster.com/svg-optimizer)
 
 ---
 
@@ -406,11 +406,11 @@ Applications produce bloated/messy code! [Cleaning up SVG files manually](https:
 
 SVG VS HTML Canvas
 
-- **SVG** graphics are **retained mode** and do not need to be re-generated on re-sizing
-- **canvas** graphics are **immediate mode**, re-generated each time the element is loaded
+- **SVG** graphics are **retained mode** (as a DOM) and don’t need re-generating on resize
+- **canvas** graphics are **immediate mode**, rasterised and re-generated each time the element loads
 
-[Apple introduced the **canvas** element](https://en.wikipedia.org/wiki/Canvas_element#Intellectual_property_over_canvas),  
-**SVG** has been a [standard since around 2002](https://www.w3.org/TR/?title=svg)
+**SVG** has been a web [standard since around 2002](https://www.w3.org/TR/?title=svg)
+[Apple introduced the **canvas** element](https://en.wikipedia.org/wiki/Canvas_element#Intellectual_property_over_canvas)
 
 See [SVG vs. HTML5 Canvas](https://www.cs.tufts.edu/comp/150IDS/final_papers/ppaleo01.1/FinalReport.html) and [Canvas vs SVG](https://en.wikipedia.org/wiki/Canvas_element#Canvas_versus_Scalable_Vector_Graphics_(SVG))
 
