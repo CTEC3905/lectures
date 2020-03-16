@@ -409,7 +409,7 @@ SVG VS HTML Canvas
 - **SVG** graphics are **retained mode** (as a DOM) and don’t need re-generating on resize
 - **canvas** graphics are **immediate mode**, rasterised and re-generated each time the element loads
 
-**SVG** has been a web [standard since around 2002](https://www.w3.org/TR/?title=svg)
+**SVG** has been a web [standard since around 2002](https://www.w3.org/TR/?title=svg)  
 [Apple introduced the **canvas** element](https://en.wikipedia.org/wiki/Canvas_element#Intellectual_property_over_canvas)
 
 See [SVG vs. HTML5 Canvas](https://www.cs.tufts.edu/comp/150IDS/final_papers/ppaleo01.1/FinalReport.html) and [Canvas vs SVG](https://en.wikipedia.org/wiki/Canvas_element#Canvas_versus_Scalable_Vector_Graphics_(SVG))
