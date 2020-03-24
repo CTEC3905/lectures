@@ -13,9 +13,9 @@ This repository contains the markdown files for the lecture slides.
 - [Lecture-07: assignment questions, refactoring, browser storage, CSS vars](https://ctec3905.github.io/presents?lecture-07)
 - [Lecture-08: JSON and fetching data from APIs](https://ctec3905.github.io/presents?lecture-08)
 - [Lecture-09: web-animation +JS console?](https://ctec3905.github.io/presents?lecture-09)
+- [Lecture-10: PWA's, hand-in etc.](https://ctec3905.github.io/presents?lecture-10)
 
 <!--
-- [Lecture-10: PWA's, hand-in etc.)[https://ctec3905.github.io/presents?lecture-10]
 -->
 
 <!--
