@@ -94,7 +94,7 @@ this deserves its own %$@**& slide…
 ===
 
 # JAVASCRIPT **HISTORY**: 01
-<!-- .slide: class="smalltext" -->
+<!-- .slide: class="smalltext centered" -->
 
 - **created in 10 days** in May **1995** by [Brendan Eich](https://brendaneich.com/), then at Netscape (now Mozilla). Original name **Mocha**, chosen by [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen), founder of [Netscape](https://www.engadget.com/2014/05/10/history-of-netscape/).
 - In 1995 the name became **LiveScript** then, after a trademark license from [Sun](https://www.oracle.com/sun/) it became **JavaScript**—a **marketing move** as Java was then a popular way of running applets in browsers.
