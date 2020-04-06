@@ -87,7 +87,7 @@ Check **dates** to avoid **old/bad code** on the web:
 ===
 <!-- .slide: class="smalltext" -->
 
-## **`JavaScript !== Java;`**
+### **`JavaScript !== Java;`**
 
 this deserves its own %$@**& slide…
 
