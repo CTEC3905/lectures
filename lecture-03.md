@@ -85,6 +85,7 @@ Check **dates** to avoid **old/bad code** on the web:
 - ~~`onclick`~~ -> `addEventListener()`
 
 ===
+<!-- .slide: class="smalltext" -->
 
 ## **`JavaScript !== Java;`**
 
@@ -120,6 +121,7 @@ Reference: [benmccormick.org](https://benmccormick.org/2015/09/14/es5-es6-es2016
 ---
 
 # JAVASCRIPT **HISTORY**: 03
+<!-- .slide: class="smalltext" -->
 
 **JavaScript** is an *implementation* of **ECMAScript**
 
@@ -219,10 +221,9 @@ See [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/D
 <!-- .slide: class="float-l-img" -->
 
 ![](dom/dom-model.svg)
-<object data="https://raw.githubusercontent.com/front-end-materials/images/master/dom/dom-model.svg"></object>
-<object data="dom/dom-model.svg" type="image/svg+xml">
+<!-- <object data="dom/dom-model.svg" type="image/svg+xml">
   <img src="dom/dom-model.svg" />
-</object>
+</object> -->
 
 The first few branches on a **Document Object Model** (DOM) tree
 
@@ -366,7 +367,7 @@ function demoVar() {
 ---
 
 # JAVASCRIPT SYNTAX: **6**
-<!-- .slide: class="smallcode" -->
+<!-- .slide: class="smalltext smallcode" -->
 
 ## FUNCTIONS
 
