@@ -220,10 +220,9 @@ See [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/D
 # JS **HOW IT WORKS**: 4
 <!-- .slide: class="float-l-img" -->
 
-![](dom/dom-model.svg)
-<!-- <object data="dom/dom-model.svg" type="image/svg+xml">
+<object data="dom/dom-model.svg" type="image/svg+xml">
   <img src="dom/dom-model.svg" />
-</object> -->
+</object>
 
 The first few branches on a **Document Object Model** (DOM) tree
 
