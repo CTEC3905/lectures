@@ -529,7 +529,7 @@ myObject.key3 = Math.PI;
 ---
 
 # JAVASCRIPT SYNTAX: **13**
-<!-- .slide: class="smallcode" -->
+<!-- .slide: class="crammed smallcode" -->
 
 **Object keys** _look_ like names (as in variables), but *keys are strings*, which allow expressions such as:
 
@@ -617,6 +617,7 @@ while (condition); // …do it again IF condition is true
 ---
 
 # JAVASCRIPT SYNTAX: **17**
+<!-- .slide: class="smallcode" -->
 
 ## SWITCH/CASE
 
@@ -633,7 +634,7 @@ switch (new Date().getDay()) {
 }
 ```
 
-[W3Schools switch statment](http://www.w3schools.com/js/js_switch.asp)
+[W3Schools switch statement](http://www.w3schools.com/js/js_switch.asp)
 
 ---
 
