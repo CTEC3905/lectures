@@ -261,7 +261,7 @@ See: [Web Event reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/Ev
 ---
 
 # JS **HOW IT WORKS**: 7
-<!-- .slide: class="crammed" -->
+<!-- .slide: class="smalltext" -->
 
 ## How is JavaScript used?
 
@@ -389,7 +389,7 @@ Nearly everything in JavaScript is an **object**, including functions which can 
 ---
 
 # JAVASCRIPT SYNTAX: **7**
-<!-- .slide: class="smallcode" -->
+<!-- .slide: class="smallcode smalltext" -->
 
 ## **ARROW** FUNCTIONS: **COMPACT**
 
@@ -404,9 +404,9 @@ squares.map(num => square(num));
 // [1, 4, 9, 16, 25] much better than a for loop!
 ```
 
-…so you can use **function composition**, with **pure functions** (same input \> same output, self-contained).
+…you can use **function composition** with **pure functions**: (same input always gives same output, self-contained with no side-effects)
 
-[MDN arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+See [MDN arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ---
 
