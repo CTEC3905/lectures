@@ -182,7 +182,8 @@ Always see [Can I Use](https://caniuse.com/#feat=transforms2d) to check browser 
 ===
 
 # CSS RULES **1**
-      
+<!-- .slide: class="smalltext smallcode" -->
+
 ```css
 selector { /* can be element, class… */
   property: value;
@@ -360,6 +361,7 @@ header {
 ---
 
 # BOX-MODEL **SYNTAX**: 4
+<!-- .slide: class="smalltext smallcode" -->
 
 **CSS shorthand**
 - **4** values: **top, right, bottom, left** (clockface)
@@ -432,7 +434,8 @@ a {
 ===
 
 # BOX MODEL **BORDER**: 1
-<!-- .slide: class="crammed smalltext" -->
+<!-- .slide: class="smalltext smallcode" -->
+
 box outline with three parameters:  `width`, `style`, `color`
 
 ```css
