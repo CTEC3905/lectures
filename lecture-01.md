@@ -8,6 +8,7 @@
 ===
 
 # STAFF CONTACTS
+<!-- .slide: class="crammed smalltext" -->
 
 **Module leader:**
 
@@ -171,6 +172,7 @@ The **Learning Materials** section contains:
 ===
 
 # NOT COVERED
+<!-- .slide: class="smalltext" -->
 
 your **web developer friends might say** (every year!):
 
@@ -239,6 +241,7 @@ The **official learning outcomes** are:
 ---
 
 ## Mosaic (1993)
+<!-- .slide: class="crammed smalltext" -->
 
 The first visual web browser
 
@@ -247,6 +250,7 @@ The first visual web browser
 ---
 
 ## Mosaic (again)
+<!-- .slide: class="crammed smalltext" -->
 
 The first visual web browser (on a Mac)
 
@@ -463,8 +467,6 @@ the podium after, please!
 ===
 
 See the [2018 Module Options presentation](https://ctec3905.github.io/module-options-2018/#/)
-
----
 
 **IMPORTANT:**  
 although this is still good for an overview  
