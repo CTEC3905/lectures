@@ -397,16 +397,16 @@ Nearly everything in JavaScript is an **object**, including functions which can 
 const multiplyNums = (x, y) => x * y;
 
 const square = x => multiplyNums (x, x);
-square(8);
+square(8); // 64
 
 const squares = [1,2,3,4,5];
 squares.map(num => square(num));
 // [1, 4, 9, 16, 25] much better than a for loop!
 ```
 
-…you can use **function composition** with **pure functions**: (same input always gives same output, self-contained with no side-effects)
+…you can use **function composition** with **pure functions**: (**same input** always **gives same** output, self-contained with **no side-effects**)
 
-See [MDN arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+See [Arrow Functions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ---
 
@@ -418,7 +418,7 @@ See [MDN arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 const hexagrams = square(8); // hexagrams is 64
 
 console.log(`I Ching: always ${hexagrams} hexagrams!`);
-// I Ching: always 64 hexagrams!
+// I Ching: always 64 hexagrams
 ```
 
 A pure function with **parameters** in a template literal:
@@ -455,7 +455,7 @@ upTo3.next(); // value: undefined, done: true
 ---
 
 # JAVASCRIPT SYNTAX: **10**
-<!-- .slide: class="crammed smallcode" -->
+<!-- .slide: class="smalltext smallcode" -->
 
 ## JavaScript [Math](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math "Moxilla Developer Netwrork detailed JS Math Reference") Object e.g.
 
