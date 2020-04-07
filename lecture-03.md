@@ -166,11 +166,11 @@ See [ES6 browser support (TL;DR warning: BIG table!)](http://kangax.github.io/co
 - …with `window` as the global object and `this` as a special variable
 - runs in an **[event loop](#/5/5)** to check if **user events** need **action**
 
-**global**: not in a function, available **everywhere in a window**
+**global**: not in a function, available **everywhere in a window**…
 
 ---
 
-Even with an empty browser tab (or blank .js file) e.g. type `this.innerWidth;` into an empty browser console
+…even with an empty browser tab (or blank .js file) e.g. type `this.innerWidth;` into an empty browser console
 
 ---
 
@@ -218,17 +218,20 @@ See [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/D
 ---
 
 # JS **HOW IT WORKS**: 4
-<!-- .slide: class="float-l-img" -->
+<!-- .slide: class="float-l-img smalltext" -->
 
-<object data="dom/dom-model.svg" type="image/svg+xml">
-  <img src="dom/dom-model.svg" />
-</object>
+The first element in the **Document Object Model** (DOM) tree is `html`, containing the `head` and `body` **children** tags:
 
-The first few branches on a **Document Object Model** (DOM) tree
+```html
+<html>
+  <head> … </head>
+  <body> … </body>
+</html>  
+```
 
-There are **parent**, **child** and **sibling** nodes
+Relationships between elements are called **parent**, **child** and **sibling** nodes
 
-From: [Document Object Model Structure](http://www.corelangs.com/js/dom/domtree.html) (corelangs.com)
+From: [Document Object Model Structure](http://www.corelangs.com/js/dom/domtree.html)
 
 ---
 
