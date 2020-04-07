@@ -87,7 +87,7 @@ there were **tensions** between **authors** and **implementors**:
 
 > …it has been a constant source of delight for me… to… tell hordes (literally) of people who want to -- strap yourselves in, here it comes -- control what their documents look like in ways that would be trivial in TeX, Microsoft Word, and every other common text processing environment: "**Sorry, you're screwed.**"
 
-—Marc Andreessen, 1994, programmer NCSA **Mosaic** browser. Later as co-founder of the **Netscape** browser, he was more eager to please authors. In 1994, he announced the first beta release of **Mozilla** (later Netscape Navigator, and the code behind **Firefox**). In [The CSS saga](https://www.w3.org/Style/LieBos2e/history/Overview.html), chapter in: Håkon Wium Lie and Bert Bos, "Cascading Style Sheets, designing for the Web".
+—Marc Andreessen, 1994, programmer NCSA **Mosaic** browser. Later co-founder of the **Netscape** browser, was more eager to please authors. In 1994, he announced the first beta release of **Mozilla** (later Netscape Navigator, and the code behind **Firefox**). In [The CSS saga](https://www.w3.org/Style/LieBos2e/history/Overview.html), chapter in: Håkon Wium Lie and Bert Bos, "CSS, designing for the Web".
 
 ---
 

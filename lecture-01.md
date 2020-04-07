@@ -121,6 +121,7 @@ but some content **emerges as the module progresses**
 ---
 
 ## **BLACKBOARD** AREAS
+<!-- .slide: class="smalltext" -->
 
 - **Announcements:** (including jobs)
 - **Staff Contacts:** Graeme, Fania, Dave
