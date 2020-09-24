@@ -182,23 +182,24 @@ DEMO: [User details from the GitHub API](https://front-end-materials.github.io/j
 # JSON: **09**
 <!-- .slide: class="left-align smalltext smallcode" -->
 
-**JSON has no "parent" or variable assignment**— and is **just data** and starts with an opening `{` or `[`. This example (stored in a website file e.g.  "menu.json") could generate a particular kind of menu:
+**JSON has no "parent" or variable assignment**— it’s **just data**. It starts with an opening `{` or `[` (JavaScript: `object` or `array`). This extract, if stored in a website file (e.g. "menu.json") could generate a particular menu:
 
 ```js
 {
-  "id": "file",
-  "value": "File",
   "popup": {
     "menuitem": [
-      {"label": "New", "url": "/new", "action": "createNewDoc()"},
-      {"label": "Open", "url": "/open", "action": "openDoc()"},
-      {"label": "Close", "url": "/close", "action": "closeDoc()"}
+      {"label": "New", "url": "/new", "id": "createNew"},
+      {"label": "Open", "url": "/open", "id": "openDocument"},
+      {"label": "Close", "url": "/close", "id": "closeDocument"}
     ]
+  }
+  "dropdown": {
+    // dropdown menu items here
   }
 }
 ```
 
-however, **JSON** is **just data**! It *cannot* contain **comments** or **functions** like **JavaScript objects**, so you'd *remove the quotes* from the *function names*
+Being **just data** it *cannot* contain **comments** or **functions** (like **JavaScript objects** can)
 
 ---
 
