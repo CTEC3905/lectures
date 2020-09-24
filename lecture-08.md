@@ -182,31 +182,29 @@ DEMO: [User details from the GitHub API](https://front-end-materials.github.io/j
 # JSON: **09**
 <!-- .slide: class="left-align smalltext smallcode" -->
 
-**JSON has no "parent" or variable assignment**— it’s **just data**. It starts with an opening `{` or `[` (JavaScript: `object` or `array`). This extract, if stored in a website file (e.g. "menu.json") could generate a particular menu:
+This extract, stored in a file (e.g. "menu.json") could generate different menus:
 
 ```js
 {
-  "popup": {
-    "menuitem": [
-      {"label": "New", "url": "/new", "id": "createNew"},
-      {"label": "Open", "url": "/open", "id": "openDocument"},
-      {"label": "Close", "url": "/close", "id": "closeDocument"}
-    ]
-  }
-  "dropdown": {
-    // dropdown menu items here
-  }
+  "popupMenu": [
+    {"label": "New", "url": "/new", "id": "createNew"},
+    {"label": "Open", "url": "/open", "id": "openDocument"},
+    {"label": "Close", "url": "/close", "id": "closeDocument"}
+  ]
+  "helpMenu": [
+    // array of menu item objects here
+  ]
 }
 ```
 
-Being **just data** it *cannot* contain **comments** or **functions** (like **JavaScript objects** can)
+Being **just data** it *cannot* contain **comments** or **functions** (like **JavaScript objects** do)
 
 ---
 
 # JSON: **10**
 <!-- .slide: class="left-align smalltext smallcode" -->
 
-…after getting JSON data from an API, it is assigned to a variable as a **JavaScript object** (e.g. a `const`) to **store the JSON** for use on your website
+because JSON has no **parent** or **variable assignment**, after getting JSON data from an API, it is assigned to a variable as a **JavaScript object** (e.g. a `const`) to **store the JSON data** for use on your website
 
 - [Introducing JSON](http://www.json.org/ "ECMA-404 The JSON Data Interchange Standard")
 - [JSON Basics: What You Need to Know](https://www.elated.com/articles/json-basics/)
