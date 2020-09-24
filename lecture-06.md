@@ -20,13 +20,13 @@ General queries and admin issues:
 
 <hr>
 
-**Tutors**
+<!-- **Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
 - Lectures: **Dave Everitt**: deveritt@dmu.ac.uk
 
-**Tutor contact outside classes is strictly by email**
+**Tutor contact outside classes is strictly by email** -->
 
 ===
 
@@ -324,10 +324,6 @@ These answers might **help you get an overview** of front-end web development co
 
 ===
 
-# QUESTIONS?
+# END
 
-**please ask now…**
-
-No crowding around the podium afterwards!
-
-Talk to Graeme for module-related issues
+Please discuss module-related issues and questions with your **module tutor** or **module leader**

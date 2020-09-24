@@ -18,13 +18,13 @@ General queries and admin issues:
 
 <hr>
 
-**Tutors**
+<!-- **Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
 - Lectures: **Dave Everitt**: deveritt@dmu.ac.uk
 
-**Tutor contact outside classes is strictly by email**
+**Tutor contact outside classes is strictly by email** -->
 
 ---
 
@@ -455,20 +455,15 @@ Text between `<!--` and `-->` won't show on screen.
 - [Learn CSS](https://www.codecademy.com/learn/learn-css)
 - [Learn how to build websites](https://www.codecademy.com/learn/paths/learn-how-to-build-websites)
 - [Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
-
-===
-
-# Questions?
-<!-- .slide: class="centered" -->
-
-**Ask now**  
-no crowding around  
-the podium after, please!
-
 ===
 
 See the [2018 Module Options presentation](https://ctec3905.github.io/module-options-2018/#/)
 
 **IMPORTANT:**  
-although this is still good for an overview  
-there have been some changes since then
+although this is still good for an overview, there have been some changes since then
+
+===
+
+# END
+
+Please discuss module-related issues and questions with your **module tutor** or **module leader**

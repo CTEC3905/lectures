@@ -18,13 +18,13 @@ General queries and admin issues:
 
 <hr>
 
-**Tutors**
+<!-- **Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
 - Lectures: **Dave Everitt**: deveritt@dmu.ac.uk
 
-**Tutor contact outside classes is strictly by email**
+**Tutor contact outside classes is strictly by email** -->
 
 ===
 
@@ -719,9 +719,6 @@ Try the CSS game [Flexbox Defence](http://www.flexboxdefense.com/).
 
 ===
 
-# Questions?
-<!-- .slide: class="centered" -->
+# END
 
-**Ask now**  
-no crowding around  
-the podium after, please!
+Please discuss module-related issues and questions with your **module tutor** or **module leader**

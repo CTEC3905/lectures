@@ -20,11 +20,11 @@ General queries and admin issues:
 
 <hr>
 
-**Tutors**
+<!-- **Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
-- Lectures: **Dave Everitt**: deveritt@dmu.ac.uk
+- Lectures: **Dave Everitt**: deveritt@dmu.ac.uk -->
 
 **Tutor contact outside classes is strictly by email**
 

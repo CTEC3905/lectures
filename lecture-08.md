@@ -20,13 +20,13 @@ General queries and admin issues:
 
 <hr>
 
-**Tutors**
+<!-- **Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
 - Lectures: **Dave Everitt**: deveritt@dmu.ac.uk
 
-**Tutor contact outside classes is strictly by email**
+**Tutor contact outside classes is strictly by email** -->
 
 ===
 
@@ -197,14 +197,14 @@ This extract, stored in a file (e.g. "menu.json") could generate different menus
 }
 ```
 
-Being **just data** it *cannot* contain **comments** or **functions** (like **JavaScript objects** do)
+Being **just data**, JSON *cannot* contain **comments** or **functions** (like **JavaScript objects** do)
 
 ---
 
 # JSON: **10**
 <!-- .slide: class="left-align smalltext smallcode" -->
 
-because JSON has no **parent** or **variable assignment**, after getting JSON data from an API, it is assigned to a variable as a **JavaScript object** (e.g. a `const`) to **store the JSON data** for use on your website
+because JSON has no **parent** or **variable assignment**, after getting JSON data from an API, it is assigned to a variable as a **JavaScript object** (e.g. a `const`) that **contains the JSON data** so it can be read by JavaScript for use on your website
 
 - [Introducing JSON](http://www.json.org/ "ECMA-404 The JSON Data Interchange Standard")
 - [JSON Basics: What You Need to Know](https://www.elated.com/articles/json-basics/)
@@ -316,17 +316,13 @@ and [Securing API Keys in a JavaScript Single Page App](http://billpatrianakos.m
 - you may need a **local server** to access remote JSON on your computer
 - [CORS](https://www.telerik.com/blogs/using-cors-with-all-modern-browsers "Cross-Origin Resource Sharing") allows access from **other domains**
 
-Cross-origin resource sharing (CORS) is often set up by API providers, allowing restricted resources to be requested via **secure cross-domain requests** for data (via https) between browsers and web servers. Modern browsers can use CORS in API containers (`XMLHttpRequest`, `fetch`, `async`) to reduce cross-origin HTTP request risks.
+**Cross-origin resource sharing** (CORS) is often set up by API providers, allowing restricted resources to be requested via **secure cross-domain requests** for data (via https) between browsers and web servers. Modern browsers can use CORS in API containers (`XMLHttpRequest`, `fetch`, `async`) to reduce cross-origin HTTP request risks.
 
 See: [Using CORS](https://www.html5rocks.com/en/tutorials/cors/), 
 [CORS (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), [CORS in detail (Stack Overflow)](https://stackoverflow.com/a/43881141/123033)
 
 ===
 
-# QUESTIONS?
+# END
 
-**please ask now…**
-
-No crowding around the podium afterwards!
-
-Talk to Graeme for module-related issues
+Please discuss module-related issues and questions with your **module tutor** or **module leader**

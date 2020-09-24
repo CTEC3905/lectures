@@ -20,13 +20,13 @@ General queries and admin issues:
 
 <hr>
 
-**Tutors**
+<!-- **Tutors**
 
 - Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
 - Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
 - Lectures: **Dave Everitt**: deveritt@dmu.ac.uk
 
-**Tutor contact outside classes is strictly by email**
+**Tutor contact outside classes is strictly by email** -->
 
 ===
 
@@ -534,10 +534,7 @@ else {
 
 ===
 
-# QUESTIONS?
+# END
 
-**please ask now…**
+Please discuss module-related issues and questions with your **module tutor** or **module leader**
 
-No crowding around the podium afterwards!
-
-Talk to Graeme for module-related issues
