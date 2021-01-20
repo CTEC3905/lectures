@@ -5,39 +5,53 @@
 
 ## **Front-End Web Development**
 
-### Lecture 09
+### Guest Lecture 01
 
 ===
 
-# STAFF CONTACTS
-<!-- .slide: class="crammed smalltext" -->
+## GUEST LECTURES
 
-**Module leader:**
-
-General queries and admin issues:
-
-**Graeme Stuart**: gstuart@dmu.ac.uk
-
-<hr>
-
-<!-- **Tutors**
-
-- Labs: **Graeme Stuart**: gstuart@dmu.ac.uk
-- Labs: **Fania Raczinski**: fania.raczinski@dmu.ac.uk
-- Lectures: **Dave Everitt**: deveritt@dmu.ac.uk -->
-
-**Tutor contact outside classes is strictly by email**
+1. Web Design and Usability
+2. Planning for Real Users
+3. The Web's Roots and Future
 
 ===
 
-## LECTURE_CONTENT_HERE
+## Session 1: Web Design and Usability
+
+- [PARC design principles](https://tech3015.github.io/presents?lecture-04)
+- [style guides, design trends](https://tech3015.github.io/presents?lecture-05)
+- [Typography](https://tech3015.github.io/presents?lecture-17)
+
+===
+
+## Session 2: Planning for Real Users
+
+- [Accessibility, Information Architecture, wireframes](https://tech3015.github.io/presents?lecture-03)
+- [Content Strategy, mobile navigation research](https://tech3015.github.io/presents?lecture-06)
+- [Information Design, Dark UI examples](https://tech3015.github.io/presents?lecture-07)
+
+===
+
+## Session 3: The Roots and Future of the Web
+
+- Internet beneath web
+- TBL then and now
+- web languages and their origins
+    - [HTML](https://ctec3905.github.io/presents/?lecture-01#/10)
+    - [CSS](https://ctec3905.github.io/presents/?lecture-02#/4)
+    - [Javascript](https://ctec3905.github.io/presents/?lecture-03#/4)
+    - (SVG)[https://ctec3905.github.io/presents/?lecture-09#/6]
+- standards, browsers and working groups
+- emerging technologies
+
+refs.
+- [Accessible SVGs](https://css-tricks.com/accessible-svgs/)
 
 ===
 
 # QUESTIONS?
 
 **please ask now…**
-
-No crowding around the podium afterwards!
 
 Talk to Graeme for module-related issues
