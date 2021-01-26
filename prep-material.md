@@ -21,15 +21,15 @@ here's an excellent guide to [JavaScript Best Practices (W3.org)](https://www.w3
 one example of [using shortcut notation](https://www.w3.org/wiki/JavaScript_best_practices#use-shortcut-notation-when-it-makes-sense):
 
 ```js
+// long version:
 if(v){
-  var x = v;
+  let x = v;
 } else {
-  var x = 10;
+  let x = 10;
 }
-
-// The shortcut notation uses the double pipe character:
+// shortcut notation uses the double pipe character:
 var x = v || 10;
-// x equals v, if v is empty x equals 10
+// x equals v, but if v is empty, x equals 10
 ```
 
 "It is amazing how many times you will build a massively convoluted JavaScript solution for a problem that can be solved easily without it."
@@ -42,7 +42,7 @@ var x = v || 10;
 
 ```js
 // given an array:
-const names = ['Eazy-E', 'Dr. Dre', 'Ice Cube' ];
+const names = ['Eazy-E', 'Dr. Dre', 'Ice Cube'];
 
 // we can time how long it takes
 console.time();
@@ -50,9 +50,9 @@ for(let i=0;i<names.length;i++){
   console.log(names[i]);
 }
 console.timeEnd();
+// time: 0.26123046875ms
 ```
 
-0.26123046875ms
 
 instead, **store the length** in a variable:
 
@@ -63,22 +63,12 @@ for(let i=0;i<all;i++){
   console.log(names[i]);
 }
 console.timeEnd();
+// faster: 0.197021484375ms
 ```
-
-Faster: 0.197021484375ms
 
 ---
 
 # JAVASCRIPT BEST PRACTICE **04**
-
-[Keep DOM access to a minimum](https://www.w3.org/wiki/JavaScript_best_practices#Keep_DOM_access_to_a_minimum)
-
-> keep computation-heavy code—including **regular expressions** and **DOM manipulation**—outside loops
----
-
-# JAVASCRIPT BEST PRACTICE **05**
-
-[Keep DOM access to a minimum](https://www.w3.org/wiki/JavaScript_best_practices#Keep_DOM_access_to_a_minimum)
 
 > keep computation-heavy code—including **regular expressions** and **DOM manipulation**—outside loops
 >
@@ -88,7 +78,7 @@ Faster: 0.197021484375ms
 
 ---
 
-# JAVASCRIPT BEST PRACTICE **06**
+# JAVASCRIPT BEST PRACTICE **6**
 
 > …avoid taking the easy path. JavaScript is a wonderfully versatile language and … the environment it is executed in is very forgiving and it is easy to *write sloppy code* that seemingly does the job. This same code however will **come back to bite you** a few months down the line.
 >
@@ -113,11 +103,15 @@ console.log(lowToday); // 64
 console.log(highToday); // 77
 ```
 
+---
+
 ```js
 let a = 8, b = 6;
 
 [b, a] = [a, b]; // b = 8, a = 6
 ```
+
+---
 
 ```js
 const source = [1,2,3,4,5,6,7,8,9,10];
@@ -130,6 +124,8 @@ const arr = removeFirstTwo(source);
 console.log(arr); // should be [3,4,5,6,7,8,9,10]
 console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
 ```
+
+---
 
 ```js
 const stats = {
@@ -145,7 +141,7 @@ console.log(stats); // object
 console.log(half(stats)); // 28.015
 ```
 
----
+===
 
 ## CREATING OBJECTS
 
@@ -156,7 +152,7 @@ const createPerson = (name, age, gender) => {
 console.log(createPerson("Zodiac Hasbro", 56, "male")); // creates new object
 ```
 
----
+===
 
 ## FOR…OF and FOR…IN
 
@@ -185,7 +181,7 @@ for (const n in result.skipped) { console.log(`${n} is ${result.skipped[n]}`) };
 // 1 is no-dup-keys
 ```
 
----
+===
 
 ## REDUCE
 
