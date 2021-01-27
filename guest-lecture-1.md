@@ -20,20 +20,20 @@
 <!-- NEW -->
 <!-- DESIGN PRINCIPLES: SHARED MEDS2007.02/CTEC3905.04-->
 
-## DESIGN: **01**
+## DESIGN PRINCIPLES
 
 Four basic principles:
 
-- **P**roximity
-- **A**lignment
-- **R**epetition
-- **C**ontrast
+- [**P**roximity](#/3)
+- [**A**lignment](#/4)
+- [**R**epetition](#/5)
+- [**C**ontrast](#/6)
 
 (The reverse of ‘**CRAP**’)
 
----
+===
 
-## DESIGN: **02**
+## DESIGN: **01**
 <!-- .slide: class="crammed" -->
 
 **PROXIMITY** sets up *visual cues* that group similar items, suggesting how to ‘read’ content.
@@ -56,7 +56,7 @@ Four basic principles:
 
 ===
 
-## DESIGN: **03**
+## DESIGN: **02**
 <!-- .slide: class="crammed" -->
 
 **ALIGNMENT** makes page elements seem **part of a whole**, creating a **holistic feel** to the various pieces of information.
@@ -72,12 +72,12 @@ A strict use of **alignment** on a former version of the Oslo-based design agenc
 
 ===
 
-## DESIGN: **03a**
+## DESIGN: **03**
 
 **ALIGNMENT**: **grids** are the **primary method** for achieving **alignment**.
 
 - **The core text** on the history and use of grids in design is: Khoi Vinh and Mark Boulton (2007) [Grids Are Good](http://www.slideshare.net/huer1278ft/grids-are-good-right)
-- Also see Vitaly Friedman (2007) [Designing With Grid-Based Approach](https://www.smashingmagazine.com/2007/04/designing-with-grid-based-approach/), Smashing Magazine
+- For web-based grids see Sean Hodge (2008) [Grid-Based Design](https://www.smashingmagazine.com/2008/03/grid-based-design-six-creative-column-techniques/), Smashing Magazine
 
 ---
 
@@ -149,45 +149,28 @@ There are many ways to create contrast. For example:
 ### SIMPLICITY
 <!-- .slide: class="crammed smalltext" -->
 
-**“Simplicity is the ultimate form of sophistication.”** —Leonardo da Vinci
-
-**“Don’t make me think.”** —Steve Krug
+- **“Simplicity is the ultimate form of sophistication.”** —Leonardo da Vinci
+- **“Don’t make me think.”** —Steve Krug
 
 ### COMMUNICATION
 
-**“People react positively when things are clear and understandable.”**  
+- **“People react positively when things are clear and understandable.”**  
 —Dieter Rams
 
-**“The main goal is not to complicate the already difficult life of the consumer.”** —Raymond Loewy
+- **“The main goal is not to complicate the already difficult life of the consumer.”** —Raymond Loewy
 
 ### DESIGN
 
-**“White space is to be regarded as an active element, not a passive background.”** —Jan Tschichold
-
-**“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
+- **“White space is to be regarded as an active element, not a passive background.”** —Jan Tschichold
+- **“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
 
 <!-- /NEW -->
 
+
+<!-- DARK UI: SHARED TECH3015.7 -->
 ===
 
 ## DARK UI **01**
-<!-- .slide: class="crammed" -->
-
-> For many years, telling someone you worked on **user interface design** or **human-computer interaction** would produce puzzled looks and require explanation. With the rise of design and interaction for interactive devices, these terms became **much more familiar** to people outside the discipline…
-
----
-
-## DARK UI **02**
-<!-- .slide: class="crammed" -->
-
-> …but lately, it is likely to evoke a **skeptical** or **mistrustful** response. The series of scandals—over **userdata management**, **online profiling**, **user tracking**, **targeted manipulation**, **digital addiction**… means user experience professionals face **new questions**.
-
-<small>condensed from Dourish, Paul (2019)  
-[User Experience As Legitimacy Trap](http://interactions.acm.org/archive/view/november-december-2019/user-experience-as-legitimacy-trap)</small>
-
----
-
-## DARK UI **03**
 <!-- .slide: class="crammed" -->
 
 > **Dark Patterns** are UI tricks that make you do things you didn't mean to, like **opting in** or **signing up**.

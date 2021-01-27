@@ -582,7 +582,8 @@ for (counter; condition; increment/decrement) {
 ```
 
 ```javascript
-for (let i = 0; i < myArray.length; i += 1) {
+let arrayLen = myArray.length; // store first
+for (let i = 0; i < arrayLen; i += 1) {
   console.log(myArray[i]);
 }
 ```
