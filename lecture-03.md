@@ -639,7 +639,29 @@ switch (new Date().getDay()) {
 
 ---
 
-# JAVASCRIPT SYNTAX: **18**
+## JAVASCRIPT SYNTAX: **18**
+
+**LOOKUP TABLE**
+
+```javascript
+const days = {
+  "0": "Sunday",
+  "1": "Monday",
+  "2": "Tuesday",
+  "3": "Wednesday",
+  "4": "Thursday",
+  "5": "Friday",
+  "6": "Saturday"
+}
+
+const today = new Date().getDay();
+
+console.log(`Today is ${days[today]}`);
+```
+
+---
+
+# JAVASCRIPT SYNTAX: **19**
 <!-- .slide: class="crammed smalltext smallhead" -->
 
 ## **OBJECT**===ES6 **CLASS**  
