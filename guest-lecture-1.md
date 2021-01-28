@@ -311,22 +311,22 @@ Left is *past*, right is *future*:
 ### SIMPLICITY 01
 <!-- .slide: class="crammed" -->
 
-### DESIGN
+**“Simplicity is the ultimate form of sophistication.”** —Leonardo da Vinci
 
-**“White space is to be regarded as an active element, not a passive background.”** —Jan Tschichold
-
-**“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
+**“Don’t make me think.”** —Steve Krug
 
 ---
 
 ### SIMPLICITY 02
 <!-- .slide: class="crammed" -->
 
-**“Simplicity is the ultimate form of sophistication.”** —Leonardo da Vinci
+#### DESIGN
 
-**“Don’t make me think.”** —Steve Krug
+**“White space is to be regarded as an active element, not a passive background.”** —Jan Tschichold
 
-### COMMUNICATION
+**“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
+
+#### COMMUNICATION
 
 **“People react positively when things are clear and understandable.”** —Dieter Rams
 
