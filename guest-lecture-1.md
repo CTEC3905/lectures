@@ -11,9 +11,9 @@
 
 # OVERVIEW
 
-- [PARC design principles](https://tech3015.github.io/presents?lecture-04)
-- [Dark UI](https://tech3015.github.io/presents?lecture-07)
-- plus basic RWD page layout demo
+- [PARC design principles](#/2)
+- [Dark UI](#/8)
+- basic RWD page layout demo (if time)
 
 ===
 
@@ -26,8 +26,8 @@ Four basic principles:
 
 - [**P**roximity](#/3)
 - [**A**lignment](#/4)
-- [**R**epetition](#/5)
-- [**C**ontrast](#/6)
+- [**R**epetition](#/6)
+- [**C**ontrast](#/7)
 
 (The reverse of ‘**CRAP**’)
 
@@ -319,6 +319,12 @@ Left is *past*, right is *future*:
 **“People react positively when things are clear and understandable.”** —Dieter Rams
 
 **“The main goal is not to complicate the already difficult life of the consumer.”** —Raymond Loewy
+
+===
+
+## DEMO
+
+Basic [RWD page layout](https://github.com/front-end-materials/page-layouts) (if time)
 
 ===
 
