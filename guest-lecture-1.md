@@ -183,7 +183,7 @@ There are many ways to create contrast. For example:
 
 ---
 
-## DARK UI **04**
+## DARK UI **02**
 
 A brief explanation with examples:
 
@@ -191,7 +191,7 @@ A brief explanation with examples:
 
 ---
 
-## DARK UI **05**
+## DARK UI **03**
 <!-- .slide: class="crammed" -->
 
 - [**Trick Questions**](https://www.darkpatterns.org/types-of-dark-pattern/trick-questions) - giving answers you didn't mean
@@ -205,7 +205,7 @@ A brief explanation with examples:
 
 ---
 
-## DARK UI **06**
+## DARK UI **04**
 <!-- .slide: class="crammed" -->
 
 - [**Hidden Costs**](https://www.darkpatterns.org/types-of-dark-pattern/hidden-costs) - the final checkout has unexpected charges
@@ -219,7 +219,7 @@ A brief explanation with examples:
 
 ---
 
-## DARK UI **07**
+## DARK UI **05**
 <!-- .slide: class="crammed" -->
 
 [@darkpatterns Twitter feed](https://twitter.com/darkpatterns) collects examples!
