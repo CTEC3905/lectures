@@ -322,11 +322,5 @@ Left is *past*, right is *future*:
 
 ===
 
-## DEMO
-
-Basic [RWD page layout](https://github.com/front-end-materials/page-layouts) (if time)
-
-===
-
 # QUESTIONS?
 
