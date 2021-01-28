@@ -10,7 +10,6 @@ a rough outline - to be pruned
 
 - [PARC design principles](https://tech3015.github.io/presents?lecture-04)
 - [Dark UI](https://tech3015.github.io/presents?lecture-07)
-- plus basic RWD page layout demo
 
 ===
 
@@ -18,7 +17,7 @@ a rough outline - to be pruned
 
 - [Accessibility, Information Architecture, wireframes](https://tech3015.github.io/presents?lecture-03)
 - [Information Design](https://tech3015.github.io/presents?lecture-07) (Amazon close account example)
-- questions?
+- plus basic RWD page layout demo?
 
 ===
 
