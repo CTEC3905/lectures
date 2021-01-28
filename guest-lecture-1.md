@@ -3,7 +3,7 @@
 
 ![HTML, CSS, JavaScript logos](html-css-js-500.png)<!-- .element: class="imgBackground" -->
 
-## **Front-End Web Development**
+### **Front-End Web Development**
 
 ## Guest Session 1: Design Principles
 
@@ -149,23 +149,6 @@ There are many ways to create contrast. For example:
 ## DARK UI **01**
 <!-- .slide: class="crammed" -->
 
-> For many years, telling someone you worked on **user interface design** or **human-computer interaction** would produce puzzled looks and require explanation. With the rise of design and interaction for interactive devices, these terms became **much more familiar** to people outside the discipline…
-
----
-
-## DARK UI **02**
-<!-- .slide: class="crammed" -->
-
-> …but lately, it is likely to evoke a **skeptical** or **mistrustful** response. The series of scandals—over **userdata management**, **online profiling**, **user tracking**, **targeted manipulation**, **digital addiction**… means user experience professionals face **new questions**.
-
-<small>condensed from Dourish, Paul (2019)  
-[User Experience As Legitimacy Trap](http://interactions.acm.org/archive/view/november-december-2019/user-experience-as-legitimacy-trap)</small>
-
----
-
-## DARK UI **03**
-<!-- .slide: class="crammed" -->
-
 > **Dark Patterns** are UI tricks that make you do things you didn't mean to, like **opting in** or **signing up**.
 >
 > …because you **skim read** and **make assumptions**… companies take advantage by **tricking you** into doing things, e.g. by making page elements **appear** to say one thing when they **really** mean another.  
@@ -176,7 +159,7 @@ There are many ways to create contrast. For example:
 
 ---
 
-## DARK UI **04**
+## DARK UI **02**
 
 A brief explanation with examples:
 
@@ -184,7 +167,7 @@ A brief explanation with examples:
 
 ---
 
-## DARK UI **05**
+## DARK UI **03**
 <!-- .slide: class="crammed" -->
 
 - [**Trick Questions**](https://www.darkpatterns.org/types-of-dark-pattern/trick-questions) - giving answers you didn't mean
@@ -198,7 +181,7 @@ A brief explanation with examples:
 
 ---
 
-## DARK UI **06**
+## DARK UI **04**
 <!-- .slide: class="crammed" -->
 
 - [**Hidden Costs**](https://www.darkpatterns.org/types-of-dark-pattern/hidden-costs) - the final checkout has unexpected charges
@@ -212,7 +195,7 @@ A brief explanation with examples:
 
 ---
 
-## DARK UI **07**
+## DARK UI **05**
 <!-- .slide: class="crammed" -->
 
 [@darkpatterns Twitter feed](https://twitter.com/darkpatterns) collects examples!
@@ -284,7 +267,7 @@ examination of the JavScript shows numbers
 
 ---
 
-## ~DARK~ LIGHT UI **08**
+## ~DARK~ LIGHT UI **06**
 <!-- .slide: class="crammed" -->
 
 A good adaptation to user scanning and presumptions:
@@ -295,7 +278,7 @@ A good adaptation to user scanning and presumptions:
 
 ---
 
-## ~DARK~ LIGHT UI **09**
+## ~DARK~ LIGHT UI **07**
 <!-- .slide: class="crammed" -->
 
 Left is *past*, right is *future*:
