@@ -17,6 +17,7 @@ a rough outline - to be pruned
 
 - [Accessibility, Information Architecture, wireframes](https://tech3015.github.io/presents?lecture-03)
 - [Information Design](https://tech3015.github.io/presents?lecture-07) (Amazon close account example)
+- [7 Marketing Lessons from Eye-Tracking Studies](https://neilpatel.com/blog/eye-tracking-studies/) (in MEDS2007 lecture 2)
 - plus basic RWD page layout demo?
 
 ===
