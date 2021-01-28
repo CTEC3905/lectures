@@ -326,6 +326,11 @@ Left is *past*, right is *future*:
 
 **“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
 
+---
+
+### SIMPLICITY 03
+<!-- .slide: class="crammed" -->
+
 #### COMMUNICATION
 
 **“People react positively when things are clear and understandable.”** —Dieter Rams
