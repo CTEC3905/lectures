@@ -311,6 +311,16 @@ Left is *past*, right is *future*:
 ### SIMPLICITY 01
 <!-- .slide: class="crammed smalltext" -->
 
+### DESIGN
+
+- **“White space is to be regarded as an active element, not a passive background.”** —Jan Tschichold
+- **“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
+
+---
+
+### SIMPLICITY 02
+<!-- .slide: class="crammed smalltext" -->
+
 - **“Simplicity is the ultimate form of sophistication.”** —Leonardo da Vinci
 - **“Don’t make me think.”** —Steve Krug
 
@@ -321,16 +331,8 @@ Left is *past*, right is *future*:
 
 - **“The main goal is not to complicate the already difficult life of the consumer.”** —Raymond Loewy
 
----
 
-### SIMPLICITY 02
-<!-- .slide: class="crammed smalltext" -->
-
-### DESIGN
-
-- **“White space is to be regarded as an active element, not a passive background.”** —Jan Tschichold
-- **“A lot of what we are doing is getting design out of the way.”** —Jonathan Ive
-
+===
 
 # QUESTIONS?
 
