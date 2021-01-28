@@ -5,7 +5,7 @@
 
 ### **Front-End Web Development**
 
-## Guest Session 1: Design Principles
+## Guest Session 1: **Design Principles**
 
 ===
 
