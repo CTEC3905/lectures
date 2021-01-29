@@ -2,7 +2,14 @@
 
 This repository contains the markdown files for the lecture slides.
 
-## Lectures presentations online:
+## Lecture presentations 2020-21:
+
+- [Guest Lecture 01: Design Principles](https://ctec3905.github.io/presents?guest-lecture-1)
+<!-- - [Guest Lecture 02: Accessible Information](https://ctec3905.github.io/presents?guest-lecture-2) -->
+<!-- - [Guest Lecture 03: Design Trends](https://ctec3905.github.io/presents?guest-lecture-3) -->
+
+
+## Lecture presentations 2019-20:
 
 - [Lecture-01: module introduction and outline, HTML history](https://ctec3905.github.io/presents?lecture-01)
 - [Lecture-02: CSS history, HTML/CSS box model](https://ctec3905.github.io/presents?lecture-02)
