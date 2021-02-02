@@ -5,7 +5,8 @@
 
 ### **Front-End Web Development**
 
-## Guest Session 2: **Accessible Information**
+## Guest Session 2:  
+**Accessible Information**
 
 ===
 
