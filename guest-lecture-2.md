@@ -5,8 +5,7 @@
 
 ### **Front-End Web Development**
 
-## Guest Session 2:  
-**Accessible Information**
+## Guest Session 2:  **Accessible Information**
 
 ===
 
@@ -186,7 +185,7 @@ Information Architecture uses **Cognitive Psychology**
 ---
 
 <!-- .slide class="crammed nopadding" -->
-![Classic Informaiton Architecture infographic by Louis Rosenfeld](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/wireframes/rosenfeld-users-content-context.png)<!-- .element: class="nomargin" -->
+![Classic Information Architecture infographic by Louis Rosenfeld](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/wireframes/rosenfeld-users-content-context.png)<!-- .element: class="nomargin" -->
 
 ---
 
@@ -306,9 +305,11 @@ To complete **visual mock-ups**…
 
 Useful wireframe references - view the top one first:
 
-- [HealthConnect – Responsive Website Design (case study)](https://britzerbo.wordpress.com/2013/06/10/healthconnect-responsive-website-design/)—Brit Zerbo, 2013
-- [15 Beautiful Examples of Mobile App Wireframe Sketching](https://1stwebdesigner.com/mobile-app-wireframe-sketching/)—Ben Bate, 2017
-- [User Experience Design – The importance of wireframe](https://cs2024.wordpress.com/2015/10/02/user-experience-design-the-importance-of-wireframe/)—Esmund Koh, 2015
+- [HealthConnect – Responsive Website Design (case study)](https://britzerbo.wordpress.com/2013/06/10/healthconnect-responsive-website-design/)  —Brit Zerbo, 2013
+- [15 Beautiful Examples of Mobile App Wireframe Sketching](https://1stwebdesigner.com/mobile-app-wireframe-sketching/)  
+—Ben Bate, 2017
+- [User Experience Design – The importance of wireframe](https://cs2024.wordpress.com/2015/10/02/user-experience-design-the-importance-of-wireframe/)  
+—Esmund Koh, 2015
 
 **DO NOT** be tempted by "website template" adverts!! Templates (and "build a responsive website" tutorials) may look fine, but your **own code** will make **a better project**
 
