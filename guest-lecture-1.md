@@ -12,7 +12,7 @@
 # OVERVIEW
 
 - [PARC design principles](#/2)
-- [Dark UI (user interface)](#/7)
+- [Dark UI (User Interface)](#/7)
 - Discussion and questions
 
 ===
