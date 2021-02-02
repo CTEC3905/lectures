@@ -13,7 +13,9 @@
 # OVERVIEW
 
 - [Accessibility, Information Architecture, wireframes](#/2)
-- [Information Design]()
+- [Information Architecture (IA)](#/3)
+- [Wireframes](#/4)
+- [Information Design](#/5)
 - Questions?
 
 <!-- 
@@ -81,12 +83,13 @@ Resources and research
 
 ===
 
-<!-- INFORMATION ARCHITECTURE: SHARED CTEC3905.04/MEDS2007.02 -->
+<!-- INFORMATION ARCHITECTURE: SHARED CTEC3905.04/MEDS2007.02 THIS: updated 2feb2021-->
 
 ## Information Architecture (IA): 01
 
-> If you’ve ever tried to use something and thought, “where am I supposed to go next?” or “this doesn’t make any sense,” you are encountering an issue with an information architecture.  
-—[What is Information Architecture?](http://www.iainstitute.org/what-is-ia)
+> If you’ve ever tried to use something and thought, “where am I supposed to go next?” or “this doesn’t make any sense,” you are encountering an issue with an **information architecture**.
+
+<small>[What is Information Architecture?](http://www.iainstitute.org/what-is-ia)</small>
 
 ---
 
@@ -124,7 +127,7 @@ Information Architecture has origins in **library science**
 - The development of “**knowledge-organization** systems”
 - Study of how to **categorize**, **catalogue**, **locate** resources
 
-So it's a kind of cognitive and visual **data structure**
+So it's a kind of *cognitive* and *visual* **data structure**
 
 …now **pick a number** between **one** and **10**…
 
@@ -139,7 +142,7 @@ Information Architecture uses **Cognitive Psychology**
 - **Mental models**: the assumptions users have—information is easier to discover in familiar places.
 - **Decision making**: the cognitive process of making a choice or selecting an option—IA helps make decisions by providing contextual information at key points.
 
-[Complete Beginners Guide to Information Architecture](http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/ "A summary of the above findings")
+<small>[Complete Beginners Guide to Information Architecture](http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/ "A summary of the above findings")</small>
 
 ---
 
@@ -198,8 +201,7 @@ the information backbone of a website:
 - **Taxonomy development**  
 	a controlled vocabulary throughout  
 
-[The Difference Between IA and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/)  
-—Jennifer Cardello
+<small>[The Difference Between IA and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/) —Jennifer Cardello</small>
 
 ---
 
@@ -260,7 +262,7 @@ Mobile First Design
 - design your **mobile screens** first
 - let your content form the **menu structure**
 - how will **users navigate** through your site?
-- **think visually** before diving into code
+- **think visually** *before* diving into *code*
 
 ---
 
@@ -314,7 +316,6 @@ Useful wireframe references - view the top one first:
 
 ===
 
-
 ## INFORMATION DESIGN **01**
 
 Information **Architecture** is *getting around*  
@@ -365,7 +366,7 @@ We **forage** for information like we do for **resources**
 
 ![Periodic table](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/ui/periodic-table.png)
 
-<small>[Interactive Period Table](https://ptable.com/)</small>
+<small>[Interactive Periodic Table](https://ptable.com/)</small>
 
 ---
 
@@ -374,7 +375,7 @@ We **forage** for information like we do for **resources**
 
 ![Information Design examples](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/ui/information-design-pinterest.png)
 
-[Pinterest: Information Design](https://www.pinterest.com/search/pins/?q=information%20design&rs=typed)
+<small>[Pinterest: Information Design](https://www.pinterest.com/search/pins/?q=information%20design&rs=typed)</small>
 
 ---
 
@@ -383,7 +384,7 @@ We **forage** for information like we do for **resources**
 
 ![Information Design examples](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/ui/information-design-pinterest-daniel.png)
 
-[Pinterest: Daniel Hunley Information Design](https://www.pinterest.com/danielhunley/information-design/)
+<small>[Pinterest: Daniel Hunley Information Design](https://www.pinterest.com/danielhunley/information-design/)</small>
 
 ---
 
