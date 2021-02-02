@@ -100,7 +100,7 @@ A strict use of **alignment** on a former version of the Oslo-based design agenc
 
 ===
 
-## DESIGN 04: **REPETITION**
+## DESIGN 03: **REPETITION**
 
 **Repetition** provides visual and cognitive **consistency** across common design elements
 
@@ -119,7 +119,7 @@ Use: global **style rules** at the **top** of your CSS **before `@media` query b
 
 ===
 
-## DESIGN 05: **CONTRAST**
+## DESIGN 04: **CONTRAST**
 <!-- .slide: class="crammed" -->
 
 **Contrast**
