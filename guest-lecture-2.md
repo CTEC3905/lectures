@@ -3,17 +3,22 @@
 
 ![HTML, CSS, JavaScript logos](html-css-js-500.png)<!-- .element: class="imgBackground" -->
 
-## **Front-End Web Development**
+### **Front-End Web Development**
 
-## Guest Session 2: Accessible Information
+## Guest Session 2: **Accessible Information**
 
 ===
 
 # OVERVIEW
 
-- [Accessibility, Information Architecture, wireframes](https://tech3015.github.io/presents?lecture-03)
-- [Information Design](https://tech3015.github.io/presents?lecture-07) (Amazon close account example)
-- questions?
+- [Accessibility, Information Architecture, wireframes](#/2)
+- [Information Design]()
+- Questions?
+
+<!-- 
+https://tech3015.github.io/presents?lecture-03
+https://tech3015.github.io/presents?lecture-07
+-->
 
 ===
 
@@ -197,35 +202,34 @@ the information backbone of a website:
 
 ---
 
-## IA: 08
 <!-- .slide: class="crammed" -->
+## IA: 08
 
 What is Architecture? (Cal Henderson (2006) [Building Scalable Web Sites](http://shop.oreilly.com/product/9780596102357.do))
 
 > **if buildings were like software**, the architect would be involved in the actual building process, from … foundations … to … fixtures. …starting with a couple of rooms and basic amenities, **people would… start living there before the building was complete**. When the building work was about to finish …more people would turn up and start living there, too.
 
----
-
-<!-- .slide: class="crammed" -->
+<!-- ---
 ## Building around users…
 
 > …new residents need **new features**. The architect would design these, augmenting the original design. But the **current residents** would **continue using the house** while it was extended, all the time complaining about the building work.
 >
 > In fact… **more people would move in** while extensions were being built. When the modifications were complete, the the newcomers would **request more changes**.
+-->
 
 ---
 
 <!-- .slide: class="crammed" -->
 ## …plan from the start
 
-> The key… is **planning for all this from the start**. If thean architect started out by building a huge, complex house, it would be **overkill**. By the time it was ready, the residents **would have gone elsewhere** to live in a smaller house built in a fraction of the time.
+> The key… is **planning for all this from the start**. If an architect started out by building a huge, complex house, it would be **overkill**. By the time it was ready, the residents **would have gone elsewhere** to live in a smaller house built in a fraction of the time.
 >
 > If extending our house (website) takes too long, **people might move elsewhere**. We need start at the right scale and design things to be **extended as easily as possible**.
 
 ---
 
-## IA 09
 <!-- .slide: class="crammed" -->
+## IA 09
 
 ### Minimize effort
 
@@ -238,7 +242,7 @@ What is Architecture? (Cal Henderson (2006) [Building Scalable Web Sites](http:/
 ## IA 10
 <!-- .slide: class="left-align" -->
 
-Good article/video—you can **double-check** your site's **Information Architecture** (and look clever by using this information **in your report**!):
+Good article and video—you can **double-check** your site's **Information Architecture**:
 
 [An Excellent Beginner's Guide To Information Architecture](https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/)
 
@@ -393,4 +397,3 @@ We **forage** for information like we do for **resources**
 
 # QUESTIONS?
 
-Give examples of Dark UI, and why it's anti-usability?
