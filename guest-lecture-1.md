@@ -12,8 +12,8 @@
 # OVERVIEW
 
 - [PARC design principles](#/2)
-- [Dark UI](#/8)
-- basic RWD page layout demo (if time)
+- [Dark UI](#/7)
+- Discussion and questions
 
 ===
 <!-- DESIGN PRINCIPLES: SHARED MEDS2007.02/CTEC3905.04-->
