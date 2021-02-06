@@ -26,7 +26,7 @@ https://tech3015.github.io/presents?lecture-07
 
 <!-- ACCESSIBILITY 13oct2020: SHARED CTEC3905.04/MEDS2007.02-->
 
-## Accessibility 01
+## ACCESSIBILITY 01
 
 > “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect”
 
@@ -35,7 +35,7 @@ Tim Berners-Lee (1997)
 
 ---
 
-## Accessibility 02
+## ACCESSIBILITY 02
 
 > **the web is a mess**… accessibility options tend to be forgotten or stripped away, …though accessible websites and apps can… still be beautiful, innovative… user-friendly.
 >
@@ -45,7 +45,7 @@ Mischa Andrews: [The inaccessible web](https://uxdesign.cc/the-inaccessible-web-
 
 ---
 
-## Accessibility 03
+## ACCESSIBILITY 03
 <!-- .slide: class="crammed" -->
 
 **Accessibility** was **built into the web from the start**  
@@ -58,7 +58,7 @@ W3C (2005) [Introduction to Web Accessibility](https://www.w3.org/WAI/intro/acce
 
 ---
 
-## Accessibility 04
+## ACCESSIBILITY 04
 
 How you can address **web access**:
 
@@ -71,7 +71,7 @@ How you can address **web access**:
 
 ---
 
-## Accessibility 05
+## ACCESSIBILITY 05
 
 Resources and research
 
@@ -84,7 +84,7 @@ Resources and research
 
 <!-- INFORMATION ARCHITECTURE: SHARED CTEC3905.04/MEDS2007.02 THIS: updated 2feb2021-->
 
-## Information Architecture (IA): 01
+## INFORMATION ARCHITECTURE (IA): 01
 
 > If you’ve ever tried to use something and thought, “where am I supposed to go next?” or “this doesn’t make any sense,” you are encountering an issue with an **information architecture**.
 
@@ -254,7 +254,7 @@ Good article and video—you can **double-check** your site's **Information Arch
 
 <!-- WIREFRAMES 13oct2020: SHARED CTEC3905.04/MEDS2007.02 -->
 
-## Wireframes 01
+## WIREFRAMES 01
 
 Mobile First Design
 
@@ -265,7 +265,7 @@ Mobile First Design
 
 ---
 
-## Wireframes 02
+## WIREFRAMES 02
 
 Content Preparation
 
@@ -300,7 +300,7 @@ To complete **visual mock-ups**…
 
 ---
 
-## Wireframes 03
+## WIREFRAMES 03
 <!-- .slide: class="crammed" -->
 
 Useful wireframe references - view the top one first:
