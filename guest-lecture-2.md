@@ -5,7 +5,7 @@
 
 ### **Front-End Web Development**
 
-<h2> Guest Session 2:<br>
+<h2>Guest Session 2:<br>
 <strong>Accessible Information</strong></h2>
 
 ===
