@@ -207,7 +207,7 @@ gather all the **content** for your site:
 - movies
 - text (see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html))
 - audio
-- choosing data from APIs
+- data from APIs
 
 ---
 
@@ -260,39 +260,4 @@ inside the `body` tag, use **HTML5 semantic tags** ([read more at W3Schools](htt
 HTML5 semantic tags for **content** come later
 
 ===
-
-<!-- EYE-TRACKING RESULTS -->
-
-# EYE-TRACKING **1**
-
-**We tend to follow the gaze of others**
-
-and since birth we follow directions as to  
-**where we should be looking/going**
-			
-The following two examples show a baby and a headline for baby skin care.
-
-<section title="baby looking out from an advert" data-background-image="images/eye-tracking/eyetracking-baby-face.jpg" data-background-size="80%"><div>&nbsp;</div></section>
-
-# EYE-TRACKING **2**
-
-**the baby’s face draws attention away from the message**
-
-This is a problem because the message isn’t commanding attention
-
-Now see the browsing pattern with baby facing the text:
-
-<section title="baby looking at a headline in an advert" data-background-image="images/eye-tracking/eyetracking-baby-look.jpg" data-background-size="80%"><div>&nbsp;</div></section>					
-
-# EYE-TRACKING **3**
-
-users focused on the baby’s face again (from the side) and **followed the baby’s line of sight** to the **headline** and **opening text**.
-
-Even the area of text that the baby’s chin was pointing to had more attention!
-
-<small>—Neil Patel: [7 Marketing Lessons from Eye-Tracking Studies](https://neilpatel.com/blog/eye-tracking-studies/)<br>
-  (*dismiss loading screen*)</small>
-
-===    
-<!-- EYE-TRACKING RESULTS END -->
 
