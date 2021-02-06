@@ -5,7 +5,8 @@
 
 ### **Front-End Web Development**
 
-## Guest Session 2:  **Accessible Information**
+<h2> Guest Session 2:<br>
+**Accessible Information**</h2>
 
 ===
 
@@ -15,7 +16,6 @@
 - [Information Architecture (IA)](#/3)
 - [Wireframes](#/4)
 - [Information Design](#/5)
-- Questions?
 
 <!-- 
 https://tech3015.github.io/presents?lecture-03
