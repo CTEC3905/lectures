@@ -426,11 +426,7 @@ users focused on the baby’s face again (from the side) and **followed the baby
 
 Even the area of text that the baby’s chin was pointing to had more attention!
 
-<small><a href="https://neilpatel.com/blog/eye-tracking-studies/">https://neilpatel.com/blog/eye-tracking-studies/</a>Neil Patel: 7 Marketing Lessons from Eye-Tracking Studies<br>
-(*dismiss loading screen*)</small>
-
-<small>—Neil Patel: [7 Marketing Lessons from Eye-Tracking Studies](https://neilpatel.com/blog/eye-tracking-studies/)<br>
-(*dismiss loading screen*)</small>
+<small>—Neil Patel: [7 Marketing Lessons from Eye-Tracking Studies](https://neilpatel.com/blog/eye-tracking-studies/) (*dismiss loading screen*)</small>
 
 ===
 
