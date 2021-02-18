@@ -16,6 +16,7 @@
 - [Content Strategy](#/4)
 <!-- - [style guides, design trends](https://tech3015.github.io/presents?lecture-05) -->
 
+<!-- MOBILE NAVIGATION: shared with TECH3015 guest lecture ?? -->
 ===
 
 ## MOBILE NAVIGATION **01**

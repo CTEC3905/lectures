@@ -264,6 +264,8 @@ Content Preparation
 - keep **unsized images** outside your web folder
 - **map your content** onto your wireframes
 
+<!-- CHECK: DUPLICATED ELSEWHERE -->
+
 ---
 
 <!-- .slide class="big-pic crammed" -->
