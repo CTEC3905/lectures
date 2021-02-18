@@ -319,7 +319,16 @@ The *Web Style Guide* also has a good section on
 
 ## WEB TYPOGRAPHY **01**
 
-Shorten typography from TECH3015 Lecture 17
+Shorten typography from [TECH3015 Lecture 17](https://tech3015.github.io/presents?lecture-17)
+
+---
+
+[DEMO: drop capital letter](https://front-end-materials.github.io/typography/drop-cap/) ([code here](https://github.com/front-end-materials/typography/tree/master/drop-cap))
+
+---
+
+[BONUS DEMO: show an image inside text](https://front-end-materials.github.io/typography/image-as-text/) ([code here](https://github.com/front-end-materials/typography/tree/master/image-as-text))
+
 
 ===
 
