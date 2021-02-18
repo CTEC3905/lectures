@@ -16,11 +16,7 @@
 - [Information Architecture (IA)](#/3)
 - [Wireframes](#/4)
 - [Information Design](#/5)
-
-<!-- 
-https://tech3015.github.io/presents?lecture-03
-https://tech3015.github.io/presents?lecture-07
--->
+- [Eye-tracking studies](#/6)
 
 ===
 
@@ -37,7 +33,7 @@ Tim Berners-Lee (1997)
 
 ## ACCESSIBILITY 02
 
-> **the web is a mess**… accessibility options tend to be forgotten or stripped away, …though accessible websites and apps can… still be beautiful, innovative… user-friendly.
+> “**the web is a mess**… accessibility options tend to be forgotten or stripped away, …though accessible websites and apps can… still be beautiful, innovative… user-friendly.
 >
 > …**This is a human rights issue**. Disabled people *need* these options in order to access the web.”
 
@@ -80,9 +76,8 @@ Resources and research
 - [Notes on Using ARIA in HTML](https://www.w3.org/TR/aria-in-html/)—see rules [1–5](https://www.w3.org/TR/using-aria/#rule1) rules!
 - [How to Use ARIA Effectively with HTML5](https://www.sitepoint.com/how-to-use-aria-effectively-with-html5/)
 
+<!-- INFORMATION ARCHITECTURE: SHARED CTEC3905.04/MEDS2007.02 THIS: updated 2feb2021 -->
 ===
-
-<!-- INFORMATION ARCHITECTURE: SHARED CTEC3905.04/MEDS2007.02 THIS: updated 2feb2021-->
 
 ## INFORMATION ARCHITECTURE (IA): 01
 
@@ -181,11 +176,6 @@ Information Architecture uses **Cognitive Psychology**
 	<li><strong>Content</strong>: volume, format, metadata, structure, labels (e.g. menus)</li>
 	<li><strong>Context</strong>: business model, aim of website, cultural background, constraints</li>
 </ul>
-
----
-
-<!-- .slide class="crammed nopadding" -->
-![Classic Information Architecture infographic by Louis Rosenfeld](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/wireframes/rosenfeld-users-content-context.png)<!-- .element: class="nomargin" -->
 
 ---
 
@@ -395,6 +385,49 @@ We **forage** for information like we do for **resources**
 ![Laws of Simplicity website](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/ui/laws-of-simplicity.png)
 
 <small>[John Maeda's Laws of Simplicity](http://lawsofsimplicity.com/)</small>
+
+===
+
+# EYE-TRACKING **1**
+
+**We tend to follow the gaze of others**
+
+and since birth we follow directions as to  
+**where we should be looking/going**
+
+The following two examples show a baby and a headline for baby skin care.
+
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/front-end-materials/images/master/eye-tracking/eyetracking-baby-face.jpg" data-background-size="contain" alt="baby looking out from an advert" -->
+
+---
+
+# EYE-TRACKING **2**
+
+**the baby’s face draws attention away from the message**
+
+This is a problem because the message isn’t commanding attention
+
+Now see the browsing pattern with baby facing the text:
+
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/front-end-materials/images/master/eye-tracking/eyetracking-baby-look.jpg" data-background-size="contain" alt="baby looking at a headline in an advert" -->
+
+===
+
+# EYE-TRACKING **3**
+
+users focused on the baby’s face again (from the side) and **followed the baby’s line of sight** to the **headline** and **opening text**.
+
+Even the area of text that the baby’s chin was pointing to had more attention!
+
+<small><a href="https://neilpatel.com/blog/eye-tracking-studies/">https://neilpatel.com/blog/eye-tracking-studies/</a>Neil Patel: 7 Marketing Lessons from Eye-Tracking Studies<br>
+(*dismiss loading screen*)</small>
+
+<small>—Neil Patel: [7 Marketing Lessons from Eye-Tracking Studies](https://neilpatel.com/blog/eye-tracking-studies/)<br>
+(*dismiss loading screen*)</small>
 
 ===
 

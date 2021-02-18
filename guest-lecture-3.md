@@ -5,7 +5,8 @@
 
 ## **Front-End Web Development**
 
-## Guest Session 3: **Design Trends**
+<h2>Guest Session 2:<br>
+<strong><small>MOBILE NAV, DESIGN TRENDS</small></strong></h2>
 
 ===
 
@@ -13,7 +14,6 @@
 
 - [Mobile navigation research](#/3)
 - [Content Strategy](#/4)
-- [Eye-tracking studies](#/5)
 <!-- - [style guides, design trends](https://tech3015.github.io/presents?lecture-05) -->
 
 ===
@@ -99,6 +99,55 @@ see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/article
 Once your website is live, for a deeper dive into  
 mobile-freindly design and building, check it with  
 Google's [Is your web page mobile-friendly?](https://search.google.com/test/mobile-friendly)
+
+===
+
+## PRACTICAL PLANNING **01**
+<!-- .slide: class="crammed" -->
+
+gather all the **content** for your site:
+
+- images
+- movies
+- text (see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html))
+- audio
+- data from APIs
+
+---
+
+## PRACTICAL PLANNING **02**
+<!-- .slide: class="crammed" -->
+
+arrange your content into *logical groups*
+
+**THINK:** will a group be **limited** or get **more content**?
+
+this is the basis for your site structure, **navigation** and **menu**
+
+Resources from [usability.gov](https://www.usability.gov/):
+
+- [Content Strategy Basics](https://www.usability.gov/what-and-why/content-strategy.html)
+- [Content Inventory](https://www.usability.gov/how-to-and-tools/methods/content-inventory.html)
+- [Information Architecture](https://www.usability.gov/what-and-why/information-architecture.html)
+
+---
+
+## PRACTICAL PLANNING **03**
+
+get input from others with an online tool:
+
+[Online card sorting software](https://www.optimalworkshop.com/optimalsort): [free plan](https://www.optimalworkshop.com/register)
+
+- [Card Sorting (usability.gov)](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html)
+
+---
+
+## PRACTICAL PLANNING **04**
+
+at the next stage, you will use **HTML5 tags** to **mark up** the basic areas for:
+
+- each **kind** of page you have or...
+- for one long **scrolling** page
 
 ===
 
@@ -266,42 +315,13 @@ Read more from these articles and sites:
 The *Web Style Guide* also has a good section on  
 **Social Media Strategy**
 
+===
+
+## WEB TYPOGRAPHY **01**
+
+Shorten typography from TECH3015 Lecture 17
 
 ===
-<!-- EYE-TRACKING RESULTS -->
-
-# EYE-TRACKING **1**
-
-**We tend to follow the gaze of others**
-
-and since birth we follow directions as to  
-**where we should be looking/going**
-			
-The following two examples show a baby and a headline for baby skin care.
-
-<section title="baby looking out from an advert" data-background-image="images/eye-tracking/eyetracking-baby-face.jpg" data-background-size="80%"><div>&nbsp;</div></section>
-
-# EYE-TRACKING **2**
-
-**the baby’s face draws attention away from the message**
-
-This is a problem because the message isn’t commanding attention
-
-Now see the browsing pattern with baby facing the text:
-
-<section title="baby looking at a headline in an advert" data-background-image="images/eye-tracking/eyetracking-baby-look.jpg" data-background-size="80%"><div>&nbsp;</div></section>					
-
-# EYE-TRACKING **3**
-
-users focused on the baby’s face again (from the side) and **followed the baby’s line of sight** to the **headline** and **opening text**.
-
-Even the area of text that the baby’s chin was pointing to had more attention!
-
-<small>—Neil Patel: [7 Marketing Lessons from Eye-Tracking Studies](https://neilpatel.com/blog/eye-tracking-studies/)<br>
-  (*dismiss loading screen*)</small>
-
-<!-- EYE-TRACKING RESULTS END -->
-===    
 
 # QUESTIONS?
 

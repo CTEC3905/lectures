@@ -261,3 +261,5 @@ HTML5 semantic tags for **content** come later
 
 ===
 
+<!-- .slide class="crammed nopadding" -->
+![Classic Information Architecture infographic by Louis Rosenfeld](https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/wireframes/rosenfeld-users-content-context.png)<!-- .element: class="nomargin" -->
