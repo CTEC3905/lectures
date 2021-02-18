@@ -390,7 +390,7 @@ We **forage** for information like we do for **resources**
 
 ===
 
-# EYE-TRACKING **1**
+## EYE-TRACKING **1**
 
 **We tend to follow the gaze of others**
 
@@ -405,7 +405,7 @@ The following two examples show a baby and a headline for baby skin care.
 
 ---
 
-# EYE-TRACKING **2**
+## EYE-TRACKING **2**
 
 **the baby’s face draws attention away from the message**
 
@@ -417,9 +417,9 @@ Now see the browsing pattern with baby facing the text:
 
 <!-- .slide: data-background-image="https://raw.githubusercontent.com/front-end-materials/images/master/eye-tracking/eyetracking-baby-look.jpg" data-background-size="contain" alt="baby looking at a headline in an advert" -->
 
-===
+---
 
-# EYE-TRACKING **3**
+## EYE-TRACKING **3**
 
 users focused on the baby’s face again (from the side) and **followed the baby’s line of sight** to the **headline** and **opening text**.
 
