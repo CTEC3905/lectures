@@ -22,7 +22,7 @@
 
 <!-- ACCESSIBILITY 13oct2020: SHARED CTEC3905.04/MEDS2007.02-->
 
-## ACCESSIBILITY 01
+## ACCESSIBILITY **01**
 
 > “The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect”
 
@@ -31,7 +31,7 @@ Tim Berners-Lee (1997)
 
 ---
 
-## ACCESSIBILITY 02
+## ACCESSIBILITY **02**
 
 > “**the web is a mess**… accessibility options tend to be forgotten or stripped away, …though accessible websites and apps can… still be beautiful, innovative… user-friendly.
 >
@@ -41,7 +41,7 @@ Mischa Andrews: [The inaccessible web](https://uxdesign.cc/the-inaccessible-web-
 
 ---
 
-## ACCESSIBILITY 03
+## ACCESSIBILITY **03**
 <!-- .slide: class="crammed" -->
 
 **Accessibility** was **built into the web from the start**  
@@ -54,7 +54,7 @@ W3C (2005) [Introduction to Web Accessibility](https://www.w3.org/WAI/intro/acce
 
 ---
 
-## ACCESSIBILITY 04
+## ACCESSIBILITY **04**
 
 How you can address **web access**:
 
@@ -67,7 +67,7 @@ How you can address **web access**:
 
 ---
 
-## ACCESSIBILITY 05
+## ACCESSIBILITY **05**
 
 Resources and research
 
@@ -79,7 +79,7 @@ Resources and research
 <!-- INFORMATION ARCHITECTURE: SHARED CTEC3905.04/MEDS2007.02 THIS: updated 2feb2021 -->
 ===
 
-## INFORMATION ARCHITECTURE (IA): 01
+## IA INFORMATION ARCHITECTURE: **01**
 
 > If you’ve ever tried to use something and thought, “where am I supposed to go next?” or “this doesn’t make any sense,” you are encountering an issue with an **information architecture**.
 
@@ -87,7 +87,7 @@ Resources and research
 
 ---
 
-## IA: 02
+## IA: **02**
 <!-- .slide: class="crammed" -->
 
 Information Architecture is:
@@ -100,8 +100,9 @@ Entire university courses cover IA—[search "library science and information ar
 More information: [Presenting Information Architecture](https://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)
 
 ---
+<!-- .slide: class="crammed" -->
 
-<h2>IA: 03 - How did <strong>IA</strong> begin?</h2>
+<h2>IA: <strong>03</strong> - How did <strong>IA</strong> begin?</h2>
 
 <img style="float:left;" src="https://raw.githubusercontent.com/DaveEveritt/TECH3015/master/imgs/wireframes/information-architecture-book.jpg" alt="Information Architecture book cover">
 
@@ -114,7 +115,7 @@ Known as <em>The Polar Bear Book</em> it is considered to be <strong>the</strong
 
 ---
 
-## IA: 04
+## IA: **04**
 
 Information Architecture has origins in **library science**
 
@@ -127,7 +128,7 @@ So it's a kind of *cognitive* and *visual* **data structure**
 
 ---
 
-## IA: 05
+## IA: **05**
 <!-- .slide: class="crammed" -->
 
 Information Architecture uses **Cognitive Psychology**
@@ -179,7 +180,7 @@ Information Architecture uses **Cognitive Psychology**
 
 ---
 
-## IA: 07
+## IA: **07**
 
 the information backbone of a website:
 
@@ -195,7 +196,7 @@ the information backbone of a website:
 ---
 
 <!-- .slide: class="crammed" -->
-## IA: 08
+## IA: **08**
 
 What is Architecture? (Cal Henderson (2006) [Building Scalable Web Sites](http://shop.oreilly.com/product/9780596102357.do))
 
@@ -231,7 +232,7 @@ What is Architecture? (Cal Henderson (2006) [Building Scalable Web Sites](http:/
 
 ---
 
-## IA 10
+## IA **10**
 <!-- .slide: class="left-align" -->
 
 Good article and video—you can **double-check** your site's **Information Architecture**:
