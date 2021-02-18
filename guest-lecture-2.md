@@ -244,7 +244,7 @@ Good article and video—you can **double-check** your site's **Information Arch
 
 <!-- WIREFRAMES 13oct2020: SHARED CTEC3905.04/MEDS2007.02 -->
 
-## WIREFRAMES 01
+## WIREFRAMES **01**
 
 Mobile First Design
 
@@ -255,7 +255,7 @@ Mobile First Design
 
 ---
 
-## WIREFRAMES 02
+## WIREFRAMES **02**
 
 Content Preparation
 
@@ -264,7 +264,7 @@ Content Preparation
 - keep **unsized images** outside your web folder
 - **map your content** onto your wireframes
 
-<!-- CHECK: DUPLICATED ELSEWHERE -->
+More about **practical planning** in the next guest session
 
 ---
 
@@ -292,7 +292,7 @@ To complete **visual mock-ups**…
 
 ---
 
-## WIREFRAMES 03
+## WIREFRAMES **03**
 <!-- .slide: class="crammed" -->
 
 Useful wireframe references - view the top one first:
@@ -390,7 +390,7 @@ We **forage** for information like we do for **resources**
 
 ===
 
-## EYE-TRACKING **1**
+## EYE-TRACKING **01**
 
 **We tend to follow the gaze of others**
 
@@ -405,7 +405,7 @@ The following two examples show a baby and a headline for baby skin care.
 
 ---
 
-## EYE-TRACKING **2**
+## EYE-TRACKING **02**
 
 **the baby’s face draws attention away from the message**
 
@@ -419,7 +419,7 @@ Now see the browsing pattern with baby facing the text:
 
 ---
 
-## EYE-TRACKING **3**
+## EYE-TRACKING **03**
 
 users focused on the baby’s face again (from the side) and **followed the baby’s line of sight** to the **headline** and **opening text**.
 
