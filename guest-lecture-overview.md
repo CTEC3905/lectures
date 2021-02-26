@@ -23,10 +23,8 @@ a rough outline - to be pruned
 
 ## Session 3: Design Trends
 
-- Practical planning
 - [Content Strategy, mobile navigation research](https://tech3015.github.io/presents?lecture-06)
-- Maybe shorter version of [Typography](https://tech3015.github.io/presents?lecture-17)
-- [style guides, design trends](https://tech3015.github.io/presents?lecture-05)
-- Share visual ideas for your website?
+- [Style guides, design trends](https://tech3015.github.io/presents?lecture-05)
+- [Typography for the web](https://tech3015.github.io/presents?lecture-17)
 
 ===

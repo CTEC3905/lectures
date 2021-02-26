@@ -199,9 +199,50 @@ Addy Osmani https://nolanlawson.com/2020/02/19/fixing-memory-leaks-in-web-applic
 
 ===
 
-## Planning your site 01
 
-(All in guest lecture 3)
+## PRACTICAL PLANNING **01**
+<!-- .slide: class="crammed" -->
+
+gather all the **content** for your site:
+
+- images
+- movies
+- text (see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html))
+- audio
+- data URLs from APIs
+
+---
+
+## PRACTICAL PLANNING **02**
+<!-- .slide: class="crammed" -->
+
+arrange your content into *logical groups*
+
+**THINK:** will a group be **limited** or get **more content**?
+
+this is the basis for your site structure, **navigation** and **menu**
+
+Resources from [usability.gov](https://www.usability.gov/):
+
+- [Content Strategy Basics](https://www.usability.gov/what-and-why/content-strategy.html)
+- [Content Inventory](https://www.usability.gov/how-to-and-tools/methods/content-inventory.html)
+- [Information Architecture](https://www.usability.gov/what-and-why/information-architecture.html)
+
+---
+
+## PRACTICAL PLANNING **03**
+
+get input from others with an online tool:
+
+[Online card sorting software](https://www.optimalworkshop.com/optimalsort): [free plan](https://www.optimalworkshop.com/register)
+
+- [Card Sorting (usability.gov)](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html)
+
+---
+
+- THE WEBSITE PROCESS (2 screens): https://tech3015.github.io/presents/?lecture-05#/3
+- STYLE GUIDES (13 screens): https://tech3015.github.io/presents/?lecture-05#/4
+- DESIGN TRENDS? (two link screens): https://tech3015.github.io/presents/?lecture-05#/5
 
 ---
 
