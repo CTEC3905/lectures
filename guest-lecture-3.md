@@ -501,8 +501,19 @@ optimum **line length for readablity** was supposed to be 50-75 characters…
 
 …and finally [Letterspacing Makes ALL CAPS Easier to Read](https://uxmovement.com/content/how-letterspacing-can-make-all-caps-easier-to-read/)
 
+---
+
+## TYPOGRAPHY **06**
+
+Technical (CSS) information here: https://tech3015.github.io/presents/?lecture-17#/4/5
+
+And see:
+
+- [Tips For Setting Up A Baseline Grid (CSS)](https://vanseodesign.com/web-design/baseline-grid/)
+- [Typesetting Body Text (loooong educational video)](https://vimeo.com/156203722)
+
 ===
 
 # QUESTIONS?
 
-Share visual ideas for your website?
+Discuss visual ideas for your website?
