@@ -5,15 +5,17 @@
 
 ## **Front-End Web Development**
 
-<h2>Guest Session 2:<br>
+<h2>Guest Session 3:<br>
 <strong><small>MOBILE NAV, DESIGN TRENDS</small></strong></h2>
 
 ===
 
 # OVERVIEW
 
-- [Mobile navigation research](#/3)
-- [Content Strategy](#/4)
+- [Mobile Navigation Research](#/2)
+- [Practical Planning](#/4)
+- [Content Strategy](#/5)
+- [Style Guides](#/6)
 <!-- - [style guides, design trends](https://tech3015.github.io/presents?lecture-05) -->
 
 <!-- MOBILE NAVIGATION: shared with TECH3015 guest lecture ?? -->
@@ -92,7 +94,7 @@ see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/article
 - [complex navigation patterns for responsive design](https://bradfrost.com/blog/post/complex-navigation-patterns-for-responsive-design/)
 - [Luke Wroblewski: Mobile First (free to read)](http://mobile-first.abookapart.com/)
 
-===
+---
 
 ## MOBILE FRIENDLY TEST
 <!-- .slide: class="crammed" -->
@@ -100,6 +102,24 @@ see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/article
 Once your website is live, for a deeper dive into  
 mobile-freindly design and building, check it with  
 Google's [Is your web page mobile-friendly?](https://search.google.com/test/mobile-friendly)
+
+===
+
+## THE WEBSITE PROCESS
+
+IA, research, wireframes, coding… fall into five areas:
+
+1. **planning**: who is this for?
+2. **content**: preparing and sorting
+3. **design**: the PARC principles+
+4. **development**: coding the site
+5. **deployment**: launching on the web (GitHub pages)
+
+These will overlap!
+
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/website-process.png" data-background-size="contain" -->
 
 ===
 
@@ -112,7 +132,7 @@ gather all the **content** for your site:
 - movies
 - text (see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html))
 - audio
-- data from APIs
+- data URLs from APIs
 
 ---
 
@@ -143,12 +163,9 @@ get input from others with an online tool:
 
 ---
 
-## PRACTICAL PLANNING **04**
-
-at the next stage, you will use **HTML5 tags** to **mark up** the basic areas for:
-
-- each **kind** of page you have or...
-- for one long **scrolling** page
+- THE WEBSITE PROCESS (2 screens): https://tech3015.github.io/presents/?lecture-05#/3
+- STYLE GUIDES (13 screens): https://tech3015.github.io/presents/?lecture-05#/4
+- DESIGN TRENDS? (two link screens): https://tech3015.github.io/presents/?lecture-05#/5
 
 ===
 
@@ -195,7 +212,7 @@ labels, headings, URLs (CSS classes, JavaScript functions)…
 
 Are **Job Stories** the new **User Stories**?
 
-[Designing features using Job Stories](https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/)
+[Designing features using *Job Stories*](https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/)
 
 ---
 
@@ -318,18 +335,171 @@ The *Web Style Guide* also has a good section on
 
 ===
 
-## WEB TYPOGRAPHY **01**
+## STYLE GUIDES **01**
 
-Shorten typography from [TECH3015 Lecture 17](https://tech3015.github.io/presents?lecture-17)
+A **style guide document** keeps an organisation’s printed and web materials within their style
+
+- layout
+- graphics
+- colours
+- fonts
+- logo
+- photos
 
 ---
 
-[DEMO: drop capital letter](https://front-end-materials.github.io/typography/drop-cap/) ([code here](https://github.com/front-end-materials/typography/tree/master/drop-cap))
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/nus-style-guide.png" data-background-size="contain" -->
 
 ---
 
-[BONUS DEMO: show an image inside text](https://front-end-materials.github.io/typography/image-as-text/) ([code here](https://github.com/front-end-materials/typography/tree/master/image-as-text))
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/dmu-ug-campaign-2012.png" data-background-size="contain" -->
 
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/dmu-style-guide-2017.png" data-background-size="contain" -->
+
+---
+
+## STYLE GUIDES **02**
+
+Download PDFs of these three style guides:
+
+- [NUS Brand Guidelines](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/nus-guidelines-oct13.pdf)
+- [DMU 2012 Undergrad Campaign Guidelines](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/ug-2012-campaign-guidelines.pdf)
+- [DMU Brand Guidelines June 2017](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/dmu-brand-guidelines-june-2017.pdf)
+
+---
+
+<!-- .slide: class="crammed" -->
+## STYLE GUIDES **03**
+
+The [Campaign Energy Dashboard](https://switchoff.nus.org.uk/) used NUS guidelines
+
+![NUS energy dashboard screenshot](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/saves-home-screen-oct2019.png)
+
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/saves-cambridge-amiresponsive.png" data-background-size="contain" -->
+
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/saves-cambridge-bigscreen-amiresponsive.png" data-background-size="contain" -->
+
+---
+
+<!-- .slide: data-background-image="https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/saves-home-screen-amiresponsive-nov2017.png" data-background-size="contain" -->
+
+---
+
+## STYLE GUIDES **04**
+
+three big tech companies have **interface guidelines**
+
+- [Google Material Design](https://material.io/design/introduction/)
+- [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+- [Microsoft User Interface Principles](https://docs.microsoft.com/en-us/windows/win32/appuistart/-user-interface-principles#the-basic-principles-of-proper-ui)
+
+They’re long, detailed and technical so just scan through
+
+---
+
+<!-- .slide: class="crammed" -->
+[Google Material Design](https://material.io/design/introduction/)
+
+![Google Material Design, screenshot](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/google-material-design.png)
+
+---
+
+<!-- .slide: class="crammed" -->
+[Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+
+![Apple Human Interface Guidelines, screenshot](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/apple-interface-guidelines.png)
+
+---
+
+<!-- .slide: class="crammed" -->
+[Microsoft User Interface Principles](https://docs.microsoft.com/en-us/windows/win32/appuistart/-user-interface-principles)
+
+![Microsoft User Interface Principles, screenshot](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/design/guides/microsoft-ui-principles.png)
+
+===
+
+<!-- .slide: class="crammed" -->
+## DESIGN TRENDS **01**
+
+[UXPin Studio](https://www.uxpin.com/studio/) have some great resources:
+
+- [free design e-books](https://www.uxpin.com/studio/ebooks/)
+- a [guide to creating style guides](https://www.uxpin.com/studio/blog/everything-content-styleguides/)
+- articles on:
+    - [web design](https://www.uxpin.com/studio/blog/category/web-design/)
+    - [User Experience (UX) design](https://www.uxpin.com/studio/blog/category/ux-design/)
+    - [User research](https://www.uxpin.com/studio/blog/category/user-research/)
+
+(you can by-pass promotional material for the UXPin interface builder)
+
+---
+
+## DESIGN TRENDS **02**
+
+Download PDFs of these three style guides:
+
+- [Web design trends 2015-16](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/uxpin-web-design-trends-2015-16.pdf)
+- [Web design trends 2018](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/uxpin-web-design-trends-2018.pdf)
+- [Web design trends 2019](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/uxpin-web-design-trends-2019.pdf)
+
+===
+
+## TYPOGRAPHY **01**
+<!-- .slide: class="left-align" -->
+
+> **95%** of the information on the web is **written language**. It is only logical to say that a web designer should get good training in the main discipline of **shaping written information**, in other words: **Typography**.
+> 
+> —Oliver Reichenstein, "[Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period)”, 2006
+
+---
+
+## TYPOGRAPHY **02**
+<!-- .slide: class="left-align" -->
+
+> our harassed contemporaries simply **cannot take everything** that is printed today.
+> 
+> It is the typographer’s task to **divide up, organize** and **interpret this mass** of printed matter in such a way that **the reader** will have a **good chance of finding what is of interest**
+>
+> —Emil Ruder, famous Swiss typographer, 1969
+
+---
+
+## TYPOGRAPHY **03**
+<!-- .slide: class="left-align crammed" -->
+
+recommended **web typography primary sources**:
+
+- [The Elements of Typographic Style Applied to the Web](http://webtypography.net/toc/)
+- [Typography chapter, Web Style Guide](https://webstyleguide.com/9-typography.html)  
+—Patrick J. Lynch and Sarah Horton, 2016
+
+---
+
+## TYPOGRAPHY **04**
+<!-- .slide: class="left-align" -->
+
+> Choosing a Typeface Is **Not Typography**
+
+but here's a little inspiration: [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
+
+---
+
+## TYPOGRAPHY **05**
+<!-- .slide: class="left-align crammed" -->
+
+optimum **line length for readablity** was supposed to be 50-75 characters…
+
+…but [The Line Length Misconception](https://www.viget.com/articles/the-line-length-misconception/) draws on more recent research, although `line-spacing`, `letter-spacing` and `font-family` helps—see [Optimal Text Layout Line Length](https://www.paulolyslager.com/optimal-text-layout-line-length/)
+
+…and the advice continues **in more detail** for **mobile devices** in [How To Set Perfect Line Lengths For The Web](http://www.simon-li.com/design-and-code/how-to-set-perfect-line-lengths-for-your-webpages/)
+
+…and finally [Letterspacing Makes ALL CAPS Easier to Read](https://uxmovement.com/content/how-letterspacing-can-make-all-caps-easier-to-read/)
 
 ===
 
