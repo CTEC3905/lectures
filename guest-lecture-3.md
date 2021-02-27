@@ -59,9 +59,12 @@ Optimal button size:
 
 ![Optimal button size](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/ui/optimal-button-size.png)
 
-> users had the **lowest touch accuracy** on buttons **less than 42 pixels**. Buttons **over 72 pixels** also had low accuracy.
-
 ---
+
+## MOBILE NAVIGATION **04**
+<!-- .slide: class="smalltext" -->
+
+> users had the **lowest touch accuracy** on buttons **less than 42 pixels**. Buttons **over 72 pixels** also had low accuracy.
 
 > The **highest accuracy** was found with buttons **between 42-72 pixels** — 42 pixels is the minimum and 72 pixels is the maximum button size.
 
@@ -69,7 +72,7 @@ Optimal button size:
 
 ---
 
-## MOBILE NAVIGATION **04**
+## MOBILE NAVIGATION **05**
 <!-- .slide: class="crammed" -->
 
 Optimal button spacing:
@@ -80,7 +83,7 @@ Optimal button spacing:
 
 ---
 
-## MOBILE NAVIGATION **05**
+## MOBILE NAVIGATION **06**
 
 For **good** and **bad** examples of **mobile navigation**
 
@@ -88,7 +91,7 @@ see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/article
 
 ---
 
-## MOBILE NAVIGATION **06**
+## MOBILE NAVIGATION **07**
 
 - [complex navigation patterns for responsive design](https://bradfrost.com/blog/post/complex-navigation-patterns-for-responsive-design/)
 - [Luke Wroblewski: Mobile First (free to read)](http://mobile-first.abookapart.com/)
@@ -466,7 +469,8 @@ optimum **line length for readablity** was supposed to be 50-75 characters…
 
 Go further:
 
-[Technical (CSS) information from another module](https://tech3015.github.io/presents/?lecture-17#/4/5)—use the *down* cursor key.
+[Technical (CSS) information from another module](https://tech3015.github.io/presents/?lecture-17#/4/5)  
+—use the *down* cursor key.
 
 And see:
 
@@ -477,4 +481,4 @@ And see:
 
 # QUESTIONS?
 
-Discuss visual ideas for your website?
+What are your website design ideas?
