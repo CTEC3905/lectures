@@ -96,7 +96,8 @@ see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/article
 - [complex navigation patterns for responsive design](https://bradfrost.com/blog/post/complex-navigation-patterns-for-responsive-design/)
 - [Luke Wroblewski: Mobile First (free to read)](http://mobile-first.abookapart.com/)
 
-And a sobering lesson: [How an Interface Mode Killed 10 Sailors](https://uxmovement.com/buttons/how-an-interface-mode-killed-10-sailors/)
+And a sobering lesson:  
+[How an Interface Mode Killed 10 Sailors](https://uxmovement.com/buttons/how-an-interface-mode-killed-10-sailors/)
 
 ---
 
