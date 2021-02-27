@@ -93,6 +93,8 @@ see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/article
 - [complex navigation patterns for responsive design](https://bradfrost.com/blog/post/complex-navigation-patterns-for-responsive-design/)
 - [Luke Wroblewski: Mobile First (free to read)](http://mobile-first.abookapart.com/)
 
+And a sobering lesson: [How an Interface Mode Killed 10 Sailors](https://uxmovement.com/buttons/how-an-interface-mode-killed-10-sailors/)
+
 ---
 
 ## MOBILE FRIENDLY TEST
@@ -125,9 +127,9 @@ These will overlap!
 ## CONTENT STRATEGY **01**
 <!-- .slide: class="crammed" -->
 
-> “when you’re designing a website, you should think about your content first.”
+> “when you’re designing a website, you should think about your **content first**.”
 > 
-> “we often created sites without thinking about strategy at all … we would first design a site that looked nice and matched our branding. Next, we made a list of all the stuff we wanted to put on the site (content), and then tried to fit all of our stuff into the newly designed site.”
+> “we often created sites **without thinking** about strategy at all … we would first design a site that looked nice and matched our branding. Next, we made a list of all the stuff we wanted to put on the site (content), and then **tried to fit** all of our stuff into the newly designed site.”
 
 <small>Clarissa Peterson (2014), [Learning Responsive Web Design](http://www.learningrwd.com/)</small>
 
@@ -138,11 +140,11 @@ These will overlap!
 
 The infinite "chicken and egg" loop:
 
-- **Project manager:** We need a website for client X
+- **Project manager:** We need a website for client X!
 - **Designer:** I can’t start the design until I see some content!
-- **Programmer:** I can’t code the design without a style guide
-- **Writer:** I can’t start writing until I know the strategy
-- **Project manager:** (stressed) we need a website…
+- **Programmer:** I can’t code the design without a style guide!
+- **Writer:** I can’t start writing until I know the strategy!
+- **Project manager:** (stressed) we need a website…!
 
 Content strategy is the chicken *and* the egg…
 
@@ -150,11 +152,11 @@ Content strategy is the chicken *and* the egg…
 
 ## CONTENT STRATEGY **03**
 
-labels, headings, URLs (CSS classes, JavaScript functions)…
+**Naming**: labels, headings, URLs (CSS classes, JavaScript functions)…
 
-> There are only two hard things in Computer Science: cache invalidation and **naming things**
+> There are only two hard things in Computer Science: **cache invalidation** and **naming things**
 
-<small>—Phil Karlton (Netscape engineer)</small>
+<small>—Phil Karlton (accomplished software nerd, Xerox PARC etc.)</small>
 
 ---
 
@@ -175,12 +177,12 @@ Are **Job Stories** the new **User Stories**?
 Writing **text content**:
 
 - use **subheadings** and **brief paragraphs**!
-- some sites need long, detailed copy 
-- others must be stripped to the bare minimum 
-- or you can strike a balance between the two:
+- some sites need long, **detailed copy**
+- others must be stripped to the **bare minimum**
+- or you can **strike a balance** between the two:
   - up-front **simplicity** > **details** on request
 
-**drill down**: a user-interface *design pattern*—users see a summary but can view more detail—you write text for both
+**drill down**: a user-interface ***design pattern***—users see a summary but can get more detail—write text for both
 
 ---
 
@@ -192,7 +194,7 @@ Simple In-Place Drill Down:
 
 ![In-place drill down example](https://raw.githubusercontent.com/TECH3015/lectures/master/imgs/ui/ux_in_place_drill_down.gif)
 
-<small>[Appian UX Design Guide](https://docs.appian.com/suite/help/19.3/drilldown-pattern.html)</small>
+<small>[Appian UX Design Guide](https://docs.appian.com/suite/help/20.4/drilldown-pattern.html)</small>
 
 ---
 
@@ -201,10 +203,10 @@ Simple In-Place Drill Down:
 
 Search Engine Optimisation (**SEO**)
 
-> Never, ever pay for SEO! Instead, build it in
+> **Never**, ever pay for SEO—instead, build it in!
 
-- **tiered headings**: one `h1` tag per page, `h2` for each section
 - **semantic HTML5 tags** are essential
+- **tiered headings**: one `h1` tag per page, `h2` for each section
 - **structured content** (subheadings, lists, tables…)
 
 The [Google SEO Starter Guide](https://support.google.com/webmasters/answer/7451184) is excellent!
@@ -214,14 +216,14 @@ The [Google SEO Starter Guide](https://support.google.com/webmasters/answer/7451
 ## CONTENT STRATEGY **07**
 <!-- .slide: class="crammed" -->
 
-Are your audience:
+Your audience:
 
 - **Educated** and/or sophisticated?
 - Have **specific interests** or focus?
-- Are just **casually browsing**?
-- Are from a certain **demographic/gender/nationality**?
+- Just **casually browsing**?
+- From a certain **demographic/gender/nationality**?
 
-> Make every design and content decision align with your overall website strategy
+> Make **every** design and content decision align with your **overall website strategy**
 
 ---
 
@@ -230,17 +232,17 @@ Are your audience:
 
 Getting your message across:
 
-- What is the **most important** thing to convey?
-- The **least** important?
-- What needs to be said **first** (the hook)?
-- What leads visitors to click a **call to action**?
+- What is the **most important** thing?
+- What’s the **least** important?
+- What needs to be **said first** (the hook)?
+- What leads visitors to click a **call to action**…
 
 ---
 
 ## CONTENT STRATEGY **09**
 <!-- .slide: class="crammed" -->
 
-**Calls to action**—help visitors make a decision
+…**calls to action**—help visitors make a decision:
 
 - What do you **want people to do** when visiting your site?
 - Do you have a **simple and prominent** call to action?
@@ -261,17 +263,18 @@ Getting your message across:
 ## CONTENT STRATEGY **11**
 <!-- .slide: class="crammed" -->
 
-> There’s **no such thing as “mobile content”**. What all readers and users need is **good content**, available **wherever and whenever** they need it, **on any device**. If some of your content looks superfluous on a mobile device, it’s certainly superfluous for desktop users as well. **Get rid of the useless fluff!**
+> There’s **no such thing as “mobile content”**. What all readers and users need is **good content**, available **wherever and whenever** they need it, **on any device**. If some of your content looks superfluous on a mobile device, it’s certainly superfluous for desktop users as well.
+> **Get rid of useless fluff!**
 
 ---
 
 ## CONTENT STRATEGY **12**
 <!-- .slide: class="crammed" -->
 
-> The measure of good editorial style is whether the content is useful… Content should meet real, carefully researched **user needs**. Too often corporate and institutional web teams produce content designed primarily around **internal** goals and **organization** charts, forgetting that **users couldn’t care less** what your mission statement is, or how you are organized.  
-> —[Editorial Style (Web Style Guide)](https://webstyleguide.com/10-editorial-style.html)
+> The measure of **good editorial style** is whether the content is useful… it should meet carefully researched **user needs** …corporate and institutional web teams often produce content designed primarily around **internal goals** and **organization charts**, forgetting that **users couldn’t care less** about mission statements or organizational structures.
 
-Also see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html)
+<small>Condensed from [Editorial Style (Web Style Guide)](https://webstyleguide.com/10-editorial-style.html)  
+Also see [Writing for the Web](https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html)</small>
 
 ---
 
@@ -284,14 +287,14 @@ Read more from these articles and sites:
 - [Content Strategy Within The Design Process](https://www.business2community.com/brandviews/ceros/content-strategy-within-design-process-01400789)
 - [Web Style Guide, Chapter 1: "Strategy"](https://webstyleguide.com/1-strategy.html)
 
-The *Web Style Guide* also has a good section on  
+That [*Web Style Guide*](https://webstyleguide.com/) page has a good section on  
 **Social Media Strategy**
 
 ===
 
 ## STYLE GUIDES **01**
 
-A **style guide document** keeps an organisation’s printed and web materials within their style
+A **style guide document** keeps an organisation’s printed and web materials within their style:
 
 - layout
 - graphics
@@ -353,7 +356,7 @@ three big tech companies have **interface guidelines**
 - [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
 - [Microsoft User Interface Principles](https://docs.microsoft.com/en-us/windows/win32/appuistart/-user-interface-principles#the-basic-principles-of-proper-ui)
 
-They’re long, detailed and technical so just scan through
+They’re long, detailed and technical—so just **scan through**
 
 ---
 
@@ -390,7 +393,7 @@ They’re long, detailed and technical so just scan through
     - [User Experience (UX) design](https://www.uxpin.com/studio/blog/category/ux-design/)
     - [User research](https://www.uxpin.com/studio/blog/category/user-research/)
 
-(you can by-pass promotional material for the UXPin interface builder)
+<small>(you can by-pass promotional material for the UXPin interface builder)</small>
 
 ---
 
@@ -408,8 +411,8 @@ Download PDFs of these three style guides:
 <!-- .slide: class="left-align" -->
 
 > **95%** of the information on the web is **written language**. It is only logical to say that a web designer should get good training in the main discipline of **shaping written information**, in other words: **Typography**.
-> 
-> —Oliver Reichenstein, "[Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period)”, 2006
+
+<small>Oliver Reichenstein, [Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period), 2006</small>
 
 ---
 
@@ -418,9 +421,9 @@ Download PDFs of these three style guides:
 
 > our harassed contemporaries simply **cannot take everything** that is printed today.
 > 
-> It is the typographer’s task to **divide up, organize** and **interpret this mass** of printed matter in such a way that **the reader** will have a **good chance of finding what is of interest**
->
-> —Emil Ruder, famous Swiss typographer, 1969
+> It is the typographer’s task to **divide up, organize** and **interpret** this mass of printed matter in such a way that **the reader** will have a good chance of **finding what is of interest**
+
+<small>Emil Ruder, famous Swiss typographer, 1969</small>
 
 ---
 
@@ -431,16 +434,18 @@ recommended **web typography primary sources**:
 
 - [The Elements of Typographic Style Applied to the Web](http://webtypography.net/toc/)
 - [Typography chapter, Web Style Guide](https://webstyleguide.com/9-typography.html)  
-—Patrick J. Lynch and Sarah Horton, 2016
+
+<small>Patrick J. Lynch and Sarah Horton, 2016</small>
 
 ---
 
 ## TYPOGRAPHY **04**
 <!-- .slide: class="left-align" -->
 
-> Choosing a Typeface Is **Not Typography**
+> **Choosing a typeface** is **not** typography…
 
-but here's a little inspiration: [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
+…but here's a little inspiration that uses Google Fonts:  
+[Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
 
 ---
 
@@ -459,7 +464,9 @@ optimum **line length for readablity** was supposed to be 50-75 characters…
 
 ## TYPOGRAPHY **06**
 
-Technical (CSS) information here: https://tech3015.github.io/presents/?lecture-17#/4/5
+Go further:
+
+[Technical (CSS) information from another module](https://tech3015.github.io/presents/?lecture-17#/4/5)—use the *down* cursor key.
 
 And see:
 
