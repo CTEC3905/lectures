@@ -33,7 +33,7 @@ https://tech3015.github.io/presents?lecture-07
 -->
 ===
 
-## Session 3: Design Trends
+## Session 3: Design Trends and Typography
 
 - [Mobile navigation research](https://ctec3905.github.io/presents/?guest-lecture-3#/2)
 - [Content Strategy](https://ctec3905.github.io/presents/?guest-lecture-3#/4)

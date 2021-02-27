@@ -4,9 +4,11 @@ This repository contains the markdown files for the lecture slides.
 
 ## Lecture presentations 2020-21:
 
+See [Guest Lecture Index](https://ctec3905.github.io/presents?guest-lectures)
+
 - [Guest Lecture 01: Design Principles](https://ctec3905.github.io/presents?guest-lecture-1)
 - [Guest Lecture 02: Accessible Information](https://ctec3905.github.io/presents?guest-lecture-2)
-<!-- - [Guest Lecture 03: Design Trends](https://ctec3905.github.io/presents?guest-lecture-3) -->
+<!-- - [Guest Lecture 03: Mobile Nav, Design Trends and Typography](https://ctec3905.github.io/presents?guest-lecture-3) -->
 
 
 ## Lecture presentations 2019-20:
