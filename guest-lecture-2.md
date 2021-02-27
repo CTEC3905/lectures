@@ -12,7 +12,7 @@
 
 # OVERVIEW
 
-- [Accessibility, Information Architecture, wireframes](#/2)
+- [Accessibility, Information Architecture](#/2)
 - [Information Architecture (IA)](#/3)
 - [Wireframes](#/4)
 - [Information Design](#/5)
