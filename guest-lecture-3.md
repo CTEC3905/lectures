@@ -409,6 +409,7 @@ Download PDFs of these three style guides:
 - [Web design trends 2018](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/uxpin-web-design-trends-2018.pdf)
 - [Web design trends 2019](https://raw.githubusercontent.com/TECH3015/lectures/master/pdf/uxpin-web-design-trends-2019.pdf)
 
+<!-- TYPOGRAPHY shared: TECH3015 L17, MEDS3109 L3, CTEC3905 GL3 sync:28feb2021 -->
 ===
 
 ## TYPOGRAPHY **01**
@@ -464,8 +465,8 @@ optimum **line length for readablity** was supposed to be 50-75 characters…
 
 …and finally [Letterspacing Makes ALL CAPS Easier to Read](https://uxmovement.com/content/how-letterspacing-can-make-all-caps-easier-to-read/)
 
+<!-- END CTEC SHARE -->
 ---
-
 ## TYPOGRAPHY **06**
 
 Go further:
