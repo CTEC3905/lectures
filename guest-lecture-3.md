@@ -85,9 +85,9 @@ Optimal button spacing:
 
 ## MOBILE NAVIGATION **06**
 
-For **good** and **bad** examples of **mobile navigation**
+For **Best practices** when designing **for mobile**:
 
-see [Design for Mobile: App UI Best Practices: Part I](https://dzone.com/articles/design-for-mobile-app-ui-best-practices-part-1)
+see [Mobile UX design principles and best practices](https://uxdesign.cc/mobile-ux-design-principles-and-best-practices-594bec53a31e)
 
 ---
 
